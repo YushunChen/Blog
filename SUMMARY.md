@@ -1,13 +1,14 @@
 # Table of contents
 
-* [Golang Notes](README.md)
+* [Oliver's Blog](README.md)
 
-## Basics
+## Go Study Notes
 
-* [Operators](basics/operators.md)
-* [Variables](basics/variables.md)
-* [Data Types](basics/data-types.md)
-* [Structure](basics/structure.md)
-* [Hello World](basics/hello-world.md)
-* [Setup](basics/setup.md)
+* [Basics](go-study-notes/basics/README.md)
+  * [Operators](go-study-notes/basics/operators.md)
+  * [Variables](go-study-notes/basics/variables.md)
+  * [Data Types](go-study-notes/basics/data-types.md)
+  * [Structure](go-study-notes/basics/structure.md)
+  * [Hello World](go-study-notes/basics/hello-world.md)
+  * [Setup](go-study-notes/basics/setup.md)
 

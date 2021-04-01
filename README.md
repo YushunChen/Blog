@@ -1,6 +1,6 @@
-# Golang Notes
+# Oliver's Blog
 
-## Here are some notes while I learn Go from scratch. 
+## Under construction... 🚧🚧🚧
 
 
 
