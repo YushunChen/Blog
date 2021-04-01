@@ -5,7 +5,7 @@
 ## Go Study Notes
 
 * [Basics](go-study-notes/basics/README.md)
-  * [Untitled](go-study-notes/basics/untitled.md)
+  * [Constants](go-study-notes/basics/untitled.md)
   * [Operators](go-study-notes/basics/operators.md)
   * [Variables](go-study-notes/basics/variables.md)
   * [Data Types](go-study-notes/basics/data-types.md)
