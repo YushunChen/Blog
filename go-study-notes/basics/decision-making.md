@@ -8,7 +8,7 @@
 | switch Statement | A switch statement evaluates an expression against multiple cases in order to identify the block of code to be executed. |
 
 {% hint style="info" %}
-Above statements are standard as in many other languages.
+Above statements are standard as in many other languages, such as C and Java.
 {% endhint %}
 
 ### 

@@ -5,6 +5,7 @@
 ## Go Study Notes
 
 * [Basics](go-study-notes/basics/README.md)
+  * [Loops](go-study-notes/basics/loops.md)
   * [Decision Making](go-study-notes/basics/decision-making.md)
   * [Constants](go-study-notes/basics/untitled.md)
   * [Operators](go-study-notes/basics/operators.md)
