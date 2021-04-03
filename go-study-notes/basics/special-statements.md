@@ -126,3 +126,59 @@ i is 3 and j is 2
 i is 3 and j is 3
 ```
 
+
+
+## Defer Statement
+
+A defer statement defers the execution of a function until the surrounding function returns.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	defer fmt.Println("world")
+
+	fmt.Println("hello")
+}
+```
+
+```go
+hello
+world
+```
+
+{% hint style="info" %}
+Deferred function calls are pushed onto a stack. When a function returns, its deferred calls are executed in last-in-first-out order.
+{% endhint %}
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("counting")
+
+	for i := 0; i < 5; i++ {
+		defer fmt.Println(i)
+	}
+
+	fmt.Println("done")
+}
+
+```
+
+```go
+counting
+done
+4
+3
+2
+1
+0
+```
+
+
+

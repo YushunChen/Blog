@@ -175,7 +175,7 @@ import "fmt"
 
 func main() {
 	var marks = 40
-	switch {
+	switch {    // same as `switch true`
 	case marks > 60:
 		fmt.Println("You got A!")
 	case marks < 60 && marks >= 50:

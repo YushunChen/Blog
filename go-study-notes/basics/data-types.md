@@ -160,3 +160,30 @@ f := float64(i) // 42.000000
 u := uint(f)
 ```
 
+
+
+## Type Inference
+
+When declaring a variable without specifying an explicit type \(either by using the `:=` syntax or `var =` expression syntax\), the variable's type is inferred from the value on the right hand side.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	i := 42
+	f := 12.0212
+	c := 0.5 + 2i
+	fmt.Printf("i is of type %T\n", i)
+	fmt.Printf("f is of type %T\n", f)
+	fmt.Printf("c is of type %T\n", c)
+}
+```
+
+```go
+i is of type int
+f is of type float64
+c is of type complex128
+```
+
