@@ -15,4 +15,6 @@
   * [Structure](go-study-notes/basics/structure.md)
   * [Hello World](go-study-notes/basics/hello-world.md)
   * [Setup](go-study-notes/basics/setup.md)
+* [Official Tutorial Notes](go-study-notes/official-tutorial-notes/README.md)
+  * [Functions](go-study-notes/official-tutorial-notes/functions.md)
 

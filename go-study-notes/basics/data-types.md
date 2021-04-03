@@ -65,11 +65,11 @@ Go built-in data types:
 
 | Type | Size | Description \(Two's complement\) |
 | :--- | :--- | :--- |
-| uint8 | 8 bits | 8 bit signed integer |
-| uint16 | 16 bits | 16 bit signed integer |
-| uint32 | 32 bits | 32 bit signed integer |
-| uint64 | 64 bits | 64 bit signed integer |
-| uint | Platform dependent | signed integers of at least 32-bit in size, not equivalent to int32. |
+| uint8 | 8 bits | 8 bit unsigned integer |
+| uint16 | 16 bits | 16 bit unsigned integer |
+| uint32 | 32 bits | 32 bit unsigned integer |
+| uint64 | 64 bits | 64 bit unsigned integer |
+| uint | Platform dependent | unsigned integers of at least 32-bit in size, not equivalent to int32. |
 
 {% hint style="info" %}
 Use **int** unless for specific reasons for others. Integral types have default value of 0. Octal numbers can be declared using prefix and hexadecimal using the **0x** prefix.
@@ -139,5 +139,24 @@ var fstr="Hello World"
 // Can span multiple lines. Escape characters are not allowed.
 var sstr= `Hello world, this
 a multi-line text string.`
+```
+
+
+
+## Type Conversions
+
+#### Syntax: The expression `T(v)` converts the value `v` to the type `T`.
+
+```go
+var i int = 42
+var f float64 = float64(i)
+var u uint = uint(f)
+```
+
+```go
+// short syntax
+i := 42
+f := float64(i) // 42.000000
+u := uint(f)
 ```
 
