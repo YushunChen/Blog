@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Oliver's Blog](README.md)
+* [Welcome!](README.md)
 
 ## Go Study Notes
 
