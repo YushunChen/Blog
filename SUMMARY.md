@@ -16,6 +16,8 @@
   * [Hello World](go-study-notes/basics/hello-world.md)
   * [Setup](go-study-notes/basics/setup.md)
 * [Official Tutorial Notes](go-study-notes/official-tutorial-notes/README.md)
+  * [Arrays](go-study-notes/official-tutorial-notes/arrays.md)
+  * [Structs](go-study-notes/official-tutorial-notes/structs.md)
   * [Pointers](go-study-notes/official-tutorial-notes/pointers.md)
   * [Functions](go-study-notes/official-tutorial-notes/functions.md)
 
