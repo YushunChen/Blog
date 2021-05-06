@@ -16,9 +16,9 @@
   * [Loops](go-study-notes/basics/loops.md)
   * [Special Statements](go-study-notes/basics/special-statements.md)
 * [Official Tutorial Notes](go-study-notes/official-tutorial-notes/README.md)
-  * [Slices](go-study-notes/official-tutorial-notes/slices.md)
-  * [Arrays](go-study-notes/official-tutorial-notes/arrays.md)
-  * [Structs](go-study-notes/official-tutorial-notes/structs.md)
-  * [Pointers](go-study-notes/official-tutorial-notes/pointers.md)
   * [Functions](go-study-notes/official-tutorial-notes/functions.md)
+  * [Pointers](go-study-notes/official-tutorial-notes/pointers.md)
+  * [Structs](go-study-notes/official-tutorial-notes/structs.md)
+  * [Arrays](go-study-notes/official-tutorial-notes/arrays.md)
+  * [Slices](go-study-notes/official-tutorial-notes/slices.md)
 
