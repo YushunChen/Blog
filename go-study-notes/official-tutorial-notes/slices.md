@@ -37,7 +37,7 @@ func main() {
 [3 5 7]
 ```
 
-## Consider slices as references to arrays
+## Consider Slices as References to Arrays
 
 A slice is just a section of an underlying array. It does not store any data. Changing the elements of one slice changes the corresponding elements of its corresponding array. So, other slices that share the same underlying array would see the changes.
 
@@ -133,4 +133,47 @@ func main() {
 [true false true true false true]
 [{2 true} {3 false} {5 true} {7 true} {11 false} {13 true}]
 ```
+
+## Slice Defaults
+
+We can use defaults instead of specifying the low or high bounds. 
+
+Consider an array `var a[10]int`. The following slide expressions are equivalent:
+
+* `a[0:10]`
+* `a[:10]`
+* `a[0:]`
+* `a[:]`
+
+### Example
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	s := []int{2, 3, 5, 7, 11, 13}
+
+	s = s[1:4]
+	fmt.Println(s)
+
+	s = s[:2]
+	fmt.Println(s)
+
+	s = s[1:]
+	fmt.Println(s)
+}
+
+```
+
+```go
+[3 5 7]
+[3 5]
+[5]
+```
+
+{% hint style="info" %}
+Notice how the references to `s` changes when re-assign a slide to it every time.
+{% endhint %}
 
