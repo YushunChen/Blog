@@ -67,7 +67,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 a:  1
 a:  2
 a:  3
@@ -104,7 +104,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 0 0
 1 -1
 3 -3
@@ -123,7 +123,7 @@ func main() {
 
 ### More About Closure
 
-{% embed url="https://dev.to/spindriftboi/function-literals-and-closure-in-go-2hgn\#:~:text=A%20Function%20Literal%20is%20a,literal%20and%20the%20surrounding%20function.&text=when%20this%20function%20is%20invoked,I%20am%20a%20function%20literal!" %}
+{% embed url="https://dev.to/spindriftboi/function-literals-and-closure-in-go-2hgn\#:~:text=A%20Function%20Literal%20is%20a,literal%20and%20the%20surrounding%20function.&text=when%20this%20function%20is%20invoked,I%20am%20a%20function%20literal!" caption="Great article!" %}
 
 
 
