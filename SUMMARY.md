@@ -24,4 +24,5 @@
   * [Range](go-study-notes/official-tutorial-notes/range.md)
   * [Maps](go-study-notes/official-tutorial-notes/maps.md)
   * [More Functions](go-study-notes/official-tutorial-notes/more-functions.md)
+  * [Methods](go-study-notes/official-tutorial-notes/methods.md)
 
