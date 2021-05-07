@@ -232,7 +232,141 @@ We also need to change `&v` to `v`. And the output is:
 5
 ```
 
-## Methods and Pointer Indirection
+## Methods and Pointer Indirection 1
 
 The previous examples lead us to some differences the pointer and value receivers in actual code writing.
+
+### Example 4
+
+```go
+package main
+
+import "fmt"
+
+type Vertex struct {
+	X, Y float64
+}
+
+func (v *Vertex) Scale(f float64) {			// Method
+	v.X = v.X * f
+	v.Y = v.Y * f
+}
+
+func ScaleFunc(v *Vertex, f float64) {	// Function
+	v.X = v.X * f
+	v.Y = v.Y * f
+}
+
+func main() {
+	v := Vertex{3, 4}
+	v.Scale(2)					// {6, 8}
+	ScaleFunc(&v, 10)		// {60, 80}
+
+	p := &Vertex{4, 3}
+	p.Scale(3)					// {12, 9}
+	ScaleFunc(p, 8)			// {96, 72}
+
+	fmt.Println(v, p)
+}
+```
+
+```bash
+{60 80} &{96 72}
+```
+
+In this example, for the **function** version, the function with a pointer argument must take a pointer.
+
+```go
+var v Vertex
+ScaleFunc(v, 5)    // Compile error as we saw in Example 3
+ScaleFunc(&v, 5)   // OK
+```
+
+However, for the **method** version, the method with pointer receivers take either a value of a pointer as the receiver when they are called:
+
+```go
+var v Vertex
+v.Scale(5)    // OK
+
+p := &v
+p.Scale(5)    // OK
+```
+
+ For the statement `v.Scale(5)`, even though `v` is a value and not a pointer, the method with the pointer receiver is called automatically. That is, as a convenience, Go interprets the statement `v.Scale(5)` as `(&v).Scale(5)` since the `Scale` method has a pointer receiver. `(&v).Scale(5)` still works certainly!
+
+## Methods and Pointer Indirection 2
+
+Conversely, we have the same thing.
+
+### Example
+
+```go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+type Vertex struct {
+	X, Y float64
+}
+
+func (v Vertex) Abs() float64 {
+	return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
+
+func AbsFunc(v Vertex) float64 {
+	return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
+
+func main() {
+	v := Vertex{3, 4}
+	fmt.Println(v.Abs())
+	fmt.Println(AbsFunc(v))
+
+	p := &Vertex{4, 3}
+	fmt.Println(p.Abs())
+	fmt.Println(AbsFunc(*p))
+}
+```
+
+```go
+5
+5
+5
+5
+```
+
+For **functions** that take a value argument, they must take a value of that specific type.
+
+```go
+var v Vertex
+fmt.Println(AbsFunc(v))    // OK
+fmt.Println(AbsFunc(&v))   // Compile error
+```
+
+For methods with value receivers, they take either a value or a pointer as the receiver when they are called:
+
+```go
+var v Vertex
+fmt.Println(v.Abs())    // OK
+p := &v
+fmt.Println(p.Abs())    // OK
+```
+
+{% hint style="info" %}
+Similarly, `p.Abs()` is interpreted as `(*p).Abs()` by Go.
+{% endhint %}
+
+## Choosing a Value or Pointer Receiver
+
+Two main reasons:
+
+* To modify the value that its receiver points to
+* To avoid copying the values on each method call. For example, if the receiver is a large struct, this can be efficient.
+
+{% hint style="info" %}
+In general, all methods on a given type should have either value or pointer receivers, but not a mixture of both. \(introduced later\)
+{% endhint %}
 
