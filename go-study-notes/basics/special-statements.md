@@ -25,7 +25,7 @@ election:
 }
 ```
 
-```go
+```bash
 Enter your age 
 13
 You cannot drink!
@@ -70,7 +70,7 @@ outer:
 }
 ```
 
-```go
+```bash
 Inside loop 0
 Inside loop 1
 Inside loop 2
@@ -115,7 +115,7 @@ outerfor:
 }
 ```
 
-```go
+```bash
 i is 1 and j is 1
 i is 1 and j is 2
 i is 1 and j is 3
@@ -144,7 +144,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 hello
 world
 ```
@@ -170,7 +170,7 @@ func main() {
 
 ```
 
-```go
+```bash
 counting
 done
 4

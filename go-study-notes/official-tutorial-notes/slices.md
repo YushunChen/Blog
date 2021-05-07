@@ -37,7 +37,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 [3 5 7]
 ```
 
@@ -71,7 +71,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 [Oliver Chen Yushun Chen]
 [Oliver Chen] [Chen Yushun]
 [Oliver XXX] [XXX Yushun]
@@ -132,7 +132,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 [2 3 5 7 11 13]
 [true false true true false true]
 [{2 true} {3 false} {5 true} {7 true} {11 false} {13 true}]
@@ -171,7 +171,7 @@ func main() {
 
 ```
 
-```go
+```bash
 [3 5 7]
 [3 5]
 [5]
@@ -223,7 +223,7 @@ func printSlice(s []int) {
 }
 ```
 
-```go
+```bash
 len=6 cap=6 [2 3 5 7 11 13]
 len=0 cap=6 []
 len=4 cap=6 [2 3 5 7]
@@ -266,7 +266,7 @@ func printSlice(s string, x []int) {
 }
 ```
 
-```go
+```bash
 a: len=5 cap=5 [0 0 0 0 0]
 b: len=0 cap=5 []
 c: len=2 cap=5 [0 0]
@@ -308,7 +308,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 X _ X
 O _ X
 _ _ O
@@ -349,7 +349,7 @@ func printSlice(s []int) {
 }
 ```
 
-```go
+```bash
 len=0 cap=0 []
 len=1 cap=1 [0]
 len=2 cap=2 [0 1]

@@ -99,7 +99,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 a = 97 and ♥ = U+2665
 ```
 
@@ -181,7 +181,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 i is of type int
 f is of type float64
 c is of type complex128

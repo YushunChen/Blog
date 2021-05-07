@@ -30,7 +30,7 @@ func add(x, y int) int { // shorter version if x, y share a type
 }
 ```
 
-```go
+```bash
 55
 ```
 
@@ -56,7 +56,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 8 12
 ```
 

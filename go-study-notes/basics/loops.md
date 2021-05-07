@@ -16,7 +16,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 45
 ```
 
@@ -41,7 +41,7 @@ func main() {
 
 ```
 
-```go
+```bash
 9
 ```
 
@@ -92,7 +92,7 @@ func main() {
 
 ```
 
-```go
+```bash
 0 Go
 1 C
 2 C++
@@ -115,7 +115,7 @@ func main() {
 
 ```
 
-```go
+```bash
 U+004F represents O and it is at position 0
 U+006C represents l and it is at position 1
 U+0069 represents i and it is at position 2
@@ -149,7 +149,7 @@ func main() {
 
 ```
 
-```go
+```bash
 A -> Apple
 B -> Banana
 C -> Cherry
@@ -183,7 +183,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 OLIVER
 ```
 

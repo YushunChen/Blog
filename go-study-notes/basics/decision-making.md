@@ -33,7 +33,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 3 is odd
 ```
 
@@ -69,7 +69,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 Today is Friday.
 ```
 
@@ -97,7 +97,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 It's a weekday.
 ```
 
@@ -130,7 +130,7 @@ func main() {
 
 ```
 
-```go
+```bash
 2
 3
 ```
@@ -160,7 +160,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 It's a weekday.
 ```
 
@@ -188,7 +188,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 You got C :(
 ```
 

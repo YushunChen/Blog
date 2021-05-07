@@ -22,4 +22,5 @@
   * [Arrays](go-study-notes/official-tutorial-notes/arrays.md)
   * [Slices](go-study-notes/official-tutorial-notes/slices.md)
   * [Range](go-study-notes/official-tutorial-notes/range.md)
+  * [Maps](go-study-notes/official-tutorial-notes/maps.md)
 

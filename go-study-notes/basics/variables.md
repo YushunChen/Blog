@@ -37,7 +37,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 1 2 true false no!
 ```
 
@@ -63,7 +63,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 1 2 3 true false no!
 ```
 
@@ -91,7 +91,7 @@ func main() {
 }
 ```
 
-```go
+```bash
 0 0 false ""
 ```
 
