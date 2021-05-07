@@ -21,4 +21,5 @@
   * [Structs](go-study-notes/official-tutorial-notes/structs.md)
   * [Arrays](go-study-notes/official-tutorial-notes/arrays.md)
   * [Slices](go-study-notes/official-tutorial-notes/slices.md)
+  * [Range](go-study-notes/official-tutorial-notes/range.md)
 
