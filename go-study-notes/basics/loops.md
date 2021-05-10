@@ -83,7 +83,6 @@ package main
 import "fmt"
 
 func main() {
-
 	langs := []string{"Go", "C", "C++", "Java"}
 	for i, s := range langs {
 		fmt.Println(i, s)
@@ -107,7 +106,6 @@ package main
 import "fmt"
 
 func main() {
-
 	for i, s := range "Oliver" {
 		fmt.Printf("%U represents %c and it is at position %d\n", s, s, i)
 	}
@@ -135,7 +133,6 @@ package main
 import "fmt"
 
 func main() {
-
 	fruits := map[string]string{"A": "Apple", "B": "Banana", "C": "Cherry"}
 	// iterate over key value pairs
 	for key, value := range fruits {
@@ -166,7 +163,6 @@ package main
 import "fmt"
 
 func main() {
-
 	ch := make(chan string)
 	go func() {
 		ch <- "O"

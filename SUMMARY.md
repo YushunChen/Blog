@@ -27,3 +27,8 @@
   * [Methods](go-study-notes/official-tutorial-notes/methods.md)
   * [Interfaces](go-study-notes/official-tutorial-notes/interfaces.md)
 
+## LeetCode
+
+* [Array](leetcode/array/README.md)
+  * [Two Sum](leetcode/array/two-sum.md)
+
