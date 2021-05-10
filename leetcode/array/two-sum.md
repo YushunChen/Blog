@@ -1,5 +1,5 @@
 ---
-description: Easy
+description: 'ID: 1; Easy'
 ---
 
 # Two Sum
