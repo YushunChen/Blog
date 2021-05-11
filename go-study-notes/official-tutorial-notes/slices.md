@@ -1,5 +1,5 @@
 ---
-description: 'Warning: Long Section'
+description: This is a long section...
 ---
 
 # Slices
