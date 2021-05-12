@@ -28,6 +28,8 @@
   * [Interfaces](go-study-notes/official-tutorial-notes/interfaces.md)
   * [Stringers](go-study-notes/official-tutorial-notes/stringers.md)
   * [Errors](go-study-notes/official-tutorial-notes/errors.md)
+  * [Readers](go-study-notes/official-tutorial-notes/readers.md)
+  * [Images](go-study-notes/official-tutorial-notes/images.md)
 
 ## LeetCode
 
