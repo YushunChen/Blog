@@ -45,4 +45,5 @@
   * [Two Sum](leetcode/array/two-sum.md)
   * [Remove Duplicates from Sorted Array](leetcode/array/remove-duplicates-from-sorted-array.md)
   * [Remove Element](leetcode/array/remove-element.md)
+  * [Search Insert Position](leetcode/array/search-insert-position.md)
 

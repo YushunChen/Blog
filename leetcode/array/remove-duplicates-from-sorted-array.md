@@ -6,7 +6,7 @@ description: 'ID: 26: Easy'
 
 {% embed url="https://leetcode.com/problems/remove-duplicates-from-sorted-array/" %}
 
-## 1st Attempt
+## 1st Solution
 
 ```go
 func removeDuplicates(nums []int) int {
