@@ -46,6 +46,8 @@
   * [Remove Duplicates from Sorted Array](leetcode/array/remove-duplicates-from-sorted-array.md)
   * [Remove Element](leetcode/array/remove-element.md)
   * [Search Insert Position](leetcode/array/search-insert-position.md)
+  * [Maximum Subarray](leetcode/array/maximum-subarray.md)
+  * [Plus One](leetcode/array/plus-one.md)
 
 ---
 
