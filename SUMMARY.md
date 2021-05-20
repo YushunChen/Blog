@@ -56,7 +56,7 @@
   * [Best Time to Buy and Sell Stock II](leetcode/array/best-time-to-buy-and-sell-stock-ii.md)
   * [Two Sum II - Input array is sorted](leetcode/array/two-sum-ii-input-array-is-sorted.md)
 
----
+## Miscellaneous
 
-* [GMAT](gmat.md)
+* [A GMAT Reading](miscellaneous/gmat.md)
 

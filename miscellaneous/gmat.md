@@ -1,4 +1,4 @@
-# GMAT
+# A GMAT Reading
 
 我们一句一句来 :\)
 
@@ -34,9 +34,9 @@ _Winters v. United States_ 对应这里的第3条 :\)
 
 一些印第安部落在美国（联邦政府）获得（这些印第安部落的土地和水的）主权之前，就通过法院建立起了他们用水的权利。这个权力是怎么获得的呢？因为他们本来就一直在用这些水。Traditional diversion我的理解就是印第安人自古传统就在有意无意的用水。有意无意来自于：Diversion可以理解为印第安人用水的传统**习惯**（见下图）。一个例子就是 Rio Grande pueblos （big river villages\)。
 
-![](.gitbook/assets/1.png)
+![](../.gitbook/assets/1.png)
 
-![](.gitbook/assets/2.png)
+![](../.gitbook/assets/2.png)
 
 
 
