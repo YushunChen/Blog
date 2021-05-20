@@ -6,7 +6,7 @@ description: 'ID: 1; Easy'
 
 {% embed url="https://leetcode.com/problems/two-sum/" %}
 
-## 1st Solution
+## Solution 1
 
 ```go
 func twoSum(nums []int, target int) []int {
@@ -22,7 +22,7 @@ func twoSum(nums []int, target int) []int {
 }
 ```
 
-## 2nd Solution
+## Solution 2
 
 ```go
 func twoSum(nums []int, target int) []int {

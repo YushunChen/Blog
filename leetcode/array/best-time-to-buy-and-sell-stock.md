@@ -6,7 +6,7 @@ description: 'ID: 121; easy'
 
 {% embed url="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" %}
 
-## 1st Solution
+## Solution 1
 
 ```go
 func maxProfit(prices []int) int {

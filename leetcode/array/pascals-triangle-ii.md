@@ -6,7 +6,7 @@ description: 'ID: 119; easy'
 
 {% embed url="https://leetcode.com/problems/pascals-triangle-ii/" %}
 
-## 1st Solution
+## Solution 1
 
 ```go
 func getRow(rowIndex int) []int {

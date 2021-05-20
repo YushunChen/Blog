@@ -6,7 +6,7 @@ description: 'ID: 27; Easy'
 
 {% embed url="https://leetcode.com/problems/remove-element/" %}
 
-## 1st Solution
+## Solution 1
 
 ```go
 func removeElement(nums []int, val int) int {
@@ -21,7 +21,7 @@ func removeElement(nums []int, val int) int {
 }
 ```
 
-## 2nd Solution
+## Solution 2
 
 ```go
 func removeElement(nums []int, val int) int {

@@ -6,7 +6,7 @@ description: 'ID: 88; easy'
 
 {% embed url="https://leetcode.com/problems/merge-sorted-array/" %}
 
-## 1st Solution
+## Solution 1
 
 ```go
 func merge(nums1 []int, m int, nums2 []int, n int)  {

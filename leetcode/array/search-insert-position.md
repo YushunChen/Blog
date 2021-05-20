@@ -6,7 +6,7 @@ description: 'ID: 35; easy'
 
 {% embed url="https://leetcode.com/problems/search-insert-position/" %}
 
-## 1st Solution
+## Solution 1
 
 ```go
 func searchInsert(nums []int, target int) int {

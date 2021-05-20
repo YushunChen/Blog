@@ -2,7 +2,7 @@
 
 {% embed url="https://leetcode.com/problems/binary-search/" %}
 
-## 1st Solution
+## Solution 1
 
 ```go
 func search(nums []int, target int) int {

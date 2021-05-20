@@ -6,7 +6,7 @@ description: 'ID: 118; easy'
 
 {% embed url="https://leetcode.com/problems/pascals-triangle/" %}
 
-## 1st Solution
+## Solution 1
 
 ```go
 func generate(numRows int) [][]int {

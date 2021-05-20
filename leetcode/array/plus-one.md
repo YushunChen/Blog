@@ -6,7 +6,7 @@ description: 'ID: 66; Easy'
 
 {% embed url="https://leetcode.com/problems/plus-one/" %}
 
-## 1st Solution
+## Solution 1
 
 ```go
 func plusOne(digits []int) []int {

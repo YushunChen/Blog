@@ -6,7 +6,7 @@ description: 'ID: 35; easy'
 
 {% embed url="https://leetcode.com/problems/maximum-subarray/" %}
 
-## 1st Solution
+## Solution 1
 
 ```go
 func maxSubArray(nums []int) int {
@@ -28,7 +28,7 @@ func maxSubArray(nums []int) int {
 }
 ```
 
-## 2nd Solution
+## Solution 2
 
 ```go
 func Max(x, y int) int {
