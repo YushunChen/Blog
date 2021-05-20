@@ -1,3 +1,7 @@
+---
+description: 'ID: 704; easy'
+---
+
 # Binary Search
 
 {% embed url="https://leetcode.com/problems/binary-search/" %}

@@ -56,6 +56,12 @@
   * [Best Time to Buy and Sell Stock II](leetcode/array/best-time-to-buy-and-sell-stock-ii.md)
   * [Two Sum II - Input array is sorted](leetcode/array/two-sum-ii-input-array-is-sorted.md)
   * [Majority Element](leetcode/array/majority-element.md)
+  * [Contains Duplicate](leetcode/array/contains-duplicate.md)
+  * [Contains Duplicate II](leetcode/array/contains-duplicate-ii.md)
+  * [Summary Ranges](leetcode/array/summary-ranges.md)
+  * [Missing Number](leetcode/array/missing-number.md)
+  * [Move Zeroes](leetcode/array/move-zeroes.md)
+  * [Third Maximum Number](leetcode/array/third-maximum-number.md)
 
 ## Miscellaneous
 
