@@ -47,3 +47,27 @@ func summaryRanges(nums []int) []string {
 }
 ```
 
+{% hint style="info" %}
+This code is kinda trash 😅
+{% endhint %}
+
+## Solution 2
+
+```go
+import "strconv"
+
+func summaryRanges(nums []int) []string {
+    res := make([]string, 0)
+    for i := 0; i < len(nums); {
+        start := i
+        for i++; i < len(nums) && nums[i] == nums[i-1]+1; i++ {}
+        s := strconv.Itoa(nums[start])
+        if i-1 != start {
+            s += "->" + strconv.Itoa(nums[i-1])
+        }
+        res = append(res, s)
+    }
+    return res
+}
+```
+

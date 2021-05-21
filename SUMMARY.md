@@ -62,6 +62,8 @@
   * [Move Zeroes](leetcode/array/move-zeroes.md)
   * [Third Maximum Number](leetcode/array/third-maximum-number.md)
   * [Binary Search](leetcode/array/binary-search.md)
+* [Math](leetcode/math/README.md)
+  * [Pow\(x, n\)](leetcode/math/pow-x-n.md)
 
 ## Miscellaneous
 
