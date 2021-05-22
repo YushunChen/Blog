@@ -48,6 +48,7 @@
   * [Search Insert Position](leetcode/array/search-insert-position.md)
   * [Maximum Subarray](leetcode/array/maximum-subarray.md)
   * [Plus One](leetcode/array/plus-one.md)
+  * [Sort Colors](leetcode/array/sort-colors.md)
   * [Merge Sorted Array](leetcode/array/merge-sorted-array.md)
   * [Pascal's Triangle](leetcode/array/pascals-triangle.md)
   * [Pascal's Triangle II](leetcode/array/pascals-triangle-ii.md)
