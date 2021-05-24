@@ -66,6 +66,7 @@
 * [String](leetcode/string/README.md)
   * [Roman to Integer](leetcode/string/roman-to-integer.md)
   * [Valid Parentheses](leetcode/string/valid-parentheses.md)
+  * [Implement strStr\(\)](leetcode/string/implement-strstr.md)
 * [Math](leetcode/math/README.md)
   * [Pow\(x, n\)](leetcode/math/pow-x-n.md)
 
