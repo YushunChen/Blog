@@ -67,6 +67,7 @@
   * [Roman to Integer](leetcode/string/roman-to-integer.md)
   * [Valid Parentheses](leetcode/string/valid-parentheses.md)
   * [Implement strStr\(\)](leetcode/string/implement-strstr.md)
+  * [Longest Substring Without Repeating Characters](leetcode/string/longest-substring-without-repeating-characters.md)
 * [Math](leetcode/math/README.md)
   * [Pow\(x, n\)](leetcode/math/pow-x-n.md)
 
