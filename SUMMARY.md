@@ -75,6 +75,9 @@
   * [Maximum Depth of Binary Tree](leetcode/tree/maximum-depth-of-binary-tree.md)
   * [Convert Sorted Array to Binary Search Tree](leetcode/tree/convert-sorted-array-to-binary-search-tree.md)
   * [Balanced Binary Tree](leetcode/tree/balanced-binary-tree.md)
+  * [Minimum Depth of Binary Tree](leetcode/tree/minimum-depth-of-binary-tree.md)
+  * [Path Sum](leetcode/tree/path-sum.md)
+  * [Invert Binary Tree](leetcode/tree/invert-binary-tree.md)
 
 ## Miscellaneous
 
