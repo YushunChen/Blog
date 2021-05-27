@@ -1,10 +1,10 @@
 ---
-description: 'ID: 530; easy'
+description: 'ID: 783; easy'
 ---
 
-# Minimum Absolute Difference in BST
+# Minimum Distance Between BST Nodes
 
-{% embed url="https://leetcode.com/problems/minimum-absolute-difference-in-bst/" %}
+{% embed url="https://leetcode.com/problems/minimum-distance-between-bst-nodes/" %}
 
 ## Solution 1
 
@@ -20,7 +20,7 @@ description: 'ID: 530; easy'
 
 import "math"
 
-func getMinimumDifference(root *TreeNode) int {
+func minDiffInBST(root *TreeNode) int {
     result, previous := math.MaxInt16, -1
     getMinDiffHelper(root, &result, &previous)
     return result
@@ -54,6 +54,6 @@ func abs(x int) int {
 ```
 
 {% hint style="info" %}
-Keep track of the previous node. Similar to an inorder traversal.
+Exactly the same as ID: 530.
 {% endhint %}
 

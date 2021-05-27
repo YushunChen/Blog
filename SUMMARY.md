@@ -82,6 +82,7 @@
   * [Binary Tree Paths](leetcode/tree/binary-tree-paths.md)
   * [Sum of Left Leaves](leetcode/tree/sum-of-left-leaves.md)
   * [Minimum Absolute Difference in BST](leetcode/tree/minimum-absolute-difference-in-bst.md)
+  * [Minimum Distance Between BST Nodes](leetcode/tree/minimum-distance-between-bst-nodes.md)
 
 ## Miscellaneous
 
