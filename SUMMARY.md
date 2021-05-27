@@ -77,6 +77,8 @@
   * [Balanced Binary Tree](leetcode/tree/balanced-binary-tree.md)
   * [Minimum Depth of Binary Tree](leetcode/tree/minimum-depth-of-binary-tree.md)
   * [Path Sum](leetcode/tree/path-sum.md)
+  * [Binary Tree Preorder Traversal](leetcode/tree/binary-tree-preorder-traversal.md)
+  * [Binary Tree Postorder Traversal](leetcode/tree/binary-tree-postorder-traversal.md)
   * [Invert Binary Tree](leetcode/tree/invert-binary-tree.md)
   * [Lowest Common Ancestor of a Binary Search Tree](leetcode/tree/lowest-common-ancestor-of-a-binary-search-tree.md)
   * [Binary Tree Paths](leetcode/tree/binary-tree-paths.md)
