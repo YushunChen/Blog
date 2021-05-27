@@ -78,6 +78,10 @@
   * [Minimum Depth of Binary Tree](leetcode/tree/minimum-depth-of-binary-tree.md)
   * [Path Sum](leetcode/tree/path-sum.md)
   * [Invert Binary Tree](leetcode/tree/invert-binary-tree.md)
+  * [Lowest Common Ancestor of a Binary Search Tree](leetcode/tree/lowest-common-ancestor-of-a-binary-search-tree.md)
+  * [Binary Tree Paths](leetcode/tree/binary-tree-paths.md)
+  * [Sum of Left Leaves](leetcode/tree/sum-of-left-leaves.md)
+  * [Minimum Absolute Difference in BST](leetcode/tree/minimum-absolute-difference-in-bst.md)
 
 ## Miscellaneous
 
