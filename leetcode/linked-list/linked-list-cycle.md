@@ -59,7 +59,7 @@ func hasCycle(head *ListNode) bool {
 
 The tortoise move by 1 step each time and the hare moves by 2 steps at a time. If there is a cycle, the hare will eventually catch the tortoise at a position.
 
-A simple idea of the proof can be tracking the **gap** between the tortoise and the hare. By construction, the gap increases by 1 each iteration. Eventually, the gap with become n, where n is the number of elements in the cycle. This is the time when the tortoise and the hare meet. More proofs:
+A simple idea of the proof can be tracking the **gap** between the tortoise and the hare. By construction, the gap increases by 1 each iteration. Eventually, the gap with become n, where n is the number of elements in the **cycle** \(not the whole list\). This is the time when the tortoise and the hare meet. More proofs:
 
 {% embed url="https://math.stackexchange.com/questions/913499/proof-of-floyd-cycle-chasing-tortoise-and-hare" %}
 
