@@ -23,5 +23,18 @@ $$
 {n\choose{m}}={n\choose{m-1}} \times \frac{n-m+1}{m}
 $$
 
-
+```java
+class Solution {
+    public List<Integer> getRow(int rowIndex) {
+        List<Integer> ans = new ArrayList<>();
+        ans.add(1);
+        long curElement = 1;
+        for (int i = 1; i <= rowIndex; i++) {
+            curElement = curElement * (rowIndex-i+1) / i;
+            ans.add((int)curElement);
+        }
+        return ans;
+    }
+}
+```
 

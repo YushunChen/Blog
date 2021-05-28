@@ -68,6 +68,8 @@
   * [Roman to Integer](leetcode/string/roman-to-integer.md)
   * [Valid Parentheses](leetcode/string/valid-parentheses.md)
   * [Implement strStr\(\)](leetcode/string/implement-strstr.md)
+* [Linked List](leetcode/linked-list/README.md)
+  * [Reverse Linked List](leetcode/linked-list/reverse-linked-list.md)
 * [Math](leetcode/math/README.md)
   * [Pow\(x, n\)](leetcode/math/pow-x-n.md)
 * [Tree](leetcode/tree/README.md)
