@@ -15,7 +15,7 @@
   * [Find Minimum in Rotated Sorted Array](data-structures-and-algorithms/binary-search/todo-find-minimum-in-rotated-sorted-array.md)
   * [Maximum Number in Mountain Sequence](data-structures-and-algorithms/binary-search/todo-maximum-number-in-mountain-sequence.md)
   * [Search a 2D Matrix](data-structures-and-algorithms/binary-search/search-a-2d-matrix.md)
-  * [Untitled](data-structures-and-algorithms/binary-search/untitled-4.md)
+  * [Search a 2D Matrix II](data-structures-and-algorithms/binary-search/untitled-4.md)
   * [Untitled](data-structures-and-algorithms/binary-search/untitled-3.md)
   * [Untitled](data-structures-and-algorithms/binary-search/untitled-2.md)
   * [Untitled](data-structures-and-algorithms/binary-search/untitled-1.md)

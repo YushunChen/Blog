@@ -38,7 +38,7 @@ public class Solution {
 }
 ```
 
-### Ideas
+### Notes
 
 * We do not know the upper bound of the range, so we double `right` starting from 1 until the element at right is larger than the `target`. Thus, we have a valid range containing a `target`.
 * We cannot return `mid` immediately if we found a `target` because the problem requires the first position of the `target`.

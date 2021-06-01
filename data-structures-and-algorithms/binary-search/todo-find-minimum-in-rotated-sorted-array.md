@@ -35,7 +35,7 @@ public class Solution {
 }
 ```
 
-### Ideas
+### Notes
 
 * We use the last element as the target since we lack a target for the binary search. The reason is that we can reduce the range that contains the minimum number using this target. 
 * Also, note that the array may not be rotated at all. 
