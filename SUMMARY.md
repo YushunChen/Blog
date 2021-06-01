@@ -5,7 +5,7 @@
 ## Data Structures and Algorithms
 
 * [Binary Search](data-structures-and-algorithms/binary-search/README.md)
-  * [TODO: Classical Binary Search](data-structures-and-algorithms/binary-search/todo-classical-binary-search.md)
+  * [Classical Binary Search](data-structures-and-algorithms/binary-search/todo-classical-binary-search.md)
   * [TODO: First Position of Target](data-structures-and-algorithms/binary-search/todo-first-position-of-target.md)
   * [TODO: Last Position of Target](data-structures-and-algorithms/binary-search/todo-last-position-of-target.md)
   * [TODO: Guess Number Higher or Lower](data-structures-and-algorithms/binary-search/todo-guess-number-higher-or-lower.md)
@@ -39,7 +39,7 @@
   * [Roman to Integer](data-structures-and-algorithms/string/roman-to-integer.md)
   * [Valid Parentheses](data-structures-and-algorithms/string/valid-parentheses.md)
   * [Implement strStr\(\)](data-structures-and-algorithms/string/implement-strstr.md)
-  * [TODO: Reverse Words in a String](data-structures-and-algorithms/string/todo-reverse-words-in-a-string.md)
+  * [Reverse Words in a String](data-structures-and-algorithms/string/todo-reverse-words-in-a-string.md)
 * [Linked List](data-structures-and-algorithms/linked-list/README.md)
   * [Add Two Numbers](data-structures-and-algorithms/linked-list/add-two-numbers.md)
   * [Swap Nodes in Pairs](data-structures-and-algorithms/linked-list/todo-swap-nodes-in-pairs.md)
