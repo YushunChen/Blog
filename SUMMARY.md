@@ -7,7 +7,7 @@
 * [Binary Search](data-structures-and-algorithms/binary-search/README.md)
   * [Classical Binary Search](data-structures-and-algorithms/binary-search/todo-classical-binary-search.md)
   * [First Position of Target](data-structures-and-algorithms/binary-search/todo-first-position-of-target.md)
-  * [TODO: Last Position of Target](data-structures-and-algorithms/binary-search/todo-last-position-of-target.md)
+  * [Last Position of Target](data-structures-and-algorithms/binary-search/todo-last-position-of-target.md)
   * [TODO: Guess Number Higher or Lower](data-structures-and-algorithms/binary-search/todo-guess-number-higher-or-lower.md)
   * [TODO: First Bad Version](data-structures-and-algorithms/binary-search/todo-first-bad-version.md)
   * [TODO: Find Minimum in Rotated Sorted Array](data-structures-and-algorithms/binary-search/todo-find-minimum-in-rotated-sorted-array.md)
