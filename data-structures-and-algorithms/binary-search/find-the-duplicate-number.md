@@ -53,7 +53,7 @@ $$
 * Space complexity should be
 
 $$
-O(n)
+O(1)
 $$
 
 We know that the range of the numbers is initially `[1, n]`. We take the middle element inside the range `mid`. If `count ≤ mid`, where `count` is the number of elements that are less than or equal to `mid`, then we are certain that the duplicated number is not inside the range `[left, mid]`. The reason is the following:
@@ -85,8 +85,20 @@ New array is `[1, 4]` and 1 is inside that range.✅
 {% endtabs %}
 
 {% hint style="info" %}
-Maybe think about `[3, 8, 8, 4, 6, 1, 5, 9]`?
+Maybe think about `[3, 8, 8, 4, 6, 1, 5, 9]`. Length - 1?
 {% endhint %}
 
 
+
+* Time complexity for this solution is
+
+$$
+O(n\log{n})
+$$
+
+* Space complexity should be
+
+$$
+O(1)
+$$
 
