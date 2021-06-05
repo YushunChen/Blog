@@ -57,7 +57,7 @@
   * [Reverse Words in a String](data-structures-and-algorithms/string/todo-reverse-words-in-a-string.md)
 * [Linked List](data-structures-and-algorithms/linked-list/README.md)
   * [Insert Node in Sorted Linked List](data-structures-and-algorithms/linked-list/insert-node-in-sorted-linked-list.md)
-  * [Untitled](data-structures-and-algorithms/linked-list/untitled-1.md)
+  * [Merge Two Sorted Lists](data-structures-and-algorithms/linked-list/untitled-1.md)
   * [Untitled](data-structures-and-algorithms/linked-list/untitled-5.md)
   * [Untitled](data-structures-and-algorithms/linked-list/untitled-4.md)
   * [Untitled](data-structures-and-algorithms/linked-list/untitled-3.md)

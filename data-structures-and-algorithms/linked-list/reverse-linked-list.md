@@ -6,7 +6,7 @@ description: 'ID: 206; easy'
 
 {% embed url="https://leetcode.com/problems/reverse-linked-list/" %}
 
-## Solution 1
+## Solution 1 \(Go\)
 
 ```go
 /**
@@ -28,7 +28,7 @@ func reverseList(head *ListNode) *ListNode {
 }
 ```
 
-## Solution 2
+## Solution 2 \(Go\)
 
 ```go
 /**
@@ -46,6 +46,39 @@ func reverseList(head *ListNode) *ListNode {
     head.Next.Next = head
     head.Next = nil
     return newHead
+}
+```
+
+## Solution 3 \(Java\)
+
+```java
+/**
+ * Definition for ListNode
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+
+public class Solution {
+    /**
+     * @param head: n
+     * @return: The new head of reversed linked list.
+     */
+    public ListNode reverse(ListNode head) {
+        ListNode prev = null, next;
+        while (head != null) {
+            next = head.next;
+            head.next = prev;
+            prev = head;
+            head = next;
+        }
+        return prev;
+    }
 }
 ```
 
