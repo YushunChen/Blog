@@ -56,6 +56,12 @@
   * [Implement strStr\(\)](data-structures-and-algorithms/string/implement-strstr.md)
   * [Reverse Words in a String](data-structures-and-algorithms/string/todo-reverse-words-in-a-string.md)
 * [Linked List](data-structures-and-algorithms/linked-list/README.md)
+  * [Insert Node in Sorted Linked List](data-structures-and-algorithms/linked-list/insert-node-in-sorted-linked-list.md)
+  * [Untitled](data-structures-and-algorithms/linked-list/untitled-1.md)
+  * [Untitled](data-structures-and-algorithms/linked-list/untitled-5.md)
+  * [Untitled](data-structures-and-algorithms/linked-list/untitled-4.md)
+  * [Untitled](data-structures-and-algorithms/linked-list/untitled-3.md)
+  * [Untitled](data-structures-and-algorithms/linked-list/untitled-2.md)
   * [Add Two Numbers](data-structures-and-algorithms/linked-list/add-two-numbers.md)
   * [Swap Nodes in Pairs](data-structures-and-algorithms/linked-list/todo-swap-nodes-in-pairs.md)
   * [Rotate List](data-structures-and-algorithms/linked-list/todo-rotate-list.md)
@@ -82,6 +88,7 @@
   * [Sum of Left Leaves](data-structures-and-algorithms/tree/sum-of-left-leaves.md)
   * [Minimum Absolute Difference in BST](data-structures-and-algorithms/tree/minimum-absolute-difference-in-bst.md)
   * [Minimum Distance Between BST Nodes](data-structures-and-algorithms/tree/minimum-distance-between-bst-nodes.md)
+* [LeetCode vs. LintCode Table](data-structures-and-algorithms/leetcode-vs.-lintcode-table.md)
 
 ## Golang Notes
 
