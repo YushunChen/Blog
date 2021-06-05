@@ -39,3 +39,7 @@ public class Solution {
 }
 ```
 
+### Notes
+
+* This is very similar to the classical binary search. However, we do not return mid when we immediately find a value because we are not sure if it is the first position. So, we only reduce the range. Eventually we have the range `[left, right]` that contains the target and we return `left` if possible to ensure that it is the first position of target.
+

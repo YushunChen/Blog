@@ -38,3 +38,8 @@ public class Solution {
 }
 ```
 
+### Notes
+
+* The loop condition `left + 1 < right` will guarantee that we end up with two indices that are next to each other. Then, we return either of them at the end.
+* The middle point `mid` is calculated using `left + (right - left) / 2` instead of `(left + right) / 2` in order to prevent integer overflow, which the addition may have while the subtraction will not.
+
