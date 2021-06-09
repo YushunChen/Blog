@@ -70,6 +70,7 @@
   * [Linked List Cycle](data-structures-and-algorithms/linked-list/linked-list-cycle.md)
   * [Linked List Cycle II](data-structures-and-algorithms/linked-list/linked-list-cycle-ii.md)
   * [Intersection of Two Linked Lists](data-structures-and-algorithms/linked-list/intersection-of-two-linked-lists.md)
+  * [Remove Linked List Elements](data-structures-and-algorithms/linked-list/remove-linked-list-elements.md)
   * [Reverse Linked List](data-structures-and-algorithms/linked-list/reverse-linked-list.md)
   * [Delete Node in a Linked List](data-structures-and-algorithms/linked-list/delete-node-in-a-linked-list.md)
   * [Odd Even Linked List](data-structures-and-algorithms/linked-list/odd-even-linked-list.md)
