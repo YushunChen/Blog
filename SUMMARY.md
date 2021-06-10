@@ -59,7 +59,7 @@
   * [Insert Node in Sorted Linked List](data-structures-and-algorithms/linked-list/insert-node-in-sorted-linked-list.md)
   * [Merge Two Sorted Lists](data-structures-and-algorithms/linked-list/untitled-1.md)
   * [Merge K Sorted Lists](data-structures-and-algorithms/linked-list/untitled-5.md)
-  * [TODO: LRU Cache](data-structures-and-algorithms/linked-list/untitled-4.md)
+  * [LRU Cache](data-structures-and-algorithms/linked-list/untitled-4.md)
   * [TODO: LFU Cache](data-structures-and-algorithms/linked-list/todo-lfu-cache.md)
   * [Reverse Linked List II](data-structures-and-algorithms/linked-list/untitled-3.md)
   * [Copy List with Random Pointer](data-structures-and-algorithms/linked-list/untitled-2.md)

@@ -2,7 +2,7 @@
 description: 'ID: 134; hard; LRU缓存策略'
 ---
 
-# TODO: LRU Cache
+# LRU Cache
 
 {% embed url="https://www.lintcode.com/problem/134/" %}
 
@@ -27,8 +27,9 @@ public class LRUCache {
     HashMap<Integer, Node> keyToPrevMap;
 
     /*
-    * @param capacity: An integer
-    */public LRUCache(int capacity) {
+     * @param capacity: An integer
+     */
+    public LRUCache(int capacity) {
         this.capacity = capacity;
         this.size = 0;
         this.dummy = new Node(0, 0);
@@ -99,4 +100,32 @@ public class LRUCache {
     }
 }
 ```
+
+### Notes
+
+We uses a linked list and a hash map in this solution. The linked list is basically the cache, where the head is the least recently used \(LRU\) and the end is the most recently used.The hash map keeps track of **key** and **previous node** pairs.
+
+* We first define a `Node` class with fields including `key`, `val`, and `next`.
+* Then, the fields of the `LRUCache` class includes:
+  * `capacity`: the full capacity of the cache as required by user input.
+  * `size`: the current size of the cache
+  * `dummy`: the dummy node pointing to the head of the linked list
+  * `end`: the end of the linked list
+  * `keyToPrevMap`: the hash map of `(key, previous node)` pairs.
+
+#### The `get` method
+
+We first check if a node with the input `key` is in the map. If not, we return -1 not found. If we do find a node associated with that key, we move that node to the end of the linked list and return its value. \(`moveToEnd` method to be completed later\)
+
+#### The `set` method
+
+We have three cases for setting key/value pairs.
+
+1. The key is already contained in the map. All we need to do is find that node and change its value.
+2. Within in the capacity limit, we can directly add a new node to the end of the linked list. Do not forget to update the `end`, the `map`, and the `size`.
+3. When the capacity limit will be exceeded, we remove the first/LRU node from the `map`. Next, we reuse that first node by putting the new key and value into that node. Then, we move that node to the end of the linked list, meaning that it is the most recently used. Do not forget to update the map as well \(for changing the head of the list\).
+
+#### The `moveToEnd` method
+
+We take in a `key` and want to move the node associated with that key to the end of the linked list. We first remove it from where it currently is, i.e., pointing its previous node to its next node. Then, we add it at the end of the list. More importantly, do not forget to update the `map` since two positions in the linked list have changed and do not forget to update end as well.
 
