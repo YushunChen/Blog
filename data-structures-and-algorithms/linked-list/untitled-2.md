@@ -64,6 +64,10 @@ public class Solution {
 * Do not forget to update `prev` and `head`. Here, `prev` is for constructing the new deep copy and `head` is just for traversing the original linked list. 
 * Time complexity is `O(n)` and space complexity is also `O(n)`.
 
+### **Scratches**
+
+![](../../.gitbook/assets/105.jpg)
+
 ## Solution 2 \(Java\)
 
 ```java
@@ -129,4 +133,8 @@ public class Solution {
   2. copyRandom: This step simply point the duplicates' random pointers to the corresponding duplicates of their original nodes' random pointers. The key operation here is `head.next.random = head.random.next`. The left is the random pointer of the duplicate and the right is the duplicate of the original random node.
   3. splitLists: We cut the connections between the original list and the new deep copy. Be careful with null checking in the loop to prevent `NullPointerException`.
 * The time complexity is still `O(n)`, but the space complexity now is `O(1)`.
+
+### **Scratches**
+
+![](../../.gitbook/assets/105-copy.jpg)
 
