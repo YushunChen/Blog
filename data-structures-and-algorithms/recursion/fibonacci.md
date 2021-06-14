@@ -222,6 +222,10 @@ $$
 F(n) = F(k) \times F(k) + F(k-1) \times F(k-1)
 $$
 
+* The derivation is shown here:
+
+{% embed url="https://en.wikipedia.org/wiki/Fibonacci\_number\#Matrix\_form" %}
+
 * This extension would have the same time and space complexity as done in code above. The reason is that this is still essentially **divide and conquer** where `k` is half of `n` each time.
 
 ## Solution 7 \(Java\)
