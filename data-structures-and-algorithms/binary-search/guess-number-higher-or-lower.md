@@ -42,5 +42,5 @@ public class Solution extends GuessGame {
 
 ### Notes
 
-* This is almost the same as [classical binary search](todo-classical-binary-search.md).
+* This is almost the same as [classical binary search](classical-binary-search.md).
 

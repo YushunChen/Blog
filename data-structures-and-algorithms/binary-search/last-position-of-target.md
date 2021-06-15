@@ -41,5 +41,5 @@ public class Solution {
 
 ### Notes
 
-* This is almost the same as finding the [first position of target](todo-first-position-of-target.md). We return right if possible at the end to ensure that it is the last position of target.
+* This is almost the same as finding the [first position of target](first-position-of-target.md). We return right if possible at the end to ensure that it is the last position of target.
 

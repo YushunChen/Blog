@@ -65,6 +65,6 @@ public class Solution {
 
 ### Notes
 
-* We use the similar approach in the [first position of target](todo-first-position-of-target.md) and the [last position of target](todo-last-position-of-target.md) to find the left and right end points of the range for the `target`.
+* We use the similar approach in the [first position of target](first-position-of-target.md) and the [last position of target](last-position-of-target.md) to find the left and right end points of the range for the `target`.
 * Eventually, we return the length of that range.
 

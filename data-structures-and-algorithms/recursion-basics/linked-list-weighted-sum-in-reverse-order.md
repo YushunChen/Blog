@@ -46,5 +46,5 @@ public class Solution {
 
 ### Notes
 
-* This is similar to [Reverse Order Storage](untitled.md). The difference is that we increment the weight and return it to its upper level each time.
+* This is similar to [Reverse Order Storage](reverse-order-storage.md). The difference is that we increment the weight and return it to its upper level each time.
 
