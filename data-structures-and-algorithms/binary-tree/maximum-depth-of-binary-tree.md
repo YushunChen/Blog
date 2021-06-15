@@ -2,11 +2,13 @@
 description: 'ID: 104; easy'
 ---
 
-# Maximum Depth of Binary Tree
+# TODO: Maximum Depth of Binary Tree
 
 {% embed url="https://leetcode.com/problems/maximum-depth-of-binary-tree/" %}
 
-## Solution 1
+{% embed url="https://www.lintcode.com/problem/97/" %}
+
+## Solution 1 \(Golang\)
 
 ```go
 /**
@@ -30,5 +32,11 @@ func max(x, y int) int {
     }
     return y
 }
+```
+
+## Solution 2 \(Java\)
+
+```java
+
 ```
 

@@ -6,6 +6,8 @@ description: 'ID: 206; easy'
 
 {% embed url="https://leetcode.com/problems/reverse-linked-list/" %}
 
+{% embed url="https://www.lintcode.com/problem/35/" %}
+
 ## Solution 1 \(Go\)
 
 ```go

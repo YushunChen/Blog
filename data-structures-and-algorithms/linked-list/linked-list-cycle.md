@@ -6,6 +6,8 @@ description: 'ID: 141; easy'
 
 {% embed url="https://leetcode.com/problems/linked-list-cycle/" %}
 
+{% embed url="https://www.lintcode.com/problem/102/" %}
+
 ## Solution 1 \(Go\)
 
 ```go

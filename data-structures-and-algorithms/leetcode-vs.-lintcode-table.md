@@ -10,6 +10,7 @@ description: For counting duplicated submissions on both platforms
 | Reverse Linked List | [206](linked-list/reverse-linked-list.md)✅ | [35](https://www.lintcode.com/problem/35/) |
 | Linked List Cycle | [141](linked-list/linked-list-cycle.md)✅ | [102](https://www.lintcode.com/problem/102/) |
 | Linked List Cycle II | [142](linked-list/linked-list-cycle-ii.md)✅ | [103](https://www.lintcode.com/problem/103/) |
+| Maximum Depth of Binary Tree | [104](binary-tree/maximum-depth-of-binary-tree.md)✅ | [97](https://www.lintcode.com/problem/97/) |
 
 
 

@@ -6,6 +6,8 @@ description: 'ID: 62; medium; 搜索旋转排序数组'
 
 {% embed url="https://www.lintcode.com/problem/62/" %}
 
+{% embed url="https://leetcode.com/problems/search-in-rotated-sorted-array/" %}
+
 ## Solution 1 \(Java\)
 
 ```java
