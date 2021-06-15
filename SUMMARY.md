@@ -91,7 +91,7 @@
   * [Roman to Integer](data-structures-and-algorithms/string/roman-to-integer.md)
   * [Valid Parentheses](data-structures-and-algorithms/string/valid-parentheses.md)
   * [Implement strStr\(\)](data-structures-and-algorithms/string/implement-strstr.md)
-  * [Reverse Words in a String](data-structures-and-algorithms/string/todo-reverse-words-in-a-string.md)
+  * [Reverse Words in a String](data-structures-and-algorithms/string/reverse-words-in-a-string.md)
 * [Math](data-structures-and-algorithms/math/README.md)
   * [Pow\(x, n\)](data-structures-and-algorithms/math/pow-x-n.md)
 * [LeetCode vs. LintCode Table](data-structures-and-algorithms/leetcode-vs.-lintcode-table.md)
@@ -105,7 +105,7 @@
   * [Data Types](golang-notes/basics/data-types.md)
   * [Variables](golang-notes/basics/variables.md)
   * [Operators](golang-notes/basics/operators.md)
-  * [Constants](golang-notes/basics/untitled.md)
+  * [Constants](golang-notes/basics/constants.md)
   * [Decision Making](golang-notes/basics/decision-making.md)
   * [Loops](golang-notes/basics/loops.md)
   * [Special Statements](golang-notes/basics/special-statements.md)
@@ -135,5 +135,5 @@
 
 ## Miscellaneous
 
-* [A GMAT Reading](miscellaneous/gmat.md)
+* [A GMAT Reading](miscellaneous/a-gmat-reading.md)
 
