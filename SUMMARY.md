@@ -52,6 +52,7 @@
 * [Binary Tree](data-structures-and-algorithms/binary-tree/README.md)
   * [Maximum Depth of Binary Tree](data-structures-and-algorithms/binary-tree/maximum-depth-of-binary-tree.md)
   * [Average of Levels in Binary Tree](data-structures-and-algorithms/binary-tree/average-of-levels-in-binary-tree.md)
+  * [Binary Tree Leaf Sum](data-structures-and-algorithms/binary-tree/binary-tree-leaf-sum.md)
   * [Binary Tree Inorder Traversal](data-structures-and-algorithms/binary-tree/binary-tree-inorder-traversal.md)
   * [Convert Sorted Array to Binary Search Tree](data-structures-and-algorithms/binary-tree/convert-sorted-array-to-binary-search-tree.md)
   * [Balanced Binary Tree](data-structures-and-algorithms/binary-tree/balanced-binary-tree.md)
