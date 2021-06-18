@@ -57,6 +57,7 @@
   * [Binary Tree Path Sum](data-structures-and-algorithms/binary-tree/binary-tree-path-sum.md)
   * [Binary Tree Path Sum II](data-structures-and-algorithms/binary-tree/binary-tree-path-sum-ii.md)
   * [Binary Tree Path Sum III](data-structures-and-algorithms/binary-tree/binary-tree-path-sum-iii.md)
+  * [Clone Binary Tree](data-structures-and-algorithms/binary-tree/clone-binary-tree.md)
   * [-----------------------------------------](data-structures-and-algorithms/binary-tree/divider.md)
   * [Binary Tree Inorder Traversal](data-structures-and-algorithms/binary-tree/binary-tree-inorder-traversal.md)
   * [Convert Sorted Array to Binary Search Tree](data-structures-and-algorithms/binary-tree/convert-sorted-array-to-binary-search-tree.md)
