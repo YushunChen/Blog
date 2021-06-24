@@ -13,6 +13,7 @@ description: For counting duplicated submissions on both platforms
 | Maximum Depth of Binary Tree | [104](binary-tree/maximum-depth-of-binary-tree.md)✅ | [97](https://www.lintcode.com/problem/97/) |
 | Invert Binary Tree | [226](binary-tree/invert-binary-tree.md)✅ | [175](https://www.lintcode.com/problem/175/) |
 | Binary Tree Paths | [257](binary-tree/binary-tree-paths.md)✅ | [480](https://www.lintcode.com/problem/480/) |
+|  Binary Tree Preorder Traversal | [144](binary-tree/binary-tree-preorder-traversal.md)✅ | [66](https://www.lintcode.com/problem/66/) |
 
 
 
