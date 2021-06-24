@@ -1,3 +1,7 @@
+---
+description: 'ID: 144; easy'
+---
+
 # Binary Tree Preorder Traversal
 
 {% embed url="https://leetcode.com/problems/binary-tree-preorder-traversal/" %}
@@ -65,4 +69,54 @@ public class Solution {
     }
 }
 ```
+
+### Notes
+
+* Recursion / Divide and conquer
+
+## Solution 3 \(Java\)
+
+```java
+/**
+ * Definition of TreeNode:
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left, right;
+ *     public TreeNode(int val) {
+ *         this.val = val;
+ *         this.left = this.right = null;
+ *     }
+ * }
+ */
+
+public class Solution {
+    /**
+     * @param root: A Tree
+     * @return: Preorder in ArrayList which contains node values.
+     */
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        if (root == null) return result;
+        stack.push(root);
+
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            result.add(node.val);
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+            if (node.left != null) {
+                stack.push(node.left);
+            }
+        }
+
+        return result;
+    }
+}
+```
+
+### Notes
+
+* Traversal using a stack
 
