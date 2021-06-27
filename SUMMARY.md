@@ -145,4 +145,5 @@
 ## Miscellaneous
 
 * [A GMAT Reading](miscellaneous/a-gmat-reading.md)
+* [2021.6 China Travel Log](miscellaneous/2021.6-china-travel-log.md)
 
