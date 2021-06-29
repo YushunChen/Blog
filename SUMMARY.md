@@ -53,6 +53,7 @@
   * [Binary Tree Preorder Traversal](data-structures-and-algorithms/binary-tree/binary-tree-preorder-traversal.md)
   * [Binary Tree Inorder Traversal](data-structures-and-algorithms/binary-tree/binary-tree-inorder-traversal.md)
   * [Binary Tree Postorder Traversal](data-structures-and-algorithms/binary-tree/binary-tree-postorder-traversal.md)
+  * [Construct Binary Tree from Inorder and Postorder Traversal](data-structures-and-algorithms/binary-tree/construct-binary-tree-from-inorder-and-postorder-traversal.md)
   * [Maximum Depth of Binary Tree](data-structures-and-algorithms/binary-tree/maximum-depth-of-binary-tree.md)
   * [Average of Levels in Binary Tree](data-structures-and-algorithms/binary-tree/average-of-levels-in-binary-tree.md)
   * [Binary Tree Leaf Sum](data-structures-and-algorithms/binary-tree/binary-tree-leaf-sum.md)
