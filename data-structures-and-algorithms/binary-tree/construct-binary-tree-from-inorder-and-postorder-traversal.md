@@ -42,8 +42,10 @@ public class Solution {
         TreeNode root = new TreeNode(rootVal);
 
         int[] leftNewInorder = Arrays.copyOfRange(inorder, 0, index);
+        // left new post order has the same range as above
         int[] leftNewPostorder = Arrays.copyOfRange(postorder, 0, index);
         int[] rightNewInorder = Arrays.copyOfRange(inorder, index + 1, inLen);
+        // right new post order excludes the last element (root)
         int[] rightNewPostorder = Arrays.copyOfRange(postorder, index, postLen - 1);
 
         TreeNode left = buildTree(leftNewInorder, leftNewPostorder);

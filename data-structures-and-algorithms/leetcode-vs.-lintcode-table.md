@@ -16,6 +16,7 @@ description: For counting duplicated submissions on both platforms
 |  Binary Tree Preorder Traversal | [144](binary-tree/binary-tree-preorder-traversal.md)✅ | [66](https://www.lintcode.com/problem/66/) |
 | Binary Tree Inorder Traversal | [94](binary-tree/binary-tree-inorder-traversal.md)✅ | [67](https://www.lintcode.com/problem/67/) |
 | Binary Tree Postorder Traversal | [145](binary-tree/binary-tree-postorder-traversal.md)✅ | [68](https://www.lintcode.com/problem/68/) |
+| Minimum Depth of Binary Tree | [111](binary-tree/minimum-depth-of-binary-tree.md)✅ | [155](https://www.lintcode.com/problem/155/) |
 
 
 
