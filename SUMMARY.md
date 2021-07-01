@@ -68,6 +68,8 @@
   * [Sum Root to Leaf Numbers](data-structures-and-algorithms/binary-tree/sum-root-to-leaf-numbers.md)
   * [Binary Tree Level Sum](data-structures-and-algorithms/binary-tree/binary-tree-level-sum.md)
   * [Binary Tree Paths](data-structures-and-algorithms/binary-tree/binary-tree-paths.md)
+  * [Insert Node in a Binary Search Tree](data-structures-and-algorithms/binary-tree/insert-node-in-a-binary-search-tree.md)
+  * [Remove Node in Binary Search Tree](data-structures-and-algorithms/binary-tree/remove-node-in-binary-search-tree.md)
   * [-----------------------------------------](data-structures-and-algorithms/binary-tree/divider.md)
   * [Convert Sorted Array to Binary Search Tree](data-structures-and-algorithms/binary-tree/convert-sorted-array-to-binary-search-tree.md)
   * [Balanced Binary Tree](data-structures-and-algorithms/binary-tree/balanced-binary-tree.md)
