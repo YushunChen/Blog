@@ -72,6 +72,7 @@
   * [Remove Node in Binary Search Tree](data-structures-and-algorithms/binary-tree/remove-node-in-binary-search-tree.md)
   * [Validate Binary Search Tree](data-structures-and-algorithms/binary-tree/validate-binary-search-tree.md)
   * [Trim a Binary Search Tree](data-structures-and-algorithms/binary-tree/trim-a-binary-search-tree.md)
+  * [Search Range in Binary Search Tree](data-structures-and-algorithms/binary-tree/search-range-in-binary-search-tree.md)
   * [-----------------------------------------](data-structures-and-algorithms/binary-tree/divider.md)
   * [Convert Sorted Array to Binary Search Tree](data-structures-and-algorithms/binary-tree/convert-sorted-array-to-binary-search-tree.md)
   * [Balanced Binary Tree](data-structures-and-algorithms/binary-tree/balanced-binary-tree.md)
