@@ -6,7 +6,9 @@ description: 'ID: 110; easy'
 
 {% embed url="https://leetcode.com/problems/balanced-binary-tree/" %}
 
-## Solution 1
+{% embed url="https://www.lintcode.com/problem/93/" %}
+
+## Solution 1 \(Go\)
 
 ```go
 /**
@@ -50,5 +52,11 @@ func abs(x int) int {
     }
     return -x
 }
+```
+
+## Solution 2 \(Java\)
+
+```java
+
 ```
 
