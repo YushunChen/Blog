@@ -78,6 +78,7 @@
   * [Recover Binary Search Tree](data-structures-and-algorithms/binary-tree/recover-binary-search-tree.md)
   * [Balanced Binary Tree](data-structures-and-algorithms/binary-tree/balanced-binary-tree.md)
   * [Minimum Subtree](data-structures-and-algorithms/binary-tree/minimum-subtree.md)
+  * [Subtree with Maximum Average](data-structures-and-algorithms/binary-tree/subtree-with-maximum-average.md)
   * [-----------------------------------------](data-structures-and-algorithms/binary-tree/divider.md)
   * [Convert Sorted Array to Binary Search Tree](data-structures-and-algorithms/binary-tree/convert-sorted-array-to-binary-search-tree.md)
   * [Path Sum](data-structures-and-algorithms/binary-tree/path-sum.md)
