@@ -39,8 +39,7 @@ public class Solution {
         if (root == null)
             return 0;
         
-        int currSum = 0;
-        currSum = root.val + findSubtreeHelper(root.left) + findSubtreeHelper(root.right);
+        int currSum = root.val + findSubtreeHelper(root.left) + findSubtreeHelper(root.right);
         if (currSum <= sum) {
             sum = currSum;
             node = root;
