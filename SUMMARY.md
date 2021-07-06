@@ -96,6 +96,7 @@
   * [Sum of Left Leaves](algo/binary-tree/sum-of-left-leaves.md)
   * [Minimum Absolute Difference in BST](algo/binary-tree/minimum-absolute-difference-in-bst.md)
   * [Minimum Distance Between BST Nodes](algo/binary-tree/minimum-distance-between-bst-nodes.md)
+* [Sorting](algo/sorting.md)
 * [Array](algo/array/README.md)
   * [Two Sum](algo/array/two-sum.md)
   * [Remove Duplicates from Sorted Array](algo/array/remove-duplicates-from-sorted-array.md)
