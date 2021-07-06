@@ -83,6 +83,7 @@
   * [Lowest Common Ancestor of a Binary Tree](data-structures-and-algorithms/binary-tree/lowest-common-ancestor-of-a-binary-tree.md)
   * [Lowest Common Ancestor II](data-structures-and-algorithms/binary-tree/lowest-common-ancestor-ii.md)
   * [Lowest Common Ancestor III](data-structures-and-algorithms/binary-tree/lowest-common-ancestor-iii.md)
+  * [Binary Tree Maximum Path Sum II](data-structures-and-algorithms/binary-tree/binary-tree-maximum-path-sum-ii.md)
   * [-----------------------------------------](data-structures-and-algorithms/binary-tree/divider.md)
   * [Convert Sorted Array to Binary Search Tree](data-structures-and-algorithms/binary-tree/convert-sorted-array-to-binary-search-tree.md)
   * [Path Sum](data-structures-and-algorithms/binary-tree/path-sum.md)
