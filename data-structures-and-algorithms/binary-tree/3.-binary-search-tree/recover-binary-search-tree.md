@@ -61,7 +61,7 @@ public class Solution {
 
 ### Notes
 
-* Use [inorder traversal](binary-tree-inorder-traversal.md) and put the nodes into a list.
+* Use [inorder traversal](../1.-traversal/binary-tree-inorder-traversal.md) and put the nodes into a list.
 * The list should be in non-decreasing order by construction. Iterate the list to find the node that is smaller than its previous node, then swap these two nodes.
 * Space complexity is `O(n)`
 
@@ -120,6 +120,6 @@ public class Solution {
 
 ### Notes
 
-* We still use [inorder traversal](binary-tree-inorder-traversal.md) but modify it to check if we have any out-of-order nodes \(the two nodes that are not in non-decreasing order\).
+* We still use [inorder traversal](../1.-traversal/binary-tree-inorder-traversal.md) but modify it to check if we have any out-of-order nodes \(the two nodes that are not in non-decreasing order\).
 * Space complexity is `O(1)`
 

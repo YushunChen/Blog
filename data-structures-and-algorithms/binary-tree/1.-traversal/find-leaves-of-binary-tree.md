@@ -52,6 +52,6 @@ public class Solution {
 ### Notes
 
 * Use a `HashMap` to store the levels of the tree. The key is the level \(1 is the bottom level\) and the value of a list of node values.
-* Use a similar mechanism in [Maximum Depth of Binary Tree](maximum-depth-of-binary-tree.md) and add a few operations to populate the map. 
+* Use a similar mechanism in [Maximum Depth of Binary Tree](../2.-classical-questions/maximum-depth-of-binary-tree.md) and add a few operations to populate the map. 
 * Lastly, convert the values in the map to a result list and return.
 
