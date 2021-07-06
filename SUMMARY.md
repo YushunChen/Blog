@@ -89,6 +89,7 @@
     * [Lowest Common Ancestor III](algo/binary-tree/4.-divide-and-conquer/lowest-common-ancestor-iii.md)
     * [Binary Tree Maximum Path Sum II](algo/binary-tree/4.-divide-and-conquer/binary-tree-maximum-path-sum-ii.md)
     * [Binary Tree Maximum Path Sum](algo/binary-tree/4.-divide-and-conquer/binary-tree-maximum-path-sum.md)
+    * [Path Sum III](algo/binary-tree/4.-divide-and-conquer/path-sum-iii.md)
   * [Convert Sorted Array to Binary Search Tree](algo/binary-tree/convert-sorted-array-to-binary-search-tree.md)
   * [Path Sum](algo/binary-tree/path-sum.md)
   * [Lowest Common Ancestor of a Binary Search Tree](algo/binary-tree/lowest-common-ancestor-of-a-binary-search-tree.md)
