@@ -99,6 +99,7 @@
 * [Sorting](algo/sorting/README.md)
   * [Sort Integers](algo/sorting/sort-integers.md)
   * [Merge Two Sorted Arrays](algo/sorting/merge-two-sorted-arrays.md)
+  * [Reverse Pair](algo/sorting/reverse-pair.md)
 * [Array](algo/array/README.md)
   * [Two Sum](algo/array/two-sum.md)
   * [Remove Duplicates from Sorted Array](algo/array/remove-duplicates-from-sorted-array.md)
