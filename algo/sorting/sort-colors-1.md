@@ -94,3 +94,62 @@ public class Solution {
 
 * **Quick sort**
 
+## Solution 4 \(Java\)
+
+```java
+public class Solution {
+    /**
+     * @param nums: A list of integer which is 0, 1 or 2 
+     * @return: nothing
+     */
+    public void sortColors(int[] nums) {
+        Arrays.sort(nums);
+    }
+}
+```
+
+### Notes
+
+* Not really a "solution"...
+
+## Solution 5 \(Java\)
+
+```java
+public class Solution {
+    /**
+     * @param nums: A list of integer which is 0, 1 or 2 
+     * @return: nothing
+     */
+    public void sortColors(int[] nums) {
+        int i = 0, j = 0, k = nums.length - 1;
+        while (j <= k) {
+            if (nums[j] == 0) {
+                swap(nums, j, i);
+                i++;
+                j++;
+            } else if (nums[j] == 1) {
+                j++;
+            } else {
+                swap(nums, j, k);
+                k--;
+            }
+        }
+    }
+
+    private void swap(int[] nums, int a, int b) {
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = temp;
+    }
+}
+
+// [0, i) all 0's
+// [i, j) all 1's
+// [j, k) exploring
+// [k, nums.length - 1) all 2's
+```
+
+### Notes
+
+* Same as [Solution 2](sort-colors-1.md#solution-2-go) but in Java.
+
