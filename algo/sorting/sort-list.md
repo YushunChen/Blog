@@ -71,3 +71,9 @@ public class Solution {
 * This is the **merge sort** version of Sort List.
 * Time complexity: `O(nlogn)`
 
+## Solution 2 \(Java\)
+
+```java
+
+```
+

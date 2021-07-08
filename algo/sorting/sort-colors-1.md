@@ -6,7 +6,9 @@ description: 'ID: 75; medium'
 
 {% embed url="https://leetcode.com/problems/sort-colors/" %}
 
-## Solution 1
+{% embed url="https://www.lintcode.com/problem/148/" %}
+
+## Solution 1 \(Go\)
 
 ```go
 func sortColors(nums []int)  {
@@ -27,7 +29,7 @@ func sortColors(nums []int)  {
 }
 ```
 
-## Solution 2
+## Solution 2 \(Go\)
 
 ```go
 func sortColors(nums []int)  {
@@ -54,4 +56,41 @@ func sortColors(nums []int)  {
 `[j ,k)`: the interval to be explored
 
 `[k ,len(nums))`: the interval containing all 2's
+
+## Solution 3 \(Java\)
+
+```java
+public class Solution {
+    /**
+     * @param nums: A list of integer which is 0, 1 or 2 
+     * @return: nothing
+     */
+    public void sortColors(int[] nums) {
+        quickSort(nums, 1);
+        quickSort(nums, 2);
+    }
+
+    private void quickSort(int[] nums, int k) {
+        if (nums == null) return;
+        int i = 0, j = nums.length - 1;
+        while (i <= j) {
+            while (i <= j && nums[i] < k) {
+                i++;
+            }
+            while (i <= j && nums[j] >= k) {
+                j--;
+            }
+            if (i <= j) {
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
+            }
+        }
+    }
+}
+```
+
+### Notes
+
+* **Quick sort**
 
