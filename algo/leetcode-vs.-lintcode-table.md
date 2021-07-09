@@ -19,6 +19,7 @@ description: For counting duplicated submissions on both platforms
 | Minimum Depth of Binary Tree | [111](binary-tree/1.-traversal/minimum-depth-of-binary-tree.md)✅ | [155](https://www.lintcode.com/problem/155/) |
 | Balanced Binary Tree | [110](binary-tree/4.-divide-and-conquer/balanced-binary-tree.md)✅ | [93](https://www.lintcode.com/problem/93/) |
 | Sort Colors | [75](sorting/sort-colors-1.md)✅ | [148](https://www.lintcode.com/problem/148/) |
+| Remove Duplicates from Sorted Array | [26](two-pointers/remove-duplicates-from-sorted-array.md)✅ | [100](https://www.lintcode.com/problem/100/) |
 
 
 
