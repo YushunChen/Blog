@@ -112,6 +112,7 @@
   * [Remove Duplicates from Sorted Array](algo/two-pointers/remove-duplicates-from-sorted-array.md)
   * [Recover Rotated Sorted Array](algo/two-pointers/recover-rotated-sorted-array.md)
   * [Two Sum II - Input array is sorted](algo/two-pointers/two-sum-ii-input-array-is-sorted.md)
+  * [Two Sum - Unique pairs](algo/two-pointers/two-sum-unique-pairs.md)
 * [Array](algo/array/README.md)
   * [Two Sum](algo/array/two-sum.md)
   * [Remove Element](algo/array/remove-element.md)
