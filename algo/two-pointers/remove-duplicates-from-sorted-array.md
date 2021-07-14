@@ -46,3 +46,8 @@ public class Solution {
 }
 ```
 
+### Notes
+
+* `i` is the writing pointer and `j` is the reading pointer.
+* We only change the array in place if the reading pointer encounter some number that is different from the writing pointer.
+
