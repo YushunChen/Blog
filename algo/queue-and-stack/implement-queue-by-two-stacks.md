@@ -11,8 +11,8 @@ description: 'ID: 40; medium'
 ```java
 public class MyQueue {
 
-    Deque<Integer> s1 = new ArrayDeque<>();
-    Deque<Integer> s2 = new ArrayDeque<>();
+    private Deque<Integer> s1 = new ArrayDeque<>();
+    private Deque<Integer> s2 = new ArrayDeque<>();
 
     public MyQueue() {
 
