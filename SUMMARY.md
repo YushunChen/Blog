@@ -116,6 +116,8 @@
   * [Two Sum - Closest to target](algo/two-pointers/two-sum-closest-to-target.md)
 * [Queue & Stack](algo/queue-and-stack/README.md)
   * [Implement Queue by Interface](algo/queue-and-stack/implement-queue-by-interface.md)
+  * [Implement Stack](algo/queue-and-stack/implement-stack.md)
+  * [Implement Queue by Two Stacks](algo/queue-and-stack/implement-queue-by-two-stacks.md)
 * [Array](algo/array/README.md)
   * [Two Sum](algo/array/two-sum.md)
   * [Remove Element](algo/array/remove-element.md)
