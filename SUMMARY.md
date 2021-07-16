@@ -149,6 +149,8 @@
   * [Reverse Words in a String](algo/string/reverse-words-in-a-string.md)
 * [Math](algo/math/README.md)
   * [Pow\(x, n\)](algo/math/pow-x-n.md)
+  * [Narcissistic Number](algo/math/narcissistic-number.md)
+  * [A + B Problem](algo/math/a-+-b-problem.md)
 * [LeetCode vs. LintCode Table](algo/leetcode-vs.-lintcode-table.md)
 
 ## Golang Notes
