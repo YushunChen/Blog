@@ -121,6 +121,8 @@
   * [Implement Stack by Two Queues](algo/queue-and-stack/implement-stack-by-two-queues.md)
   * [Binary Tree Level Order Traversal](algo/queue-and-stack/binary-tree-level-order-traversal.md)
   * [Valid Parentheses](algo/queue-and-stack/valid-parentheses.md)
+  * [Min Stack](algo/queue-and-stack/min-stack.md)
+  * [Largest Rectangle in Histogram](algo/queue-and-stack/largest-rectangle-in-histogram.md)
 * [Array](algo/array/README.md)
   * [Two Sum](algo/array/two-sum.md)
   * [Remove Element](algo/array/remove-element.md)
