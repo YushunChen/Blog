@@ -6,7 +6,7 @@ description: 'ID: 1; Easy'
 
 {% embed url="https://leetcode.com/problems/two-sum/" %}
 
-## Solution 1
+## Solution 1 \(Go\)
 
 ```go
 func twoSum(nums []int, target int) []int {
@@ -22,7 +22,7 @@ func twoSum(nums []int, target int) []int {
 }
 ```
 
-## Solution 2
+## Solution 2 \(Go\)
 
 ```go
 func twoSum(nums []int, target int) []int {
@@ -38,5 +38,27 @@ func twoSum(nums []int, target int) []int {
 }
 ```
 
+## Solution 3 \(Java\)
 
+```java
+public class Solution {
+    /**
+     * @param numbers: An array of Integer
+     * @param target: target = numbers[index1] + numbers[index2]
+     * @return: [index1, index2] (index1 < index2)
+     */
+    public int[] twoSum(int[] numbers, int target) {
+        // <number, its index>
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < numbers.length; i++) {
+            int j = target - numbers[i];
+            if (map.containsKey(j)) {
+                return new int[]{map.get(j), i};
+            }
+            map.put(numbers[i], i);
+        }
+        return null;
+    }
+}
+```
 
