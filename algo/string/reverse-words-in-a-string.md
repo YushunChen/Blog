@@ -6,6 +6,8 @@ description: 'ID: 151; medium'
 
 {% embed url="https://leetcode.com/problems/reverse-words-in-a-string/" %}
 
+{% embed url="https://www.lintcode.com/problem/53/" %}
+
 ## Solution 1 \(Java\)
 
 ```java

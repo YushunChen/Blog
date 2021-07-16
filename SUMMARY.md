@@ -147,6 +147,7 @@
   * [Roman to Integer](algo/string/roman-to-integer.md)
   * [Implement strStr\(\)](algo/string/implement-strstr.md)
   * [Reverse Words in a String](algo/string/reverse-words-in-a-string.md)
+  * [First Unique Character in a String](algo/string/first-unique-character-in-a-string.md)
 * [Math](algo/math/README.md)
   * [Pow\(x, n\)](algo/math/pow-x-n.md)
   * [Narcissistic Number](algo/math/narcissistic-number.md)

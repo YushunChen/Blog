@@ -21,6 +21,7 @@ description: For counting duplicated submissions on both platforms
 | Sort Colors | [75](sorting/sort-colors-1.md)✅ | [148](https://www.lintcode.com/problem/148/) |
 | Remove Duplicates from Sorted Array | [26](two-pointers/remove-duplicates-from-sorted-array.md)✅ | [100](https://www.lintcode.com/problem/100/) |
 | Two Sum II - Input array is sorted | [167](two-pointers/two-sum-ii-input-array-is-sorted.md)✅ | [608](https://www.lintcode.com/problem/608/) |
+| Reverse Words in a String | [151](string/reverse-words-in-a-string.md)✅ | [53](https://www.lintcode.com/problem/53/) |
 
 
 
