@@ -125,6 +125,7 @@
   * [Largest Rectangle in Histogram](algo/queue-and-stack/largest-rectangle-in-histogram.md)
   * [Evaluate Reverse Polish Notation](algo/queue-and-stack/evaluate-reverse-polish-notation.md)
   * [Implement Queue by Linked List II](algo/queue-and-stack/implement-queue-by-linked-list-ii.md)
+  * [Basic Calculator II](algo/queue-and-stack/basic-calculator-ii.md)
 * [Array](algo/array/README.md)
   * [Two Sum](algo/array/two-sum.md)
   * [Remove Element](algo/array/remove-element.md)
