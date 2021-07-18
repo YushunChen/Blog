@@ -130,6 +130,7 @@
   * [Rehashing](algo/hash-table/rehashing.md)
   * [Valid Anagram](algo/hash-table/valid-anagram.md)
   * [Two Sum](algo/hash-table/two-sum.md)
+  * [Contiguous Array](algo/hash-table/contiguous-array.md)
 * [Array](algo/array/README.md)
   * [Remove Element](algo/array/remove-element.md)
   * [Search Insert Position](algo/array/search-insert-position.md)

@@ -23,7 +23,7 @@ description: For counting duplicated submissions on both platforms
 | Two Sum II - Input array is sorted | [167](two-pointers/two-sum-ii-input-array-is-sorted.md)✅ | [608](https://www.lintcode.com/problem/608/) |
 | Reverse Words in a String | [151](string/reverse-words-in-a-string.md)✅ | [53](https://www.lintcode.com/problem/53/) |
 | Valid Anagram | [242](hash-table/valid-anagram.md)✅ | 158 |
-|  |  |  |
+| Contiguous Array | [525](hash-table/contiguous-array.md)✅ |  |
 
 
 
