@@ -134,6 +134,8 @@
   * [Anagrams](algo/hash-table/anagrams.md)
   * [Remove Duplicate Numbers in Array](algo/hash-table/remove-duplicate-numbers-in-array.md)
   * [Friendship Service](algo/hash-table/friendship-service.md)
+* [Heap & Priority Queue](algo/heap-and-priority-queue/README.md)
+  * [Heapify](algo/heap-and-priority-queue/heapify.md)
 * [Array](algo/array/README.md)
   * [Remove Element](algo/array/remove-element.md)
   * [Search Insert Position](algo/array/search-insert-position.md)
