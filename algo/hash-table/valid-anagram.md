@@ -6,6 +6,8 @@ description: 'ID: 242; easy'
 
 {% embed url="https://leetcode.com/problems/valid-anagram/" %}
 
+{% embed url="https://www.lintcode.com/problem/158/" %}
+
 ## Solution 1 \(Java\)
 
 ```java

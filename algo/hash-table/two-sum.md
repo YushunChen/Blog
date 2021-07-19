@@ -6,6 +6,8 @@ description: 'ID: 1; Easy'
 
 {% embed url="https://leetcode.com/problems/two-sum/" %}
 
+{% embed url="https://www.lintcode.com/problem/56/" %}
+
 ## Solution 1 \(Go\)
 
 ```go

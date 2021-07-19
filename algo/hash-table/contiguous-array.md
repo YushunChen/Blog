@@ -6,6 +6,8 @@ description: 'ID: 525; medium'
 
 {% embed url="https://leetcode.com/problems/contiguous-array/" %}
 
+{% embed url="https://www.lintcode.com/problem/994/" %}
+
 ## Solution 1 \(Java\)
 
 ```java

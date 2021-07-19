@@ -22,8 +22,9 @@ description: For counting duplicated submissions on both platforms
 | Remove Duplicates from Sorted Array | [26](two-pointers/remove-duplicates-from-sorted-array.md)✅ | [100](https://www.lintcode.com/problem/100/) |
 | Two Sum II - Input array is sorted | [167](two-pointers/two-sum-ii-input-array-is-sorted.md)✅ | [608](https://www.lintcode.com/problem/608/) |
 | Reverse Words in a String | [151](string/reverse-words-in-a-string.md)✅ | [53](https://www.lintcode.com/problem/53/) |
-| Valid Anagram | [242](hash-table/valid-anagram.md)✅ | 158 |
-| Contiguous Array | [525](hash-table/contiguous-array.md)✅ |  |
+| Valid Anagram | [242](hash-table/valid-anagram.md)✅ | [158](https://www.lintcode.com/problem/158/) |
+| Contiguous Array | [525](hash-table/contiguous-array.md)✅ | [994](https://www.lintcode.com/problem/994/) |
+| Two Sum | [1](hash-table/two-sum.md)✅ | [56](https://www.lintcode.com/problem/56/) |
 
 
 
