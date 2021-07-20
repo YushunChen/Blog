@@ -38,7 +38,7 @@ public class Solution {
 
 ### Notes
 
-* This is the `siftUp` version of the problem.
+* This is the `siftUp` version of the problem. If we are sifting the node up, we should make sure it is smaller than its parent. If it is already larger than its parent, we do nothing.
 * Time complexity: `O(nlogn)`
 
 ## Solution 2 \(Java\)
@@ -91,7 +91,7 @@ public class Solution {
 
 ### Notes
 
-* This is the `siftDown` version of the problem.
+* This is the `siftDown` version of the problem. If we are sifting down the node, we should make sure that the node is smaller than its left and right children. Then, we swap the node with the smaller one of the two children. 
 * Time complexity: `O(n)`. This time complexity is important to understand. The reason is that we start sifting down at the n / 2 position. So approximately, n / 4 numbers are swapped 1 time; n / 8 numbers are swapped 2 times; n / 16 numbers are swapped 3 times, etc. So the time complexity is:
 
 $$
