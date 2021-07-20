@@ -59,3 +59,50 @@ public class Solution {
 // return nums[j + 1] = 4
 ```
 
+## Solution 2 \(Java\)
+
+```java
+public class Solution {
+    /**
+     * @param k: An integer
+     * @param nums: An array
+     * @return: the Kth largest element
+     */
+    public int kthLargestElement(int k, int[] nums) {
+        if (nums == null || nums.length == 0 || nums.length < k || k < 1)
+            return -1;
+        // convert the problem to the (n-k)th smallest element
+        k = nums.length - k;
+        return partition(nums, 0, nums.length - 1, k);
+    }
+
+    private int partition(int[] nums, int start, int end, int k) {
+        if (start >= end) return nums[k];
+        int left = start, right = end;
+        int pivot = nums[left + (right - left) / 2];
+        while (left <= right) {
+            while (left <= right && nums[left] < pivot) {
+                left++;
+            }
+            while (left <= right && nums[right] > pivot) {
+                right--;
+            }
+            if (left <= right) {
+                int temp = nums[left];
+                nums[left++] = nums[right];
+                nums[right--] = temp;
+            }
+        }
+        if (k <= right) return partition(nums, start, right, k);
+        if (k >= left) return partition(nums, left, end, k);
+        return nums[k];
+    }
+
+
+}
+```
+
+### Notes
+
+* Updated version of [Solution 1](kth-largest-element.md#solution-1-java). Easier to understand and write.
+
