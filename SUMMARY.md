@@ -139,6 +139,7 @@
   * [Top k Largest Numbers II](algo/heap-and-priority-queue/top-k-largest-numbers-ii.md)
   * [K Closest Points](algo/heap-and-priority-queue/k-closest-points.md)
   * [Kth Smallest Number in Sorted Matrix](algo/heap-and-priority-queue/kth-smallest-number-in-sorted-matrix.md)
+  * [Find Median from Data Stream](algo/heap-and-priority-queue/find-median-from-data-stream.md)
 * [Array](algo/array/README.md)
   * [Remove Element](algo/array/remove-element.md)
   * [Search Insert Position](algo/array/search-insert-position.md)
