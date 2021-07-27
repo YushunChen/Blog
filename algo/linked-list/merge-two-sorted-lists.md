@@ -6,6 +6,8 @@ description: 'ID: 165; easy; 合并两个排序链表'
 
 {% embed url="https://www.lintcode.com/problem/165/" %}
 
+{% embed url="https://leetcode.com/problems/merge-two-sorted-lists/" %}
+
 ## Solution 1 \(Java\)
 
 ```java

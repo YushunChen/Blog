@@ -6,6 +6,8 @@ description: 'ID: 36; medium; 翻转链表（二）'
 
 {% embed url="https://www.lintcode.com/problem/36/" %}
 
+{% embed url="https://leetcode.com/problems/reverse-linked-list-ii/" %}
+
 ## Solution 1 \(Java\)
 
 ```java
