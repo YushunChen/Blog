@@ -44,6 +44,7 @@
   * [Reverse Linked List](algo/linked-list/reverse-linked-list.md)
   * [Delete Node in a Linked List](algo/linked-list/delete-node-in-a-linked-list.md)
   * [Odd Even Linked List](algo/linked-list/odd-even-linked-list.md)
+  * [Partition List](algo/linked-list/partition-list.md)
 * [Recursion Basics](algo/recursion-basics/README.md)
   * [Fibonacci](algo/recursion-basics/fibonacci.md)
   * [Double Factorial](algo/recursion-basics/double-factorial.md)
