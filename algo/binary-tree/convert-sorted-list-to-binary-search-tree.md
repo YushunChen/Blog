@@ -65,6 +65,56 @@ class Solution {
 ## Solution 2 \(Java\)
 
 ```java
-
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public TreeNode sortedListToBST(ListNode head) {
+        if (head == null) 
+            return null;
+        if (head.next == null) 
+            return new TreeNode(head.val);
+        ListNode slow = head, fast = head.next;
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        ListNode rootNode = slow.next;
+        slow.next = null;
+        
+        TreeNode root = new TreeNode(rootNode.val);
+        root.left = sortedListToBST(head);
+        root.right = sortedListToBST(rootNode.next);
+        return root;
+    }
+}
 ```
+
+### Notes
+
+* Using the same idea, we find the middle node of the linked list. It is important to note that we find the previous node of the middle node first \(`slow` when the while loop ends\). The reasons is that we need to cut the connection between the previous node and the middle node.
+* Time complexity: `O(n)`
+* Space complexity: `O(1)`
 
