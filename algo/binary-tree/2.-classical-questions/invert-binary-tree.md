@@ -30,8 +30,6 @@ func invertTree(root *TreeNode) *TreeNode {
 }
 ```
 
-
-
 ##  Solution 2 \(Java\) <a id="solution-1-java"></a>
 
 ```java
