@@ -121,7 +121,7 @@ public class Solution {
 
 We first use the same algorithm \(modified to return the first meeting point\) for [problem ID: 141](linked-list-cycle.md#solution-2). If there is no cycle, we are done and return null. If there is a cycle, we store the first meeting point. From this first meeting point, we set the speed of both the tortoise and the hare to moving by 1 each time. Eventually, they will meet again at the start of the cycle. A quick proof is as follows:
 
-Let `x` be the distance between the `head` and the start of the cycle, `y` be the distance between the start of the cycle to the first meeting point, `z` be the distance between the first meeting point to the start of the cycle. It is clear that `x + y = n`, where `n` is the length of the cycle. Consider the following equations for their first meet:
+Let `x` be the distance between the `head` and the start of the cycle, `y` be the distance between the start of the cycle to the first meeting point, `z` be the distance between the first meeting point to the start of the cycle. It is clear that `y + z = n`, where `n` is the length of the cycle. Consider the following equations for their first meet:
 
 $$
 t_{tortoise} = \frac{x+y}{1}, \hspace{0.2cm} t_{hare} = \frac{x+y+z+y}{2}

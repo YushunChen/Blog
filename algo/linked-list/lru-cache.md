@@ -6,6 +6,8 @@ description: 'ID: 134; hard; LRU缓存策略'
 
 {% embed url="https://www.lintcode.com/problem/134/" %}
 
+{% embed url="https://leetcode.com/problems/lru-cache/" %}
+
 ## Solution 1 \(Java\)
 
 ```java
@@ -103,7 +105,7 @@ public class LRUCache {
 
 ### Notes
 
-We uses a linked list and a hash map in this solution. The linked list is basically the cache, where the head is the least recently used \(LRU\) and the end is the most recently used.The hash map keeps track of **key** and **previous node** pairs.
+We uses a singly linked list and a hash map in this solution. The linked list is basically the cache, where the head is the least recently used \(LRU\) and the end is the most recently used.The hash map keeps track of **key** and **previous node** pairs.
 
 * We first define a `Node` class with fields including `key`, `val`, and `next`.
 * Then, the fields of the `LRUCache` class includes:
@@ -128,4 +130,84 @@ We have three cases for setting key/value pairs.
 #### The `moveToEnd` method
 
 We take in a `key` and want to move the node associated with that key to the end of the linked list. We first remove it from where it currently is, i.e., pointing its previous node to its next node. Then, we add it at the end of the list. More importantly, do not forget to update the `map` since two positions in the linked list have changed and do not forget to update end as well.
+
+## Solution 2 \(Java\)
+
+```java
+class LRUCache {
+    
+    class Node {
+        int key, val;
+        Node prev, next;
+        public Node(int key, int val) {
+            this.key = key;
+            this.val = val;
+            this.prev = null;
+            this.next = null;
+        }
+    }
+    
+    int capacity;
+    Node head, tail;
+    Map<Integer, Node> map;
+
+    public LRUCache(int capacity) {
+        this.capacity = capacity;
+        head = new Node(-1, -1);
+        tail = new Node(-1, -1);
+        head.next = tail;
+        tail.prev = head;
+        this.map = new HashMap<>();
+    }
+    
+    public int get(int key) {
+        if (!map.containsKey(key))
+            return -1;
+        Node curr = map.get(key);
+        curr.prev.next = curr.next;
+        curr.next.prev = curr.prev;
+        moveToTail(curr);
+        return curr.val;
+    }
+    
+    public void put(int key, int value) {
+        if (get(key) != -1) {
+            Node curr = map.get(key);
+            curr.val = value;
+            return;
+        }
+        
+        if (map.size() == capacity) {
+            map.remove(head.next.key);
+            head.next = head.next.next;
+            head.next.prev = head;
+        }
+        
+        Node newNode = new Node(key, value);
+        map.put(key, newNode);
+        moveToTail(newNode);
+    }
+    
+    private void moveToTail(Node curr) {
+        curr.prev = tail.prev;
+        tail.prev = curr;
+        curr.prev.next = curr;
+        curr.next = tail;
+    }
+}
+
+// O <-> O <-> O <-> O <-> O
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache obj = new LRUCache(capacity);
+ * int param_1 = obj.get(key);
+ * obj.put(key,value);
+ */
+```
+
+### Notes
+
+* Here we used a doubly linked list.
+* Note that `head` and `tail` are not actually the head and tail of the doubly linked list. `Head` is the node before the actual head and `tail` is the node after the actual tail of the list.
 

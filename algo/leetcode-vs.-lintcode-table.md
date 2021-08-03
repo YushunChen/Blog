@@ -27,6 +27,7 @@ description: For counting duplicated submissions on both platforms
 | Two Sum | [1](hash-table/two-sum.md)✅ | [56](https://www.lintcode.com/problem/56/) |
 | Merge Two Sorted Lists | [21](https://leetcode.com/problems/merge-two-sorted-lists/) | [165](linked-list/merge-two-sorted-lists.md)✅ |
 | Reverse Linked List II | [92](https://leetcode.com/problems/reverse-linked-list-ii/) | [36](linked-list/reverse-linked-list-ii.md)✅ |
+| LRU Cache | [146](https://leetcode.com/problems/lru-cache/) | [134](linked-list/lru-cache.md)✅ |
 
 
 
