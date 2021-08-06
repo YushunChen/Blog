@@ -98,6 +98,7 @@
   * [Minimum Absolute Difference in BST](algo/binary-tree/minimum-absolute-difference-in-bst.md)
   * [Minimum Distance Between BST Nodes](algo/binary-tree/minimum-distance-between-bst-nodes.md)
   * [Convert Sorted List to Binary Search Tree](algo/binary-tree/convert-sorted-list-to-binary-search-tree.md)
+  * [Range Sum of BST](algo/binary-tree/range-sum-of-bst.md)
 * [Sorting](algo/sorting/README.md)
   * [Sort Integers](algo/sorting/sort-integers.md)
   * [Merge Two Sorted Arrays](algo/sorting/merge-two-sorted-arrays.md)
