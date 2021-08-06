@@ -63,4 +63,5 @@ public class Solution {
 ### Notes
 
 * We used a `maxHeap` and a `minHeap` to maintain the data stream. The `maxHeap` stores numbers that are less than the `median`. The `minHeap` stores numbers that are larger than the `median`. Then, we update the median whenever the two heaps have sizes that differ by 2 \(to be more precise, see the condition in code\). By construction, the results by polling either the `minHeap` or the `maxHeap` will be the current `median`. Eventually, we just return the current `median`.
+* The reason is that we need to find the median of `k` numbers, so it is natural to find the `k/2`th largest number and the `k/2`th smallest number \(first number in each heap\).
 
