@@ -152,6 +152,8 @@
     * [Binary Tree Level Order Traversal II](algo/bfs/1.-bfs-in-binary-tree/binary-tree-level-order-traversal-ii.md)
     * [Binary Tree Maximum Path Sum II](algo/bfs/1.-bfs-in-binary-tree/binary-tree-maximum-path-sum-ii.md)
     * [Convert Binary Tree to Linked Lists by Depth](algo/bfs/1.-bfs-in-binary-tree/convert-binary-tree-to-linked-lists-by-depth.md)
+  * [2. Connected Graph & Topologic Sorting](algo/bfs/2.-connected-graph-and-topologic-sorting/README.md)
+    * [Search Graph Nodes](algo/bfs/2.-connected-graph-and-topologic-sorting/search-graph-nodes.md)
 * [Array](algo/array/README.md)
   * [Remove Element](algo/array/remove-element.md)
   * [Search Insert Position](algo/array/search-insert-position.md)
