@@ -154,6 +154,7 @@
     * [Convert Binary Tree to Linked Lists by Depth](algo/bfs/1.-bfs-in-binary-tree/convert-binary-tree-to-linked-lists-by-depth.md)
   * [2. Connected Graph & Topologic Sorting](algo/bfs/2.-connected-graph-and-topologic-sorting/README.md)
     * [Search Graph Nodes](algo/bfs/2.-connected-graph-and-topologic-sorting/search-graph-nodes.md)
+    * [Graph Valid Tree](algo/bfs/2.-connected-graph-and-topologic-sorting/graph-valid-tree.md)
 * [Array](algo/array/README.md)
   * [Remove Element](algo/array/remove-element.md)
   * [Search Insert Position](algo/array/search-insert-position.md)
