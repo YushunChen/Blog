@@ -157,6 +157,7 @@
     * [Search Graph Nodes](algo/bfs/2.-connected-graph-and-topologic-sorting/search-graph-nodes.md)
     * [Graph Valid Tree](algo/bfs/2.-connected-graph-and-topologic-sorting/graph-valid-tree.md)
     * [Connected Component in Undirected Graph](algo/bfs/2.-connected-graph-and-topologic-sorting/connected-component-in-undirected-graph.md)
+    * [Topological Sorting](algo/bfs/2.-connected-graph-and-topologic-sorting/topological-sorting.md)
 * [Array](algo/array/README.md)
   * [Remove Element](algo/array/remove-element.md)
   * [Search Insert Position](algo/array/search-insert-position.md)
