@@ -1,8 +1,12 @@
 ---
-description: 'ID: 95; medium; 验证二叉查找树'
+description: 'ID: 98; medium; 验证二叉查找树'
 ---
 
 # Validate Binary Search Tree
+
+{% embed url="https://leetcode.com/problems/validate-binary-search-tree/" %}
+
+{% embed url="https://www.lintcode.com/problem/95/" %}
 
 ## Solution 1 \(Java\)
 
