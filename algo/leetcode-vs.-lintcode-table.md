@@ -29,6 +29,7 @@ description: For counting duplicated submissions on both platforms
 | Reverse Linked List II | [92](https://leetcode.com/problems/reverse-linked-list-ii/) | [36](linked-list/reverse-linked-list-ii.md)✅ |
 | LRU Cache | [146](https://leetcode.com/problems/lru-cache/) | [134](linked-list/lru-cache.md)✅ |
 | Validate Binary Search Tree | [98](binary-tree/3.-binary-search-tree/validate-binary-search-tree.md)✅ | [95](https://www.lintcode.com/problem/95/) |
+| Trim a Binary Search Tree | [699](https://leetcode.com/problems/trim-a-binary-search-tree/) | [701](binary-tree/3.-binary-search-tree/trim-a-binary-search-tree.md)✅ |
 
 
 
