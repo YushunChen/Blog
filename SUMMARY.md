@@ -159,6 +159,7 @@
     * [Connected Component in Undirected Graph](algo/bfs/2.-connected-graph-and-topologic-sorting/connected-component-in-undirected-graph.md)
     * [Topological Sorting](algo/bfs/2.-connected-graph-and-topologic-sorting/topological-sorting.md)
     * [Course Schedule](algo/bfs/2.-connected-graph-and-topologic-sorting/course-schedule.md)
+    * [Course Schedule II](algo/bfs/2.-connected-graph-and-topologic-sorting/course-schedule-ii.md)
 * [Array](algo/array/README.md)
   * [Remove Element](algo/array/remove-element.md)
   * [Search Insert Position](algo/array/search-insert-position.md)
