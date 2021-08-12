@@ -161,6 +161,7 @@
     * [Course Schedule](algo/bfs/2.-connected-graph-and-topologic-sorting/course-schedule.md)
     * [Course Schedule II](algo/bfs/2.-connected-graph-and-topologic-sorting/course-schedule-ii.md)
     * [Sequence Reconstruction](algo/bfs/2.-connected-graph-and-topologic-sorting/sequence-reconstruction.md)
+    * [Clone Graph](algo/bfs/2.-connected-graph-and-topologic-sorting/clone-graph.md)
 * [Array](algo/array/README.md)
   * [Remove Element](algo/array/remove-element.md)
   * [Search Insert Position](algo/array/search-insert-position.md)
