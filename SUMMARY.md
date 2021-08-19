@@ -132,6 +132,7 @@
   * [Implement Queue by Linked List II](algo/queue-and-stack/implement-queue-by-linked-list-ii.md)
   * [Basic Calculator II](algo/queue-and-stack/basic-calculator-ii.md)
   * [Moving Average from Data Stream](algo/queue-and-stack/moving-average-from-data-stream.md)
+  * [Reveal Cards In Increasing Order](algo/queue-and-stack/reveal-cards-in-increasing-order.md)
 * [Hash Table](algo/hash-table/README.md)
   * [Rehashing](algo/hash-table/rehashing.md)
   * [Valid Anagram](algo/hash-table/valid-anagram.md)
