@@ -30,6 +30,7 @@ description: For counting duplicated submissions on both platforms
 | LRU Cache | [146](https://leetcode.com/problems/lru-cache/) | [134](linked-list/lru-cache.md)✅ |
 | Validate Binary Search Tree | [98](binary-tree/3.-binary-search-tree/validate-binary-search-tree.md)✅ | [95](https://www.lintcode.com/problem/95/) |
 | Trim a Binary Search Tree | [699](https://leetcode.com/problems/trim-a-binary-search-tree/) | [701](binary-tree/3.-binary-search-tree/trim-a-binary-search-tree.md)✅ |
+| Implement Stack by Two Queues | [225](https://leetcode.com/problems/implement-stack-using-queues/) | [546](queue-and-stack/implement-stack-by-two-queues.md)✅ |
 
 
 
