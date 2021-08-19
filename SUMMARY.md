@@ -131,6 +131,7 @@
   * [Evaluate Reverse Polish Notation](algo/queue-and-stack/evaluate-reverse-polish-notation.md)
   * [Implement Queue by Linked List II](algo/queue-and-stack/implement-queue-by-linked-list-ii.md)
   * [Basic Calculator II](algo/queue-and-stack/basic-calculator-ii.md)
+  * [Moving Average from Data Stream](algo/queue-and-stack/moving-average-from-data-stream.md)
 * [Hash Table](algo/hash-table/README.md)
   * [Rehashing](algo/hash-table/rehashing.md)
   * [Valid Anagram](algo/hash-table/valid-anagram.md)
