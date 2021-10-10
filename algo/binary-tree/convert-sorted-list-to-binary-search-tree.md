@@ -1,12 +1,11 @@
 ---
-description: 'ID: 109; medium'
+description: ID: 109; medium
 ---
-
 # Convert Sorted List to Binary Search Tree
 
 {% embed url="https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -62,7 +61,7 @@ class Solution {
 * Time complexity: `O(n)`
 * Space complexity: `O(n)`
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -114,7 +113,6 @@ class Solution {
 
 ### Notes
 
-* Using the same idea, we find the middle node of the linked list. It is important to note that we find the previous node of the middle node first \(`slow` when the while loop ends\). The reasons is that we need to cut the connection between the previous node and the middle node.
+* Using the same idea, we find the middle node of the linked list. It is important to note that we find the previous node of the middle node first (`slow` when the while loop ends). The reasons is that we need to cut the connection between the previous node and the middle node.
 * Time complexity: `O(n)`
 * Space complexity: `O(1)`
-

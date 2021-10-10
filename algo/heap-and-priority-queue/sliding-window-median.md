@@ -1,12 +1,11 @@
 ---
-description: 'ID: 360; hard'
+description: ID: 360; hard
 ---
-
 # Sliding Window Median
 
 {% embed url="https://www.lintcode.com/problem/360/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -65,4 +64,3 @@ public class Solution {
 
 * Similar to [Find Median from Data Stream](find-median-from-data-stream.md), we used a minHeap and a maxHeap to maintain the window.
 * One more operation needed is to remove the previous number that is outside the current window.
-

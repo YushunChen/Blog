@@ -1,12 +1,11 @@
 ---
-description: 'ID: 458; easy; 目标最后位置'
+description: ID: 458; easy; 目标最后位置
 ---
-
 # Last Position of Target
 
 {% embed url="https://www.lintcode.com/problem/458/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -42,4 +41,3 @@ public class Solution {
 ### Notes
 
 * This is almost the same as finding the [first position of target](first-position-of-target.md). We return right if possible at the end to ensure that it is the last position of target.
-

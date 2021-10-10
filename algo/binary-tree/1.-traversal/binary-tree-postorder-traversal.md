@@ -1,14 +1,13 @@
 ---
-description: 'ID: 145; easy'
+description: ID: 145; easy
 ---
-
 # Binary Tree Postorder Traversal
 
 {% embed url="https://leetcode.com/problems/binary-tree-postorder-traversal/" %}
 
 {% embed url="https://www.lintcode.com/problem/68/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 /**
@@ -34,7 +33,7 @@ func postorderHelper(root *TreeNode, res *[]int) {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -74,7 +73,7 @@ public class Solution {
 
 * Recursion / Divide and conquer 
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 /**
@@ -132,4 +131,3 @@ public class Solution {
 ### Notes
 
 * Traversal
-

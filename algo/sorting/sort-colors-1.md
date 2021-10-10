@@ -1,14 +1,13 @@
 ---
-description: 'ID: 75; medium'
+description: ID: 75; medium
 ---
-
 # Sort Colors
 
 {% embed url="https://leetcode.com/problems/sort-colors/" %}
 
 {% embed url="https://www.lintcode.com/problem/148/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 func sortColors(nums []int)  {
@@ -29,7 +28,7 @@ func sortColors(nums []int)  {
 }
 ```
 
-## Solution 2 \(Go\)
+## Solution 2 (Go)
 
 ```go
 func sortColors(nums []int)  {
@@ -57,7 +56,7 @@ func sortColors(nums []int)  {
 
 `[k ,len(nums))`: the interval containing all 2's
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 public class Solution {
@@ -94,7 +93,7 @@ public class Solution {
 
 * **Quick sort**
 
-## Solution 4 \(Java\)
+## Solution 4 (Java)
 
 ```java
 public class Solution {
@@ -112,7 +111,7 @@ public class Solution {
 
 * Not really a "solution"...
 
-## Solution 5 \(Java\)
+## Solution 5 (Java)
 
 ```java
 public class Solution {
@@ -152,4 +151,3 @@ public class Solution {
 ### Notes
 
 * Same as [Solution 2](sort-colors-1.md#solution-2-go) but in Java.
-

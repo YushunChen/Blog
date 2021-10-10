@@ -1,12 +1,11 @@
 ---
-description: 'ID: 628; easy'
+description: ID: 628; easy
 ---
-
 # Maximum Subtree
 
 {% embed url="https://www.lintcode.com/problem/628/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -54,4 +53,3 @@ public class Solution {
 ### Notes
 
 * Almost the same as [Minimum Subtree](minimum-subtree.md).
-

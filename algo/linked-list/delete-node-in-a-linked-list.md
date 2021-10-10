@@ -1,7 +1,6 @@
 ---
-description: 'ID: 237; easy'
+description: ID: 237; easy
 ---
-
 # Delete Node in a Linked List
 
 {% embed url="https://leetcode.com/problems/delete-node-in-a-linked-list/" %}
@@ -45,6 +44,4 @@ func deleteNode(node *ListNode) {
     runner.Next = nil
 }
 ```
-
-
 

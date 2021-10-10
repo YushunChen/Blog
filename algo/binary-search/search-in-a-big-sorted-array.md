@@ -1,12 +1,11 @@
 ---
-description: 'ID: 447; medium; 在大数组中查找'
+description: ID: 447; medium; 在大数组中查找
 ---
-
 # Search in a Big Sorted Array
 
 {% embed url="https://www.lintcode.com/problem/447/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -42,4 +41,3 @@ public class Solution {
 
 * We do not know the upper bound of the range, so we double `right` starting from 1 until the element at right is larger than the `target`. Thus, we have a valid range containing a `target`.
 * We cannot return `mid` immediately if we found a `target` because the problem requires the first position of the `target`.
-

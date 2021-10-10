@@ -1,12 +1,11 @@
 ---
-description: 'ID: 1353; medium; 根节点到叶节点求和'
+description: ID: 1353; medium; 根节点到叶节点求和
 ---
-
 # Sum Root to Leaf Numbers
 
 {% embed url="https://www.lintcode.com/problem/1353/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -47,7 +46,7 @@ public class Solution {
 
 * Divide and conquer
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -93,4 +92,3 @@ public class Solution {
 ### Notes
 
 * Traversal
-

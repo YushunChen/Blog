@@ -1,12 +1,11 @@
 ---
-description: 'ID: 1288; medium;'
+description: ID: 1288; medium;
 ---
-
 # Reconstruct Itinerary
 
 {% embed url="https://www.lintcode.com/problem/1288/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -45,4 +44,3 @@ public class Solution {
 ### Notes
 
 * Hierholzer's algorithm
-

@@ -1,12 +1,11 @@
 ---
-description: 'ID: 463; naive'
+description: ID: 463; naive
 ---
-
 # Sort Integers
 
 {% embed url="https://www.lintcode.com/problem/463/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -35,7 +34,7 @@ public class Solution {
 * **Selection sort**
 * Each time, find the minimum number and swap it with the first number of the unsorted list.
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class Solution {
@@ -62,7 +61,7 @@ public class Solution {
 * **Insertion sort**
 * This is similar to playing card and sorting them. If the current number is larger than its previous number, we make space and move it to a proper position to the left.
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 public class Solution {
@@ -91,4 +90,3 @@ public class Solution {
 
 * Bubble sort
 * We look at the numbers in pairs. If there is an inversion in the pair, we swap the two numbers. We keep swapping until we cannot swap.
-

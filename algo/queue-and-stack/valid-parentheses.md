@@ -1,14 +1,13 @@
 ---
-description: 'ID: 20; easy'
+description: ID: 20; easy
 ---
-
 # Valid Parentheses
 
 {% embed url="https://leetcode.com/problems/valid-parentheses/" %}
 
 {% embed url="https://www.lintcode.com/problem/423/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 func isValid(s string) bool {
@@ -28,7 +27,7 @@ func isValid(s string) bool {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```go
 public class Solution {
@@ -59,4 +58,3 @@ public class Solution {
     }
 }
 ```
-

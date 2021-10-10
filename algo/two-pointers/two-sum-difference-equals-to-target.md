@@ -1,12 +1,11 @@
 ---
-description: 'ID: 610; medium'
+description: ID: 610; medium
 ---
-
 # Two Sum - Difference equals to target
 
 {% embed url="https://www.lintcode.com/problem/610/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -45,7 +44,7 @@ public class Solution {
 * Time complexity: `O(n)`
 * Space complexity: `O(1)`
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class Solution {
@@ -78,4 +77,3 @@ public class Solution {
 * This solution is also the two pointers method, but we move the j pointer. We make sure that j is always larger than i, so we do not need to check for the increasing order in the final answer.
 * Time complexity: `O(n)`
 * Space complexity: `O(1)`
-

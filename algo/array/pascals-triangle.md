@@ -1,7 +1,6 @@
 ---
-description: 'ID: 118; easy'
+description: ID: 118; easy
 ---
-
 # Pascal's Triangle
 
 {% embed url="https://leetcode.com/problems/pascals-triangle/" %}
@@ -32,6 +31,4 @@ func generate(numRows int) [][]int {
     return res
 }
 ```
-
-
 

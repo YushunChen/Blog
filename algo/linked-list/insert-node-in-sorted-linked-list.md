@@ -1,12 +1,11 @@
 ---
-description: 'ID: 219; easy; 在排序链表中插入一个节点'
+description: ID: 219; easy; 在排序链表中插入一个节点
 ---
-
 # Insert Node in Sorted Linked List
 
 {% embed url="https://www.lintcode.com/problem/219/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -48,4 +47,3 @@ public class Solution {
 ### Notes
 
 * Find the first node in the list after which the new node should be inserted.
-

@@ -1,14 +1,13 @@
 ---
-description: 'ID: 151; medium'
+description: ID: 151; medium
 ---
-
 # Reverse Words in a String
 
 {% embed url="https://leetcode.com/problems/reverse-words-in-a-string/" %}
 
 {% embed url="https://www.lintcode.com/problem/53/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 class Solution {
@@ -24,7 +23,7 @@ class Solution {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 class Solution {
@@ -49,4 +48,3 @@ class Solution {
     }
 }
 ```
-

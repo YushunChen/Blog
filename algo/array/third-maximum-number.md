@@ -1,7 +1,6 @@
 ---
-description: 'ID: 414; easy'
+description: ID: 414; easy
 ---
-
 # Third Maximum Number
 
 {% embed url="https://leetcode.com/problems/third-maximum-number/" %}
@@ -31,4 +30,3 @@ func thirdMax(nums []int) int {
     return thirdMax
 }
 ```
-

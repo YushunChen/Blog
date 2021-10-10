@@ -1,12 +1,11 @@
 ---
-description: 'ID: 495; easy'
+description: ID: 495; easy
 ---
-
 # Implement Stack
 
 {% embed url="https://www.lintcode.com/problem/495/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Stack {
@@ -49,4 +48,3 @@ public class Stack {
     }
 }
 ```
-

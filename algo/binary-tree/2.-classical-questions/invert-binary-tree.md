@@ -1,14 +1,13 @@
 ---
-description: 'ID: 226; easy'
+description: ID: 226; easy
 ---
-
 # Invert Binary Tree
 
 {% embed url="https://leetcode.com/problems/invert-binary-tree/" %}
 
 {% embed url="https://www.lintcode.com/problem/175/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 /**
@@ -30,7 +29,7 @@ func invertTree(root *TreeNode) *TreeNode {
 }
 ```
 
-##  Solution 2 \(Java\) <a id="solution-1-java"></a>
+##  Solution 2 (Java) <a href="solution-1-java" id="solution-1-java"></a>
 
 ```java
 /**
@@ -67,7 +66,7 @@ public class Solution {
 
 * Recursion
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 /**
@@ -110,4 +109,3 @@ public class Solution {
 ### Notes
 
 * BFS
-

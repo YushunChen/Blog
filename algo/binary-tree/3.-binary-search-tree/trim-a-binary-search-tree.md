@@ -1,14 +1,13 @@
 ---
-description: 'ID: 701; medium; 修剪二叉搜索树'
+description: ID: 701; medium; 修剪二叉搜索树
 ---
-
 # Trim a Binary Search Tree
 
 {% embed url="https://www.lintcode.com/problem/701/" %}
 
 {% embed url="https://leetcode.com/problems/trim-a-binary-search-tree/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -45,4 +44,3 @@ public class Solution {
     }
 }
 ```
-

@@ -1,14 +1,13 @@
 ---
-description: 'ID: 242; easy'
+description: ID: 242; easy
 ---
-
 # Valid Anagram
 
 {% embed url="https://leetcode.com/problems/valid-anagram/" %}
 
 {% embed url="https://www.lintcode.com/problem/158/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 class Solution {
@@ -29,4 +28,3 @@ class Solution {
     }
 }
 ```
-

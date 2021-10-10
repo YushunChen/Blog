@@ -1,7 +1,6 @@
 ---
-description: 'ID: 13; easy'
+description: ID: 13; easy
 ---
-
 # Roman to Integer
 
 {% embed url="https://leetcode.com/problems/roman-to-integer/" %}
@@ -34,4 +33,3 @@ func romanToInt(s string) int {
     return result
 }
 ```
-

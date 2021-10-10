@@ -1,12 +1,11 @@
 ---
-description: 'ID: 474; easy'
+description: ID: 474; easy
 ---
-
 # Lowest Common Ancestor II
 
 {% embed url="https://www.lintcode.com/problem/474/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -65,4 +64,3 @@ public class Solution {
 
 * This solution is straight-forward. We first find the path of the `A` and `B` nodes by retracing from their parent nodes.
 * We compare these two paths from the last elements. The last element that the two paths share is the least common ancestor of `A` and `B`.
-

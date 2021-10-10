@@ -1,12 +1,11 @@
 ---
-description: 'ID: 28; easy; 搜索二维矩阵'
+description: ID: 28; easy; 搜索二维矩阵
 ---
-
 # Search a 2D Matrix
 
 {% embed url="https://www.lintcode.com/problem/28/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -41,4 +40,3 @@ public class Solution {
     }
 }
 ```
-

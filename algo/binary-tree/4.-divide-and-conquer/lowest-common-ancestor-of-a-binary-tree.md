@@ -1,12 +1,11 @@
 ---
-description: 'ID: 88; medium'
+description: ID: 88; medium
 ---
-
 # Lowest Common Ancestor of a Binary Tree
 
 {% embed url="https://www.lintcode.com/problem/88/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -57,6 +56,4 @@ There are 4 general cases.
 2. If `A` and `B` are on the different sides of the `root`, then the `root` of the LCA.
 3. If `A` and `B` are both in the left tree, then we find the LCA of the left tree.
 4. If `A` and `B` are both in the right tree, then we find the LCA of the right tree.
-
-
 

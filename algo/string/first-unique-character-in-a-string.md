@@ -1,12 +1,11 @@
 ---
-description: 'ID: 209; easy'
+description: ID: 209; easy
 ---
-
 # First Unique Character in a String
 
 {% embed url="https://www.lintcode.com/problem/209/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -29,4 +28,3 @@ public class Solution {
     }
 }
 ```
-

@@ -1,12 +1,11 @@
 ---
-description: 'ID: 560; easy'
+description: ID: 560; easy
 ---
-
 # Friendship Service
 
 {% embed url="https://www.lintcode.com/problem/560/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class FriendshipService {
@@ -71,5 +70,4 @@ public class FriendshipService {
 ### Notes
 
 * Notice here we used `TreeSet` to make sure the get methods return **sorted** and **unique** results.
-* In line 16 and 27, we created an ArrayList from a TreeSet \([Initialization using another Collection](https://www.geeksforgeeks.org/initialize-an-arraylist-in-java/)\).
-
+* In line 16 and 27, we created an ArrayList from a TreeSet ([Initialization using another Collection](https://www.geeksforgeeks.org/initialize-an-arraylist-in-java/)).

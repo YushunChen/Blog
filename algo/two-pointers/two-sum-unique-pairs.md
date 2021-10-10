@@ -1,12 +1,11 @@
 ---
-description: 'ID: 587; medium'
+description: ID: 587; medium
 ---
-
 # Two Sum - Unique pairs
 
 {% embed url="https://www.lintcode.com/problem/587/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -36,4 +35,3 @@ public class Solution {
     }
 }
 ```
-

@@ -1,7 +1,6 @@
 ---
 description: On Windows
 ---
-
 # Setup
 
 ## Download
@@ -13,4 +12,3 @@ description: On Windows
 ```bash
 go version
 ```
-

@@ -1,12 +1,11 @@
 ---
-description: 'ID: 604; easy'
+description: ID: 604; easy
 ---
-
 # Window Sum
 
 {% embed url="https://www.lintcode.com/problem/604/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -33,7 +32,7 @@ public class Solution {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class Solution {
@@ -61,4 +60,3 @@ public class Solution {
 
 * A better refactored version than [Solution 1](window-sum.md#solution-1-java). 
 * Both solutions have the idea of **memoization** in mind.
-

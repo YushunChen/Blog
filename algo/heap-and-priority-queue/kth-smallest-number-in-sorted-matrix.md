@@ -1,12 +1,11 @@
 ---
-description: 'ID: 401; medium'
+description: ID: 401; medium
 ---
-
 # Kth Smallest Number in Sorted Matrix
 
 {% embed url="https://www.lintcode.com/problem/401/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -60,7 +59,7 @@ public class Solution {
 * It is also important to keep track of which numbers are already visited, just like what is down in graph traversal problems;
 * Time complexity: `O(klogn)`
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class Solution {
@@ -120,4 +119,3 @@ public class Solution {
 ### Notes
 
 * Using the sorted property, it is natural to think about **binary search**. 
-

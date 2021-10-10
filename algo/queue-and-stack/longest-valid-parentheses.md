@@ -1,12 +1,11 @@
 ---
-description: 'ID: 193; medium'
+description: ID: 193; medium
 ---
-
 # Longest Valid Parentheses
 
 {% embed url="https://www.lintcode.com/problem/193" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -41,4 +40,3 @@ public class Solution {
     }
 }
 ```
-

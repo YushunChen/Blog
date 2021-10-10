@@ -1,14 +1,13 @@
 ---
-description: 'ID: 26: Easy'
+description: ID: 26: Easy
 ---
-
 # Remove Duplicates from Sorted Array
 
 {% embed url="https://leetcode.com/problems/remove-duplicates-from-sorted-array/" %}
 
 {% embed url="https://www.lintcode.com/problem/100/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 func removeDuplicates(nums []int) int {
@@ -23,7 +22,7 @@ func removeDuplicates(nums []int) int {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```go
 public class Solution {
@@ -50,4 +49,3 @@ public class Solution {
 
 * `i` is the writing pointer and `j` is the reading pointer.
 * We only change the array in place if the reading pointer encounter some number that is different from the writing pointer.
-

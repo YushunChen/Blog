@@ -1,12 +1,11 @@
 ---
-description: 'ID: 475; medium'
+description: ID: 475; medium
 ---
-
 # Binary Tree Maximum Path Sum II
 
 {% embed url="https://www.lintcode.com/problem/475/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -38,7 +37,7 @@ public class Solution {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -92,4 +91,3 @@ public class Solution {
 ### Notes
 
 * Non-recursive version using a queue.
-

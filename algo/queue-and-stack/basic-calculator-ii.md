@@ -1,12 +1,11 @@
 ---
-description: 'ID: 980; medium'
+description: ID: 980; medium
 ---
-
 # Basic Calculator II
 
 {% embed url="https://www.lintcode.com/problem/980/description" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -46,4 +45,3 @@ public class Solution {
 // "3+22" num = 2, op = +; c = '2'
 // stack: [3, 22]
 ```
-

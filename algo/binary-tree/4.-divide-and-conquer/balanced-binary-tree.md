@@ -1,14 +1,13 @@
 ---
-description: 'ID: 110; easy'
+description: ID: 110; easy
 ---
-
 # Balanced Binary Tree
 
 {% embed url="https://leetcode.com/problems/balanced-binary-tree/" %}
 
 {% embed url="https://www.lintcode.com/problem/93/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 /**
@@ -54,7 +53,7 @@ func abs(x int) int {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -97,7 +96,7 @@ public class Solution {
 }
 ```
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 /**
@@ -142,4 +141,3 @@ public class Solution {
 
 * The refactored version of [Solution 2](balanced-binary-tree.md#solution-2-java).
 * Solution 2 should be easier to follow and understand.
-

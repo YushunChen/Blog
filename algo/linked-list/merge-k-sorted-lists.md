@@ -1,12 +1,11 @@
 ---
-description: 'ID: 104; medium; 合并k个排序链表算法'
+description: ID: 104; medium; 合并k个排序链表算法
 ---
-
 # Merge K Sorted Lists
 
 {% embed url="https://www.lintcode.com/problem/104/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -68,7 +67,7 @@ public class Solution {
 * This solution uses **divide and conquer**.
 * Let `k` be the number of lists and `n` be the number of nodes in a list on average, then the time complexity is `O(nk * log(k))`. Also, the recursion uses the stack space, which is `O(n)`.
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -122,7 +121,7 @@ public class Solution {
 
 * This solution uses a **minimum heap** with the size of the lists. Each time, we grab a node from each list and add the smallest one to the linked list by the property of the min heap.
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 /**
@@ -187,4 +186,3 @@ public class Solution {
 
 * This solution is straightforward. We simply merge the lists two by two, which is similar to a playoffs elimination table.
 * Be careful if the number of lists is odd.
-

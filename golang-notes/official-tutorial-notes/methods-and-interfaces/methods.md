@@ -2,9 +2,9 @@
 
 There are no classes in Go. But, we can define methods on types.
 
-A method is a function with special **receiver** argument. The receiver appears in its own argument list between the `func` keyword and the method name.
+A method is a function with special **receiver **argument. The receiver appears in its own argument list between the `func` keyword and the method name.
 
-### Example \(Method\)
+### Example (Method)
 
 ```go
 package main
@@ -36,7 +36,7 @@ func main() {
 Note that methods are still functions, just with a receiver argument.
 {% endhint %}
 
-### Example \(Regular Function\)
+### Example (Regular Function)
 
 ```go
 package main
@@ -73,7 +73,7 @@ We can declare a method on non-struct types, too.
 
 In this example we see a numeric type `MyFloat` with an `Abs` method.
 
-You can only declare a method with a receiver whose type is defined in the **same package** as the method. You cannot declare a method with a receiver whose type is defined in another package \(which includes the built-in types such as `int`\).
+You can only declare a method with a receiver whose type is defined in the **same package** as the method. You cannot declare a method with a receiver whose type is defined in another package (which includes the built-in types such as `int`).
 
 ```go
 package main
@@ -108,9 +108,9 @@ Here we see a numeric type `MyFloat` with an `Abs` method.
 
 ## Pointer Receivers
 
-We can declare methods with pointer receivers. The receiver type has `*T` for some type `T` \(Note that `T` cannot be a pointer itself, say `*int`\)
+We can declare methods with pointer receivers. The receiver type has `*T` for some type `T` (Note that `T` cannot be a pointer itself, say `*int`)
 
-### Example 1 \(Pointer Receiver\)
+### Example 1 (Pointer Receiver)
 
 ```go
 package main
@@ -144,9 +144,9 @@ func main() {
 50
 ```
 
-Methods with pointer receivers can modify the value to which the receiver points \(as `Scale` does here\). Since methods often need to modify their receiver, pointer receivers are more common than value receivers.
+Methods with pointer receivers can modify the value to which the receiver points (as `Scale` does here). Since methods often need to modify their receiver, pointer receivers are more common than value receivers.
 
-### Example 2 \(Value Receiver\)
+### Example 2 (Value Receiver)
 
 ```go
 package main
@@ -181,12 +181,12 @@ func main() {
 ```
 
 {% hint style="info" %}
-We only removed the `*` from the function declaration of `scale`. Notice we do not need to change `v.Scale(10)` on line 23 to `(&v).Scale(10)`. Keep reading :\)
+We only removed the `*` from the function declaration of `scale`. Notice we do not need to change `v.Scale(10)` on line 23 to `(&v).Scale(10)`. Keep reading :)
 {% endhint %}
 
-Now, with a value receiver, the original `Vertex` value is not changed.  This is because the `Scale` method operates on a **copy** of the original `Vertex` value. \(This is the same behavior as for any other function argument.\) The `Scale` method must have a pointer receiver to change the `Vertex` value declared in the `main` function.
+Now, with a value receiver, the original `Vertex` value is not changed.  This is because the `Scale` method operates on a **copy **of the original `Vertex` value. (This is the same behavior as for any other function argument.) The `Scale` method must have a pointer receiver to change the `Vertex` value declared in the `main` function.
 
-### Example 3 \(Function Version\)
+### Example 3 (Function Version)
 
 ```go
 package main
@@ -220,7 +220,7 @@ func main() {
 50
 ```
 
-Here are the  `Abs` and `Scale` methods rewritten as functions. If we change this to passing by value \(instead of reference\) by just removing the `*` from line 16, the code would not compile:
+Here are the  `Abs` and `Scale` methods rewritten as functions. If we change this to passing by value (instead of reference) by just removing the `*` from line 16, the code would not compile:
 
 ```bash
 ./prog.go:23:8: cannot use &v (type *Vertex) as type Vertex in argument to Scale
@@ -274,7 +274,7 @@ func main() {
 {60 80} &{96 72}
 ```
 
-In this example, for the **function** version, the function with a pointer argument must take a pointer.
+In this example, for the **function **version, the function with a pointer argument must take a pointer.
 
 ```go
 var v Vertex
@@ -282,7 +282,7 @@ ScaleFunc(v, 5)    // Compile error as we saw in Example 3
 ScaleFunc(&v, 5)   // OK
 ```
 
-However, for the **method** version, the method with pointer receivers take either a value of a pointer as the receiver when they are called:
+However, for the **method **version, the method with pointer receivers take either a value of a pointer as the receiver when they are called:
 
 ```go
 var v Vertex
@@ -338,7 +338,7 @@ func main() {
 5
 ```
 
-For **functions** that take a value argument, they must take a value of that specific type.
+For **functions **that take a value argument, they must take a value of that specific type.
 
 ```go
 var v Vertex
@@ -367,6 +367,5 @@ Two main reasons:
 * To avoid copying the values on each method call. For example, if the receiver is a large struct, this can be efficient.
 
 {% hint style="info" %}
-In general, all methods on a given type should have either value or pointer receivers, but not a mixture of both. \(introduced later\)
+In general, all methods on a given type should have either value or pointer receivers, but not a mixture of both. (introduced later)
 {% endhint %}
-

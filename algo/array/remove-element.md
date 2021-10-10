@@ -1,7 +1,6 @@
 ---
-description: 'ID: 27; Easy'
+description: ID: 27; Easy
 ---
-
 # Remove Element
 
 {% embed url="https://leetcode.com/problems/remove-element/" %}
@@ -35,4 +34,3 @@ func removeElement(nums []int, val int) int {
     return i
 }
 ```
-

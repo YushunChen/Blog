@@ -1,12 +1,11 @@
 ---
-description: 'ID: 937; medium; 可以完成的题目数量'
+description: ID: 937; medium; 可以完成的题目数量
 ---
-
 # How Many Problem Can I Accept
 
 {% embed url="https://www.lintcode.com/problem/937/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -51,4 +50,3 @@ x < \sqrt{x^2+x} \leq \sqrt{\frac{2n}{k}}
 $$
 
 The search range is `[0, sqrt(2n/k)]`. Normally, we would set `right` to be `n`, but here it would exceed the time limit since `n` is long.
-

@@ -1,12 +1,11 @@
 ---
-description: 'ID: 546; easy'
+description: ID: 546; easy
 ---
-
 # Implement Queue by Interface
 
 {% embed url="https://www.lintcode.com/problem/546/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 interface InterfaceQueue {
@@ -86,4 +85,3 @@ public class MyQueue implements InterfaceQueue {
  * queue.pop(); will return 123 and pop the first element in the queue
  */
 ```
-

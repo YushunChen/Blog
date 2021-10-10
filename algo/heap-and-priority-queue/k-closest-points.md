@@ -1,12 +1,11 @@
 ---
-description: 'ID: 612; medium; *'
+description: ID: 612; medium; *
 ---
-
 # K Closest Points
 
 {% embed url="https://www.lintcode.com/problem/612/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -64,7 +63,7 @@ public class Solution {
 * This is the **min heap** solution. The thought process is the most straight-forward.
 * Time complexity: `O(nlogn + klogn) = O(nlogn)`
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -123,7 +122,7 @@ public class Solution {
   * Heap is priority queue in Java and we customize the ordering by overriding the `Comparator`. We iterate the whole `points` array and add each point to the priority queue. However, the priority queue only stores the top k closest points, as supposed to the min heap, which essentially sorts the points by their distance to the origin. 
   * Thus, the offer and poll methods actually take `O(logk)` time in this solution because the size of the heap is k.
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 /**
@@ -205,4 +204,3 @@ public class Solution {
 * Time complexity: `O(n + klogk)`, which means this is the best solution so far. 
 * For the `quickSelect` method, it is important to know that it is finding the kth closest point. After it is done, we have `points[0, ..., k - 1]` being the top k closest points. However, it is only guaranteed that `points[k - 1]` is the kth closest point, while the remaining `points[0, ..., k - 2]` is not necessarily sorted. Thus, we eventually use `Arrays.sort()` to sort these remaining points.
 * Although this solution gives the best time complexity, it requires us to know `quickSelect` very well. Moreover, using proper data structures is also important, so the max heap version is already a valid and efficient solution.
-

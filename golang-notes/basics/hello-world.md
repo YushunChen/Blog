@@ -19,4 +19,3 @@ func main() {
 ```bash
 $ go run hello_world.go
 ```
-

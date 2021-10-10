@@ -1,14 +1,13 @@
 ---
-description: 'ID: 167; easy'
+description: ID: 167; easy
 ---
-
 # Two Sum II - Input array is sorted
 
 {% embed url="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/" %}
 
 {% embed url="https://www.lintcode.com/problem/608/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 func twoSum(numbers []int, target int) []int {
@@ -25,7 +24,7 @@ func twoSum(numbers []int, target int) []int {
 }
 ```
 
-## Solution 2 \(Go\)
+## Solution 2 (Go)
 
 ```go
 func twoSum(numbers []int, target int) []int {
@@ -41,7 +40,7 @@ func twoSum(numbers []int, target int) []int {
 }
 ```
 
-## Solution 3 \(Go\)
+## Solution 3 (Go)
 
 ```go
 func twoSum(numbers []int, target int) []int {
@@ -61,7 +60,7 @@ func twoSum(numbers []int, target int) []int {
 }
 ```
 
-## Solution 4 \(Java\)
+## Solution 4 (Java)
 
 ```java
 public class Solution {
@@ -90,4 +89,3 @@ public class Solution {
 ### Notes
 
 * Here we sufficiently use the condition that the array is sorted.
-

@@ -1,12 +1,11 @@
 ---
-description: 'ID: 846; easy'
+description: ID: 846; easy
 ---
-
 # Multi-keyword Sort
 
 {% embed url="https://www.lintcode.com/problem/846/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -35,4 +34,3 @@ public class Solution {
     }
 }
 ```
-

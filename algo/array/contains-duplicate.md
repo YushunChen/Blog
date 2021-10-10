@@ -1,7 +1,6 @@
 ---
-description: 'ID: 217; easy'
+description: ID: 217; easy
 ---
-
 # Contains Duplicate
 
 {% embed url="https://leetcode.com/problems/contains-duplicate/" %}
@@ -39,4 +38,3 @@ func containsDuplicate(nums []int) bool {
 {% hint style="info" %}
 Booleans take less space
 {% endhint %}
-

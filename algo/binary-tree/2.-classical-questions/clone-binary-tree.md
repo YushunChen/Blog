@@ -1,12 +1,11 @@
 ---
-description: 'ID: 375; medium; 克隆二叉树'
+description: ID: 375; medium; 克隆二叉树
 ---
-
 # Clone Binary Tree
 
 {% embed url="https://www.lintcode.com/problem/375/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -35,4 +34,3 @@ public class Solution {
     }
 }
 ```
-

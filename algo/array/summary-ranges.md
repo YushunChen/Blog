@@ -1,7 +1,6 @@
 ---
-description: 'ID: 228; easy'
+description: ID: 228; easy
 ---
-
 # Summary Ranges
 
 {% embed url="https://leetcode.com/problems/summary-ranges/" %}
@@ -70,4 +69,3 @@ func summaryRanges(nums []int) []string {
     return res
 }
 ```
-

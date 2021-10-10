@@ -1,12 +1,11 @@
 ---
-description: 'ID: 230; medium'
+description: ID: 230; medium
 ---
-
 # Kth Smallest Element in a BST
 
 {% embed url="https://leetcode.com/problems/kth-smallest-element-in-a-bst/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -56,4 +55,3 @@ class Solution {
 ### Notes
 
 * This solution is similar to [Binary Search Tree Iterator](3.-binary-search-tree/binary-search-tree-iterator.md).
-

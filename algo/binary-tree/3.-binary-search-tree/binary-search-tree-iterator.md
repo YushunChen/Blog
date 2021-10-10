@@ -1,12 +1,11 @@
 ---
-description: 'ID: 86; hard; 二叉查找树迭代器'
+description: ID: 86; hard; 二叉查找树迭代器
 ---
-
 # Binary Search Tree Iterator
 
 {% embed url="https://www.lintcode.com/problem/86/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -73,4 +72,3 @@ public class BSTIterator {
 * Use stack to store all the left children. 
 * If the stack is empty, then there is no next node.
 * The top of the stack is the current node. In terms of the tree structure, the next node of the current node is its right child.
-

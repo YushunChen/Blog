@@ -1,12 +1,11 @@
 ---
-description: 'ID: 578; medium'
+description: ID: 578; medium
 ---
-
 # Lowest Common Ancestor III
 
 {% embed url="https://www.lintcode.com/problem/578/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -67,4 +66,3 @@ public class Solution {
 
 * We use the `Result` class to keep track of the status of `A` and `B` in the tree.
 * If `a` and `b` are both `true`, which means the current `root` is already is LCA, then we set `res` only when it is null. This if statement is `true` for the LCA and its ancestors, but we are guaranteed to have the LCA. The reason is that we are doing a DFS and the LCA appears first. Once we set `res` to the LCA, we do not update it and do not care about its ancestors.
-

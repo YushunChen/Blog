@@ -1,12 +1,11 @@
 ---
-description: 'ID: 938; easy'
+description: ID: 938; easy
 ---
-
 # Range Sum of BST
 
 {% embed url="https://leetcode.com/problems/range-sum-of-bst/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -46,5 +45,4 @@ class Solution {
 ### Notes
 
 * We utilize the condition that the tree is a BST. Note that you can use a normal traversal to traverse all the nodes, but it is not necessary to visit some nodes.
-* If `root.val` is already less than or equal to `low` \(less than `high` of course\), we only traverse its right subtree. If `root.val` is already larger than or equal to `high` \(more than `low`\), we only traverse its left subtree.
-
+* If `root.val` is already less than or equal to `low` (less than `high` of course), we only traverse its right subtree. If `root.val` is already larger than or equal to `high` (more than `low`), we only traverse its left subtree.

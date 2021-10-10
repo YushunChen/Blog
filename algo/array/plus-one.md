@@ -1,7 +1,6 @@
 ---
-description: 'ID: 66; Easy'
+description: ID: 66; Easy
 ---
-
 # Plus One
 
 {% embed url="https://leetcode.com/problems/plus-one/" %}
@@ -22,4 +21,3 @@ func plusOne(digits []int) []int {
     return digits
 }
 ```
-

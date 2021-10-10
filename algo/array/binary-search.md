@@ -1,7 +1,6 @@
 ---
-description: 'ID: 704; easy'
+description: ID: 704; easy
 ---
-
 # Binary Search
 
 {% embed url="https://leetcode.com/problems/binary-search/" %}
@@ -24,4 +23,3 @@ func search(nums []int, target int) int {
     return -1
 }
 ```
-

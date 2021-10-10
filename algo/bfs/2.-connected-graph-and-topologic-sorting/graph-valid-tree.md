@@ -1,12 +1,11 @@
 ---
-description: 'ID: 178; medium'
+description: ID: 178; medium
 ---
-
 # Graph Valid Tree
 
 {% embed url="https://www.lintcode.com/problem/178/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -58,4 +57,3 @@ public class Solution {
   * The number of nodes - the number of edges = 1
   * No cycle
   * Only one connected graph
-

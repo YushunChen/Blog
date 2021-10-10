@@ -1,14 +1,13 @@
 ---
-description: 'ID: 257; easy'
+description: ID: 257; easy
 ---
-
 # Binary Tree Paths
 
 {% embed url="https://leetcode.com/problems/binary-tree-paths/" %}
 
 {% embed url="https://www.lintcode.com/problem/480/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 /**
@@ -42,7 +41,7 @@ func binaryTreePaths(root *TreeNode) []string {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -85,7 +84,7 @@ public class Solution {
 
 * This solution computes paths as strings, which is shorter and perhaps more straightforward to understand.
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 /**
@@ -138,4 +137,3 @@ public class Solution {
 ### Notes
 
 * This solution computes paths as paths, which is a similar approach used in [Binary Tree Path Sum](binary-tree-path-sum.md).
-

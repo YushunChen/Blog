@@ -1,14 +1,13 @@
 ---
-description: 'ID: 494; easy'
+description: ID: 494; easy
 ---
-
 # Implement Stack by Two Queues
 
 {% embed url="https://www.lintcode.com/problem/494/" %}
 
 {% embed url="https://leetcode.com/problems/implement-stack-using-queues/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Stack {
@@ -75,7 +74,7 @@ public class Stack {
 
 * LintCode
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 class MyStack {
@@ -140,4 +139,3 @@ class MyStack {
 ### Notes
 
 * LeetCode
-

@@ -40,7 +40,7 @@ Go functions may be closures. A closure is a function value that references vari
 
 
 
-### Example 1 \(No Parameter\)
+### Example 1 (No Parameter)
 
 ```go
 package main
@@ -78,7 +78,7 @@ b:  1
 Notice here `a` and ~~`b`~~ have their own closure and each is bound to its own `x` variable
 {% endhint %}
 
-### Example 2 \(With Parameter\)
+### Example 2 (With Parameter)
 
 ```go
 package main
@@ -123,9 +123,9 @@ func main() {
 
 ### More About Closure
 
-{% embed url="https://dev.to/spindriftboi/function-literals-and-closure-in-go-2hgn\#:~:text=A%20Function%20Literal%20is%20a,literal%20and%20the%20surrounding%20function.&text=when%20this%20function%20is%20invoked,I%20am%20a%20function%20literal!" caption="Great article!" %}
-
-
+{% embed url="https://dev.to/spindriftboi/function-literals-and-closure-in-go-2hgn#:~:text=A%20Function%20Literal%20is%20a,literal%20and%20the%20surrounding%20function.&text=when%20this%20function%20is%20invoked,I%20am%20a%20function%20literal!" %}
+Great article!
+{% endembed %}
 
 
 

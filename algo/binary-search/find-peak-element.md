@@ -1,12 +1,11 @@
 ---
-description: 'ID: 75; medium; 寻找峰值'
+description: ID: 75; medium; 寻找峰值
 ---
-
 # Find Peak Element
 
 {% embed url="https://www.lintcode.com/problem/75/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -30,4 +29,3 @@ public class Solution {
     }
 }
 ```
-

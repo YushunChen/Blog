@@ -1,7 +1,6 @@
 ---
-description: 'ID: 783; easy'
+description: ID: 783; easy
 ---
-
 # Minimum Distance Between BST Nodes
 
 {% embed url="https://leetcode.com/problems/minimum-distance-between-bst-nodes/" %}
@@ -56,4 +55,3 @@ func abs(x int) int {
 {% hint style="info" %}
 Exactly the same as ID: 530.
 {% endhint %}
-

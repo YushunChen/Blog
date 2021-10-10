@@ -1,12 +1,11 @@
 ---
-description: 'ID: 24; medium'
+description: ID: 24; medium
 ---
-
 # Swap Nodes in Pairs
 
 {% embed url="https://leetcode.com/problems/swap-nodes-in-pairs/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -32,4 +31,3 @@ class Solution {
     }
 }
 ```
-

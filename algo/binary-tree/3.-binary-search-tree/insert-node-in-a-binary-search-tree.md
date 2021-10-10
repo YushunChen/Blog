@@ -1,12 +1,11 @@
 ---
-description: 'ID: 85; easy; 在二叉查找树中插入节点'
+description: ID: 85; easy; 在二叉查找树中插入节点
 ---
-
 # Insert Node in a Binary Search Tree
 
 {% embed url="https://www.lintcode.com/problem/85/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -40,4 +39,3 @@ public class Solution {
     }
 }
 ```
-

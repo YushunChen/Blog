@@ -1,12 +1,11 @@
 ---
-description: 'ID: 515; medium'
+description: ID: 515; medium
 ---
-
 # Find Largest Value in Each Tree Row
 
 {% embed url="https://leetcode.com/problems/find-largest-value-in-each-tree-row/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -54,7 +53,7 @@ class Solution {
 
 * BFS
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -96,4 +95,3 @@ class Solution {
 ### Notes
 
 * DFS
-

@@ -1,12 +1,11 @@
 ---
-description: 'ID: 437; medium'
+description: ID: 437; medium
 ---
-
 # Path Sum III
 
 {% embed url="https://leetcode.com/problems/path-sum-iii/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -51,4 +50,3 @@ class Solution {
 
 * `pathSum` returns the number of paths that have their sum equal to `targetSum` in the tree rooted at `root`. This include paths that starts at `root` and paths that do not start at `root`.
 * `findPath` return the number of paths that have their sum equal to `targetSum`, but the paths must start at `root`.
-

@@ -1,12 +1,11 @@
 ---
-description: 'ID: 600; hard; 包裹黑色像素点的最小矩形'
+description: ID: 600; hard; 包裹黑色像素点的最小矩形
 ---
-
 # Smallest Rectangle Enclosing Black Pixels
 
 {% embed url="https://www.lintcode.com/problem/600/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -109,4 +108,3 @@ public class Solution {
 ### Notes
 
 * We use binary search to find the left, right, top, and bottom boundaries of the black area. Specifically, we are trying to find 1's in these four directions and reduce the range if we cannot. 
-

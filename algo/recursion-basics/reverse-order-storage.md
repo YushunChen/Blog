@@ -1,12 +1,11 @@
 ---
-description: 'ID: 822; easy; 相反的顺序存储'
+description: ID: 822; easy; 相反的顺序存储
 ---
-
 # Reverse Order Storage
 
 {% embed url="https://www.lintcode.com/problem/822/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -39,4 +38,3 @@ public class Solution {
     }
 }
 ```
-

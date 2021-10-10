@@ -1,12 +1,11 @@
 ---
-description: 'ID: 662; easy; 猜数游戏'
+description: ID: 662; easy; 猜数游戏
 ---
-
 # Guess Number Higher or Lower
 
 {% embed url="https://www.lintcode.com/problem/662/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /* The guess API is defined in the parent class GuessGame.
@@ -43,4 +42,3 @@ public class Solution extends GuessGame {
 ### Notes
 
 * This is almost the same as [classical binary search](classical-binary-search.md).
-

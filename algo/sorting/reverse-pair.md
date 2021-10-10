@@ -1,12 +1,11 @@
 ---
-description: 'ID: 532; medium'
+description: ID: 532; medium
 ---
-
 # Reverse Pair
 
 {% embed url="https://www.lintcode.com/problem/532/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -51,4 +50,3 @@ public class Solution {
 ### Notes
 
 * We use **merge sort** in this solution, sorting while counting the inversions.
-

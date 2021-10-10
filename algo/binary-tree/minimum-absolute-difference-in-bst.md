@@ -1,7 +1,6 @@
 ---
-description: 'ID: 530; easy'
+description: ID: 530; easy
 ---
-
 # Minimum Absolute Difference in BST
 
 {% embed url="https://leetcode.com/problems/minimum-absolute-difference-in-bst/" %}
@@ -56,4 +55,3 @@ func abs(x int) int {
 {% hint style="info" %}
 Keep track of the previous node. Similar to an inorder traversal.
 {% endhint %}
-

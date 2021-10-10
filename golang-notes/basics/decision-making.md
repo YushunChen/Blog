@@ -1,17 +1,17 @@
 # Decision Making
 
-| STATEMENT | DESCRIPTION |
-| :--- | :--- |
-| if Statements | Block of statement executed only when specified test expression is true. |
-| if else Statements | When we want to execute some block of code if a condition is true and another block of code if a condition is false, In such a case we use if….else statement. |
-| nested If Statements | When there is an if statement inside another if statement then it is known as nested if else. |
-| switch Statement | A switch statement evaluates an expression against multiple cases in order to identify the block of code to be executed. |
+| STATEMENT            | DESCRIPTION                                                                                                                                                    |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| if Statements        | Block of statement executed only when specified test expression is true.                                                                                       |
+| if else Statements   | When we want to execute some block of code if a condition is true and another block of code if a condition is false, In such a case we use if….else statement. |
+| nested If Statements | When there is an if statement inside another if statement then it is known as nested if else.                                                                  |
+| switch Statement     | A switch statement evaluates an expression against multiple cases in order to identify the block of code to be executed.                                       |
 
 {% hint style="info" %}
 Above statements are standard as in many other languages, such as C and Java.
 {% endhint %}
 
-### 
+###
 
 ### If with short statement
 
@@ -37,9 +37,9 @@ func main() {
 3 is odd
 ```
 
-### 
+###
 
-### Switch Statement \(single cases\)
+### Switch Statement (single cases)
 
 ```go
 package main
@@ -73,9 +73,9 @@ func main() {
 Today is Friday.
 ```
 
-### 
+###
 
-### Switch Statement \(multiple cases\)
+### Switch Statement (multiple cases)
 
 ```go
 package main
@@ -101,7 +101,7 @@ func main() {
 It's a weekday.
 ```
 
-### 
+###
 
 ### Switch Statement - fallthrough
 
@@ -191,6 +191,4 @@ func main() {
 ```bash
 You got C :(
 ```
-
-
 

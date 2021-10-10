@@ -2,5 +2,4 @@
 
 ## Java Code For Related Data Structures
 
-![](../../.gitbook/assets/wechatimg142.png)
-
+![](../../.gitbook/assets/WechatIMG142.png)

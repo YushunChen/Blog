@@ -1,12 +1,11 @@
 ---
-description: 'ID: 61; medium'
+description: ID: 61; medium
 ---
-
 # Rotate List
 
 {% embed url="https://leetcode.com/problems/rotate-list/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -53,7 +52,7 @@ class Solution {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -95,4 +94,3 @@ class Solution {
     }
 }
 ```
-

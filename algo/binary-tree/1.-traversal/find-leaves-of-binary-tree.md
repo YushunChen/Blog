@@ -1,12 +1,11 @@
 ---
-description: 'ID: 650; medium; 二叉树叶子顺序遍历'
+description: ID: 650; medium; 二叉树叶子顺序遍历
 ---
-
 # Find Leaves of Binary Tree
 
 {% embed url="https://www.lintcode.com/problem/650/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -51,7 +50,6 @@ public class Solution {
 
 ### Notes
 
-* Use a `HashMap` to store the levels of the tree. The key is the level \(1 is the bottom level\) and the value of a list of node values.
+* Use a `HashMap` to store the levels of the tree. The key is the level (1 is the bottom level) and the value of a list of node values.
 * Use a similar mechanism in [Maximum Depth of Binary Tree](../2.-classical-questions/maximum-depth-of-binary-tree.md) and add a few operations to populate the map. 
 * Lastly, convert the values in the map to a result list and return.
-

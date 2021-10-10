@@ -1,12 +1,11 @@
 ---
-description: 'ID: 533; medium'
+description: ID: 533; medium
 ---
-
 # Two Sum - Closest to target
 
 {% embed url="https://www.lintcode.com/problem/533/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -42,4 +41,3 @@ public class Solution {
 * We sort the array first using the built-in method.
 * Then, we update the minimum difference when possible and we use the opposite two pointers to keep track of the difference. 
 * Make sure to add absolute value for `diff` as required by the problem.
-

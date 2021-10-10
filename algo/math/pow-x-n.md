@@ -1,8 +1,7 @@
 ---
-description: 'ID: 50; medium'
+description: ID: 50; medium
 ---
-
-# Pow\(x, n\)
+# Pow(x, n)
 
 {% embed url="https://leetcode.com/problems/powx-n/" %}
 
@@ -31,4 +30,3 @@ func myPow(x float64, n int) float64 {
     }
 }
 ```
-

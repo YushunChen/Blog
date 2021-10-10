@@ -1,12 +1,11 @@
 ---
-description: 'ID: 246; medium; 二叉树的路径和 II'
+description: ID: 246; medium; 二叉树的路径和 II
 ---
-
 # Binary Tree Path Sum II
 
 {% embed url="https://www.lintcode.com/problem/246/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -52,4 +51,3 @@ public class Solution {
     }
 }
 ```
-

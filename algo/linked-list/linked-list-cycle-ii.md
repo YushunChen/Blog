@@ -1,14 +1,13 @@
 ---
-description: 'ID: 142; medium'
+description: ID: 142; medium
 ---
-
 # Linked List Cycle II
 
 {% embed url="https://leetcode.com/problems/linked-list-cycle-ii/" %}
 
 {% embed url="https://www.lintcode.com/problem/103/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 /**
@@ -31,7 +30,7 @@ func detectCycle(head *ListNode) *ListNode {
 }
 ```
 
-## Solution 2 \(Go\)
+## Solution 2 (Go)
 
 ```go
 /**
@@ -70,7 +69,7 @@ func hasCycle(head *ListNode) (bool, *ListNode) {
 }
 ```
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 /**
@@ -117,9 +116,9 @@ public class Solution {
 }
 ```
 
-![Example](../../.gitbook/assets/142.png)
+![Example](../../.gitbook/assets/142.PNG)
 
-We first use the same algorithm \(modified to return the first meeting point\) for [problem ID: 141](linked-list-cycle.md#solution-2). If there is no cycle, we are done and return null. If there is a cycle, we store the first meeting point. From this first meeting point, we set the speed of both the tortoise and the hare to moving by 1 each time. Eventually, they will meet again at the start of the cycle. A quick proof is as follows:
+We first use the same algorithm (modified to return the first meeting point) for [problem ID: 141](linked-list-cycle.md#solution-2). If there is no cycle, we are done and return null. If there is a cycle, we store the first meeting point. From this first meeting point, we set the speed of both the tortoise and the hare to moving by 1 each time. Eventually, they will meet again at the start of the cycle. A quick proof is as follows:
 
 Let `x` be the distance between the `head` and the start of the cycle, `y` be the distance between the start of the cycle to the first meeting point, `z` be the distance between the first meeting point to the start of the cycle. It is clear that `y + z = n`, where `n` is the length of the cycle. Consider the following equations for their first meet:
 
@@ -129,5 +128,4 @@ $$
 
 Because they meet at the first meeting point, their time spent traveling should be the same. Setting the two t's equal to each other, we have `x = z`.
 
-Using this result, we have either one of them start at the `head` of the list and the other continue at their first meeting point \(with the same speed now\). They will eventually meet at the start of the cycle thanks to the fact `x = z`.
-
+Using this result, we have either one of them start at the `head` of the list and the other continue at their first meeting point (with the same speed now). They will eventually meet at the start of the cycle thanks to the fact `x = z`.

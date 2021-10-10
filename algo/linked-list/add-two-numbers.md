@@ -1,12 +1,11 @@
 ---
-description: 'ID: 2; medium'
+description: ID: 2; medium
 ---
-
 # Add Two Numbers
 
 {% embed url="https://leetcode.com/problems/add-two-numbers/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 /**
@@ -40,7 +39,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -92,4 +91,3 @@ class Solution {
 //     9 -> 9
 //     8 -> 9 -> 0 -> 0 -> 1
 ```
-

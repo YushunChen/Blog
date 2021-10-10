@@ -1,12 +1,11 @@
 ---
-description: 'ID: 159; medium; 寻找旋转排序数组中的最小值'
+description: ID: 159; medium; 寻找旋转排序数组中的最小值
 ---
-
 # Find Minimum in Rotated Sorted Array
 
 {% embed url="https://www.lintcode.com/problem/159/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -39,4 +38,3 @@ public class Solution {
 
 * We use the last element as the target since we lack a target for the binary search. The reason is that we can reduce the range that contains the minimum number using this target. 
 * Also, note that the array may not be rotated at all. 
-

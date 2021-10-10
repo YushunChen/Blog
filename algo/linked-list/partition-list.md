@@ -1,12 +1,11 @@
 ---
-description: 'ID: 86; medium'
+description: ID: 86; medium
 ---
-
 # Partition List
 
 {% embed url="https://leetcode.com/problems/partition-list/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -41,4 +40,3 @@ class Solution {
     }
 }
 ```
-

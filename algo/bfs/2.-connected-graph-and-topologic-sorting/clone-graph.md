@@ -1,12 +1,11 @@
 ---
-description: 'ID: 137; medium'
+description: ID: 137; medium
 ---
-
 # Clone Graph
 
 {% embed url="https://www.lintcode.com/problem/137/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -53,4 +52,3 @@ public class Solution {
 * The `oldToNew` map has two functions here:
   * It keeps track of which nodes are visited. If the map already contains a node, we do not add it to the queue.
   * It creates a mapping between old nodes and new nodes. We can directly get new node from their corresponding old nodes.
-

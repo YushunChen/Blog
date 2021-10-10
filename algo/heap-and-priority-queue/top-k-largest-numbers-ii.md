@@ -1,12 +1,11 @@
 ---
-description: 'ID: 545; medium'
+description: ID: 545; medium
 ---
-
 # Top k Largest Numbers II
 
 {% embed url="https://www.lintcode.com/problem/545/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -63,7 +62,7 @@ public class Solution {
 * It is important to notice here that we used a min heap. Otherwise, we do not know when to offer or poll based on the number and also the size of the heap.
 * Do not forget to reverse the order since the problem is asking for the top k largest numbers.
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class Solution {
@@ -159,4 +158,3 @@ public class Solution {
 
 * This is a version of the solution if we do not use a built-in priority queue.
 * This solution utilizes the sift up and sift down methods used in [Heapify](heapify.md).
-

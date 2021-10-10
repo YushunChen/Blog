@@ -1,12 +1,11 @@
 ---
-description: 'ID: 462; easy; 目标出现总和'
+description: ID: 462; easy; 目标出现总和
 ---
-
 # Total Occurrence of Target
 
 {% embed url="https://www.lintcode.com/problem/462/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -67,4 +66,3 @@ public class Solution {
 
 * We use the similar approach in the [first position of target](first-position-of-target.md) and the [last position of target](last-position-of-target.md) to find the left and right end points of the range for the `target`.
 * Eventually, we return the length of that range.
-

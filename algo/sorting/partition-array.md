@@ -1,12 +1,11 @@
 ---
-description: 'ID: 31; medium'
+description: ID: 31; medium
 ---
-
 # Partition Array
 
 {% embed url="https://www.lintcode.com/problem/31/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -40,4 +39,3 @@ public class Solution {
 ### Notes
 
 * **Quick sort**
-

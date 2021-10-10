@@ -1,14 +1,13 @@
 ---
-description: 'ID: 40; medium'
+description: ID: 40; medium
 ---
-
 # Implement Queue by Two Stacks
 
 {% embed url="https://www.lintcode.com/problem/40/" %}
 
 {% embed url="https://leetcode.com/problems/implement-queue-using-stacks/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class MyQueue {
@@ -60,7 +59,7 @@ public class MyQueue {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class MyQueue {
@@ -109,7 +108,7 @@ public class MyQueue {
 // s2 = [3,2,1]
 ```
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 class MyQueue {
@@ -176,4 +175,3 @@ class MyQueue {
 ### Notes
 
 * Same method for LeetCode.
-

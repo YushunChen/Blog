@@ -1,14 +1,13 @@
 ---
-description: 'ID: 36; medium; 翻转链表（二）'
+description: ID: 36; medium; 翻转链表（二）
 ---
-
 # Reverse Linked List II
 
 {% embed url="https://www.lintcode.com/problem/36/" %}
 
 {% embed url="https://leetcode.com/problems/reverse-linked-list-ii/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -69,7 +68,7 @@ public class Solution {
 
 We have three major steps here:
 
-1. We first proceed to the \(m-1\)-th node, which is the node before the m-th node. Then we keep track of both of them.
+1. We first proceed to the (m-1)-th node, which is the node before the m-th node. Then we keep track of both of them.
 2. We reverse from m to n using the same technique used in the classical [reverse linked list](reverse-linked-list.md).
 3. Lastly, do not forget to connect the middle part, i.e., the reversed linked list, with `mPrev` and `cur` pointer.
 
@@ -85,4 +84,3 @@ step2: 1        2<-------3<-------4        5------->6
      mPrev    prev              mNode     cur
 step3: 1------->4------->3------->2------->5------->6
 ```
-

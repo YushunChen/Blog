@@ -1,7 +1,6 @@
 ---
-description: 'ID: 404; easy'
+description: ID: 404; easy
 ---
-
 # Sum of Left Leaves
 
 {% embed url="https://leetcode.com/problems/sum-of-left-leaves/" %}
@@ -27,4 +26,3 @@ func sumOfLeftLeaves(root *TreeNode) int {
     return sumOfLeftLeaves(root.Left) + sumOfLeftLeaves(root.Right)
 }
 ```
-

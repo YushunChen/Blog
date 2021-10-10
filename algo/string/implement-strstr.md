@@ -1,8 +1,7 @@
 ---
-description: 'ID: 28; easy'
+description: ID: 28; easy
 ---
-
-# Implement strStr\(\)
+# Implement strStr()
 
 {% embed url="https://leetcode.com/problems/implement-strstr/" %}
 
@@ -65,4 +64,3 @@ func strStr(haystack string, needle string) int {
 {% hint style="info" %}
 Not really a "solution"...
 {% endhint %}
-

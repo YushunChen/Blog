@@ -1,12 +1,11 @@
 ---
-description: 'ID: 457; easy; 经典二分查找问题'
+description: ID: 457; easy; 经典二分查找问题
 ---
-
 # Classical Binary Search
 
 {% embed url="https://www.lintcode.com/problem/457/." %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -42,4 +41,3 @@ public class Solution {
 
 * The loop condition `left + 1 < right` will guarantee that we end up with two indices that are next to each other. Then, we return either of them at the end.
 * The middle point `mid` is calculated using `left + (right - left) / 2` instead of `(left + right) / 2` in order to prevent integer overflow, which the addition may have while the subtraction will not.
-

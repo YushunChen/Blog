@@ -1,12 +1,11 @@
 ---
-description: 'ID: 424; medium'
+description: ID: 424; medium
 ---
-
 # Evaluate Reverse Polish Notation
 
 {% embed url="https://www.lintcode.com/problem/424/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -37,4 +36,3 @@ public class Solution {
 ### Notes
 
 * Be careful about the order of the two numbers for subtracting and dividing.
-

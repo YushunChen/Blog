@@ -1,12 +1,11 @@
 ---
-description: 'ID: 203; easy'
+description: ID: 203; easy
 ---
-
 # Remove Linked List Elements
 
 {% embed url="https://leetcode.com/problems/remove-linked-list-elements/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -44,4 +43,3 @@ class Solution {
 ### Notes
 
 * Be careful that we only update `prev` if we do not find a node with matching value and skip that node.
-

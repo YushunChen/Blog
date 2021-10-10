@@ -1,12 +1,11 @@
 ---
-description: 'ID: 521; easy'
+description: ID: 521; easy
 ---
-
 # Remove Duplicate Numbers in Array
 
 {% embed url="https://www.lintcode.com/problem/521/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -33,7 +32,7 @@ public class Solution {
 * Time complexity: `O(n)`
 * Space complexity: `O(n)`
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class Solution {
@@ -63,4 +62,3 @@ public class Solution {
 
 * Time complexity: `O(nlogn)` from sorting
 * Space complexity: `O(n)`
-

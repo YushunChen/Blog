@@ -1,7 +1,6 @@
 ---
-description: 'ID: 3; medium'
+description: ID: 3; medium
 ---
-
 # Longest Substring Without Repeating Characters
 
 {% embed url="https://leetcode.com/problems/longest-substring-without-repeating-characters/" %}
@@ -32,4 +31,3 @@ func lengthOfLongestSubstring(s string) int {
 ```
 
 We use a BitSet to mark if a single character is repeated or not.
-

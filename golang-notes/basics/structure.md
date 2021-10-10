@@ -4,7 +4,7 @@
 
 * Documentation block
 * Preprocessor Statements
-* The main \( \) function
+* The main ( ) function
 * Local Variable Declarations
 * Program statements
 * User defined functions
@@ -42,7 +42,7 @@ package main
 import "fmt"
 ```
 
-## The main\(\) function
+## The main() function
 
 Mandatory to have in Go.
 
@@ -52,9 +52,8 @@ Variables in main
 
 ## Statements and Expressions
 
-This is the section where we place our main logic of the program which included the executable statements, that tell the computer to perform a specification action. Program statement can be an input-output statements, arithmetic statements, control statements, simple assignment statements and any other statements and it also includes comments that are enclosed within /\* _and \*_/.
+This is the section where we place our main logic of the program which included the executable statements, that tell the computer to perform a specification action. Program statement can be an input-output statements, arithmetic statements, control statements, simple assignment statements and any other statements and it also includes comments that are enclosed within /\*_ and \*_/.
 
 ## User Defined Functions
 
 Functions in main
-

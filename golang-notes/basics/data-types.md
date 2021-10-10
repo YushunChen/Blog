@@ -20,71 +20,38 @@ Go built-in data types:
 
 #### Signed integers
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Type</th>
-      <th style="text-align:left">Size</th>
-      <th style="text-align:left">Description (Two&apos;s complement)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">int8</td>
-      <td style="text-align:left">8 bits</td>
-      <td style="text-align:left">8 bit signed integer</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">int16</td>
-      <td style="text-align:left">16 bits</td>
-      <td style="text-align:left">16 bit signed integer</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">int32</td>
-      <td style="text-align:left">32 bits</td>
-      <td style="text-align:left">32 bit signed integer</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">int64</td>
-      <td style="text-align:left">64 bits</td>
-      <td style="text-align:left">
-        <p>64 bit signed integer,</p>
-        <p>can also be represented in octal and hexadecimal</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>int</b>
-      </td>
-      <td style="text-align:left">Platform dependent</td>
-      <td style="text-align:left">signed integers of at least 32-bit in size, not equivalent to int32.</td>
-    </tr>
-  </tbody>
-</table>
+| Type    | Size               | Description (Two's complement)                                                        |
+| ------- | ------------------ | ------------------------------------------------------------------------------------- |
+| int8    | 8 bits             | 8 bit signed integer                                                                  |
+| int16   | 16 bits            | 16 bit signed integer                                                                 |
+| int32   | 32 bits            | 32 bit signed integer                                                                 |
+| int64   | 64 bits            | <p>64 bit signed integer, </p><p>can also be represented in octal and hexadecimal</p> |
+| **int** | Platform dependent | signed integers of at least 32-bit in size, not equivalent to int32.                  |
 
 #### Unsigned integers
 
-| Type | Size | Description \(Two's complement\) |
-| :--- | :--- | :--- |
-| uint8 | 8 bits | 8 bit unsigned integer |
-| uint16 | 16 bits | 16 bit unsigned integer |
-| uint32 | 32 bits | 32 bit unsigned integer |
-| uint64 | 64 bits | 64 bit unsigned integer |
-| uint | Platform dependent | unsigned integers of at least 32-bit in size, not equivalent to int32. |
+| Type   | Size               | Description (Two's complement)                                         |
+| ------ | ------------------ | ---------------------------------------------------------------------- |
+| uint8  | 8 bits             | 8 bit unsigned integer                                                 |
+| uint16 | 16 bits            | 16 bit unsigned integer                                                |
+| uint32 | 32 bits            | 32 bit unsigned integer                                                |
+| uint64 | 64 bits            | 64 bit unsigned integer                                                |
+| uint   | Platform dependent | unsigned integers of at least 32-bit in size, not equivalent to int32. |
 
 {% hint style="info" %}
-Use **int** unless for specific reasons for others. Integral types have default value of 0. Octal numbers can be declared using prefix and hexadecimal using the **0x** prefix.
+Use **int **unless for specific reasons for others. Integral types have default value of 0. Octal numbers can be declared using prefix and hexadecimal using the **0x **prefix.
 {% endhint %}
 
 #### Other integer types
 
-| Type | Description \(Two's complement\) |
-| :--- | :--- |
-| byte | It is alias for and equivalent to uint8 |
-| rune | It is alias for and equivalent to int32, used to represent characters. |
-| uintptr | It is used to hold memory address pointers |
+| Type    | Description (Two's complement)                                         |
+| ------- | ---------------------------------------------------------------------- |
+| byte    | It is alias for and equivalent to uint8                                |
+| rune    | It is alias for and equivalent to int32, used to represent characters. |
+| uintptr | It is used to hold memory address pointers                             |
 
 {% hint style="info" %}
-Golang does not support a char data type, instead it has **byte** and **rune** to represent character values. This helps to distinguish characters from integer values. **byte** data type is represented with a ASCII value and the **rune** data type is represented with Unicode value encoded in UTF-8 format.
+Golang does not support a char data type, instead it has **byte **and **rune **to represent character values. This helps to distinguish characters from integer values. **byte **data type is represented with a ASCII value and the **rune **data type is represented with Unicode value encoded in UTF-8 format.
 {% endhint %}
 
 ```go
@@ -120,7 +87,7 @@ Go supports complex64 and complex128. Each of the type uses float32 and float64 
 var num1 = 3 + 7i  // Type inferred as complex128
 ```
 
-### 
+###
 
 ### Boolean
 
@@ -128,7 +95,7 @@ var num1 = 3 + 7i  // Type inferred as complex128
 var flag = true
 ```
 
-### 
+###
 
 ### String
 
@@ -164,7 +131,7 @@ u := uint(f)
 
 ## Type Inference
 
-When declaring a variable without specifying an explicit type \(either by using the `:=` syntax or `var =` expression syntax\), the variable's type is inferred from the value on the right hand side.
+When declaring a variable without specifying an explicit type (either by using the `:=` syntax or `var =` expression syntax), the variable's type is inferred from the value on the right hand side.
 
 ```go
 package main
@@ -186,4 +153,3 @@ i is of type int
 f is of type float64
 c is of type complex128
 ```
-

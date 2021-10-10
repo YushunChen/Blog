@@ -1,7 +1,6 @@
 ---
-description: 'ID: 88; easy'
+description: ID: 88; easy
 ---
-
 # Merge Sorted Array
 
 {% embed url="https://leetcode.com/problems/merge-sorted-array/" %}
@@ -26,4 +25,3 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
     }
 }
 ```
-

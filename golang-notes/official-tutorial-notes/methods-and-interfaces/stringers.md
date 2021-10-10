@@ -8,7 +8,7 @@ type Stringer interface {
 }
 ```
 
-  A `Stringer` is a type that can describe itself as a string. The `fmt` package \(and many others\) look for this interface to print values.
+  A `Stringer` is a type that can describe itself as a string. The `fmt` package (and many others) look for this interface to print values.
 
 ### Example
 
@@ -72,4 +72,3 @@ func main() {
 googleDNS: 8.8.8.8
 loopback: 127.0.0.1
 ```
-

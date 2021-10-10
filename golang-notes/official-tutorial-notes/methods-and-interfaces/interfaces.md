@@ -1,7 +1,6 @@
 ---
 description: This is a long section...
 ---
-
 # Interfaces
 
 An interface type is a set of method signatures. A value of interface type can hold any value that implements those methods.
@@ -86,7 +85,7 @@ Oliver
 
 ## Interface Values
 
-Interface values can be considered as a tuple of a value and a concrete type under the hood. An interface value holds a value of a specific underlying concrete type. ****Calling a method on an interface value executes the method of the same name on its underlying type.
+Interface values can be considered as a tuple of a value and a concrete type under the hood. An interface value holds a value of a specific underlying concrete type.** **Calling a method on an interface value executes the method of the same name on its underlying type.
 
 ### Example
 
@@ -230,7 +229,7 @@ panic: runtime error: invalid memory address or nil pointer dereference
 
 ## Empty Interface
 
-The interface type that specifies zero methods is  the **empty interface**: `interface{}` An empty interface may hold values of any type, i.e., every type implements at least zero methods. Empty interfaces are used by code that handles values of unknown type. 
+The interface type that specifies zero methods is  the **empty interface**: `interface{} `An empty interface may hold values of any type, i.e., every type implements at least zero methods. Empty interfaces are used by code that handles values of unknown type. 
 
 ### Example
 
@@ -321,7 +320,7 @@ Note that the the usage of the two return values `s` and `ok` is similar to its 
 
 ## Type Switches
 
-A type switch permits several type assertions in series. A type switch is similar to a regular switch statement, but the cases in a type switch specify types \(not values\), and those values are compared against the type of the value held by the given interface value.
+A type switch permits several type assertions in series. A type switch is similar to a regular switch statement, but the cases in a type switch specify types (not values), and those values are compared against the type of the value held by the given interface value.
 
  The declaration in a type switch has the same syntax as a type assertion `i.(T)`, but the specific type `T` is replaced with the keyword `type`.
 
@@ -359,4 +358,3 @@ I do not know about type bool
 {% hint style="info" %}
  This switch statement tests whether the interface value `i` holds a value of type `int` or `string`. In each case, the variable `v` will be of that type respectively and hold the value held by `i`. In the default case, the variable `v` is of the same interface type and value as `i`.
 {% endhint %}
-

@@ -1,12 +1,11 @@
 ---
-description: 'ID: 61; medium; 搜索区间'
+description: ID: 61; medium; 搜索区间
 ---
-
 # Search for a Range
 
 {% embed url="https://www.lintcode.com/problem/61/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -64,6 +63,5 @@ public class Solution {
 ```
 
 {% hint style="info" %}
-Similar to Total Occurrence of Target \(ID: 462\).
+Similar to Total Occurrence of Target (ID: 462).
 {% endhint %}
-

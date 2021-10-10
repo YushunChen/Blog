@@ -1,12 +1,11 @@
 ---
 description: ID; 183; hard; 木材加工
 ---
-
 # Wood Cut
 
 {% embed url="https://www.lintcode.com/problem/183/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -67,4 +66,3 @@ We use binary search to search for the cut length, i.e., the length of the piece
 * If `count < k`, the first requirement is not satisfied, which means we are cutting too much. Then, the new range is `[1, mid]`.
 
 Lastly, we end up with the range `[left, right]`. To satisfy the two requirements, we would return `right` if possible since `right` is larger than `left`.
-

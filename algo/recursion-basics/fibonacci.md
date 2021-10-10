@@ -1,12 +1,11 @@
 ---
-description: 'ID: 366; naive; 斐波纳契数列'
+description: ID: 366; naive; 斐波纳契数列
 ---
-
 # Fibonacci
 
 {% embed url="https://www.lintcode.com/problem/366/" %}
 
-## "Solution 1" \(Java\)
+## "Solution 1" (Java)
 
 ```java
 public class Solution {
@@ -25,11 +24,11 @@ public class Solution {
 ### Notes
 
 * Classical recursion example
-* This actually will not pass the test on LintCode \(test a relatively large Fibonacci number say the 50th\).
+* This actually will not pass the test on LintCode (test a relatively large Fibonacci number say the 50th).
 * Time complexity: `O(2^n)`, extremely bad exponential runtime.
-* Space complexity: `O(1)`, excluding stack space \(`O(n)`\).
+* Space complexity: `O(1)`, excluding stack space (`O(n)`).
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class Solution {
@@ -58,7 +57,7 @@ public class Solution {
 * Time complexity: `O(n)`
 * Space complexity: `O(n)`
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 public class Solution {
@@ -80,12 +79,12 @@ public class Solution {
 
 ### Notes
 
-* This solution also uses the idea of **memoization**, but it uses a constant number of variables to only store the most important information \(current 3 numbers\).
-* `n1`, `n2`, `sum` are the current two numbers and the previous sum of the two numbers.
+* This solution also uses the idea of **memoization**, but it uses a constant number of variables to only store the most important information (current 3 numbers).
+* `n1`, `n2`, `sum `are the current two numbers and the previous sum of the two numbers.
 * Time complexity: `O(n)`
 * Space complexity: `O(1)`
 
-## Solution 4 \(Java\)
+## Solution 4 (Java)
 
 ```java
 public class Solution {
@@ -110,7 +109,7 @@ public class Solution {
 * Time complexity: `O(n)`
 * Space complexity: `O(1)`
 
-## Solution 5 \(Java\)
+## Solution 5 (Java)
 
 ```java
 public class Solution {
@@ -160,11 +159,11 @@ F_n & F_{n-1}
 $$
 
 * By the above mathematical rule of Fibonacci numbers, we have this solution.
-* Note that the loop does not run for `n = 1, 2, 3` nor any non-positive numbers. So it starts with `n = 4` in the code, but n is actually 2 in the formula and the top-left element would be F3, which is the correct result for the input `n = 4` in the code.
+* Note that the loop does not run for `n = 1, 2, 3` nor any non-positive numbers. So it starts with `n = 4 `in the code, but n is actually 2 in the formula and the top-left element would be F3, which is the correct result for the input `n = 4` in the code.
 * Time complexity: `O(n)`
 * Space complexity: `O(1)`
 
-## Solution 6 \(Java\)
+## Solution 6 (Java)
 
 ```java
 public class Solution {
@@ -204,7 +203,7 @@ public class Solution {
 
 ### Notes
 
-* Using the same idea in [Solution 5](fibonacci.md#solution-5-java), we optimize the `power` function by using `divide and conquer`. This idea is also illustrated in this [Pow\(x, n\)](../math/pow-x-n.md) problem.
+* Using the same idea in [Solution 5](fibonacci.md#solution-5-java), we optimize the `power` function by using `divide and conquer`. This idea is also illustrated in this [Pow(x, n)](../math/pow-x-n.md) problem.
 * Time complexity: `O(log n)`
 * Space complexity: `O(1)`
 
@@ -216,7 +215,7 @@ $$
 F(n) = [2 \times F(k -1) + F(k)] \times F(k)
 $$
 
-* When n is even and k = \(n+1\) / 2,
+* When n is even and k = (n+1) / 2,
 
 $$
 F(n) = F(k) \times F(k) + F(k-1) \times F(k-1)
@@ -224,11 +223,11 @@ $$
 
 * The derivation is shown here:
 
-{% embed url="https://en.wikipedia.org/wiki/Fibonacci\_number\#Matrix\_form" %}
+{% embed url="https://en.wikipedia.org/wiki/Fibonacci_number#Matrix_form" %}
 
 * This extension would have the same time and space complexity as done in code above. The reason is that this is still essentially **divide and conquer** where `k` is half of `n` each time.
 
-## Solution 7 \(Java\)
+## Solution 7 (Java)
 
 ```java
 public class Solution {
@@ -249,8 +248,7 @@ $$
 F(n) = \frac{1}{\sqrt{5}}[(\frac{1+\sqrt{5}}{2})^n - (\frac{1-\sqrt{5}}{2})^n]
 $$
 
-* This solution uses the mathematical formula for calculation \(not the recursive relation\).
+* This solution uses the mathematical formula for calculation (not the recursive relation).
 * Note that `n--` because the problem is 1-indexed. 
 * Time complexity: `O(log n)` with the assumption that `Math.pow` takes `log n` time.
 * Space complexity: `O(1)`.
-

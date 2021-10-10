@@ -2,7 +2,7 @@
 
 ### Declaration
 
-A function can take 0 or more arguments. The type comes after the variable name, as mentioned before \(same here for functions\). The reason for that can be found here:
+A function can take 0 or more arguments. The type comes after the variable name, as mentioned before (same here for functions). The reason for that can be found here:
 
 {% embed url="https://blog.golang.org/declaration-syntax" %}
 
@@ -38,7 +38,7 @@ func add(x, y int) int { // shorter version if x, y share a type
 
 A function can return any number of results. Return values may be named. If so, they are treated as variables defined at the top of the function.
 
-A `return` statement without arguments returns the named return values. This is called "naked" return.
+A `return `statement without arguments returns the named return values. This is called "naked" return.
 
 ```go
 package main
@@ -63,4 +63,3 @@ func main() {
 {% hint style="info" %}
 Naked return statements should only be used in short functions. They hard readability in longer functions.
 {% endhint %}
-

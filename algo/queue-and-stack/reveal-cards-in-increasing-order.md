@@ -1,12 +1,11 @@
 ---
-description: 'ID: 950; medium'
+description: ID: 950; medium
 ---
-
 # Reveal Cards In Increasing Order
 
 {% embed url="https://leetcode.com/problems/reveal-cards-in-increasing-order/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 class Solution {
@@ -39,6 +38,5 @@ class Solution {
 ### Notes
 
 * The queue simulates the deck operations described in the problem.
-* We first sort the array and reveal one card, then we put the card after the revealed card to the bottom of the deck \(end of queue\).
+* We first sort the array and reveal one card, then we put the card after the revealed card to the bottom of the deck (end of queue).
 * Time complexity: `O(nlogn)`
-

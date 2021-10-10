@@ -1,12 +1,11 @@
 ---
-description: 'ID: 12; medium'
+description: ID: 12; medium
 ---
-
 # Min Stack
 
 {% embed url="https://www.lintcode.com/problem/12/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class MinStack {
@@ -53,4 +52,3 @@ public class MinStack {
 // stack:    [1,2,3]
 // minStack: [1,1,1]
 ```
-

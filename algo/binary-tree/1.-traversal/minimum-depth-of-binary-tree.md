@@ -1,14 +1,13 @@
 ---
-description: 'ID: 111; easy'
+description: ID: 111; easy
 ---
-
 # Minimum Depth of Binary Tree
 
 {% embed url="https://leetcode.com/problems/minimum-depth-of-binary-tree/" %}
 
 {% embed url="https://www.lintcode.com/problem/155/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 /**
@@ -40,7 +39,7 @@ func min(x, y int) int {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -78,7 +77,7 @@ public class Solution {
 
 * Divide and conquer
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 /**
@@ -119,7 +118,7 @@ public class Solution {
 
 * Divide and conquer slight variant
 
-## Solution 4 \(Java\)
+## Solution 4 (Java)
 
 ```java
 /**
@@ -165,4 +164,3 @@ public class Solution {
 ### Notes
 
 * Traversal
-

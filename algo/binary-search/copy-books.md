@@ -1,12 +1,11 @@
 ---
-description: 'ID: 437; medium; 书籍复印'
+description: ID: 437; medium; 书籍复印
 ---
-
 # Copy Books
 
 {% embed url="https://www.lintcode.com/problem/437/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -54,7 +53,7 @@ public class Solution {
   * If there is one book that takes longer than `time` to be copied, there is no way this `time` is feasible.
   * Else in the general case, count the minimum number of copier needed. If this minimum number is larger than `k`, then the `time` is not feasible.
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class Solution {
@@ -106,4 +105,3 @@ public class Solution {
 
 * We can further reduce the initial range by setting `left` to be the maximum page number and `right` to be the sum of the `pages` array. The reason is that the lower bound of the time is achieved by having `k = pages.length` and each person copies one book; the minimum time now would be the time to copy the book with largest page count. Then, the upper bound of the time is achieved by having only 1 copier to copy all the books by himself; so the time would be the sum of all the pages counts.
 * Also, this solution uses a slightly different method to determine if time is feasible.
-

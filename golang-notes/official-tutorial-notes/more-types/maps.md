@@ -143,5 +143,3 @@ The value: 0
 The value: 0 Present? false
 ```
 
-
-

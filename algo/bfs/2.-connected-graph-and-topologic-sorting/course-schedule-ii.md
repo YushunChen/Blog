@@ -1,12 +1,11 @@
 ---
-description: 'ID: 616; medium'
+description: ID: 616; medium
 ---
-
 # Course Schedule II
 
 {% embed url="https://www.lintcode.com/problem/616/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -56,4 +55,3 @@ public class Solution {
 ### Notes
 
 * Almost the same as [Course Schedule](course-schedule.md).
-

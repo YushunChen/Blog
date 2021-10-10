@@ -1,7 +1,6 @@
 ---
-description: 'ID: 121; easy'
+description: ID: 121; easy
 ---
-
 # Best Time to Buy and Sell Stock
 
 {% embed url="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" %}
@@ -22,6 +21,4 @@ func maxProfit(prices []int) int {
     return profit
 }
 ```
-
-
 

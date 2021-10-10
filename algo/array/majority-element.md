@@ -1,7 +1,6 @@
 ---
-description: 'ID: 169; easy'
+description: ID: 169; easy
 ---
-
 # Majority Element
 
 {% embed url="https://leetcode.com/problems/majority-element/" %}
@@ -44,4 +43,3 @@ func majorityElement(nums []int) int {
 {% hint style="info" %}
 Boyer-Moore Voting Algorithm
 {% endhint %}
-

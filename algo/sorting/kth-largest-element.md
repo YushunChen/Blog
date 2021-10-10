@@ -1,12 +1,11 @@
 ---
-description: 'ID: 5; medium'
+description: ID: 5; medium
 ---
-
 # Kth Largest Element
 
 {% embed url="https://www.lintcode.com/problem/5/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -59,7 +58,7 @@ public class Solution {
 // return nums[j + 1] = 4
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class Solution {
@@ -105,4 +104,3 @@ public class Solution {
 ### Notes
 
 * Updated version of [Solution 1](kth-largest-element.md#solution-1-java). Easier to understand and write.
-

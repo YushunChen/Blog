@@ -1,12 +1,11 @@
 ---
-description: 'ID: 242; easy'
+description: ID: 242; easy
 ---
-
 # Convert Binary Tree to Linked Lists by Depth
 
 {% embed url="https://www.lintcode.com/problem/242/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -61,4 +60,3 @@ public class Solution {
 ### Notes
 
 * Note that we used a `dummy` node to construct the list.
-

@@ -1,12 +1,11 @@
 ---
-description: 'ID: 94; medium'
+description: ID: 94; medium
 ---
-
 # Binary Tree Maximum Path Sum
 
 {% embed url="https://www.lintcode.com/problem/94/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -59,6 +58,4 @@ There are 4 types of paths that can be candidates for the maximum path sum.
 2. Max path of right tree + root
 3. Only the root
 4. Max single path of left tree + root + max single path of right tree
-
-
 

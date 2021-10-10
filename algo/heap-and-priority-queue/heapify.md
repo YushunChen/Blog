@@ -1,12 +1,11 @@
 ---
-description: 'ID: 130; medium'
+description: ID: 130; medium
 ---
-
 # Heapify
 
 {% embed url="https://www.lintcode.com/problem/130/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -41,7 +40,7 @@ public class Solution {
 * This is the `siftUp` version of the problem. If we are sifting the node up, we should make sure it is smaller than its parent. If it is already larger than its parent, we do nothing.
 * Time complexity: `O(nlogn)`
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class Solution {
@@ -111,4 +110,3 @@ $$
 $$
 s = 2s - s = \frac{n}{2}+\frac{n}{4}+\frac{n}{8}+\frac{n}{16}\cdots=n
 $$
-

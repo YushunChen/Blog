@@ -1,7 +1,6 @@
 ---
-description: 'ID: 283; easy'
+description: ID: 283; easy
 ---
-
 # Move Zeroes
 
 {% embed url="https://leetcode.com/problems/move-zeroes/" %}
@@ -37,4 +36,3 @@ func moveZeroes(nums []int)  {
     }
 }
 ```
-

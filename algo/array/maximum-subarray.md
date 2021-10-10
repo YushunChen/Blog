@@ -1,7 +1,6 @@
 ---
-description: 'ID: 35; easy'
+description: ID: 35; easy
 ---
-
 # Maximum Subarray
 
 {% embed url="https://leetcode.com/problems/maximum-subarray/" %}
@@ -53,4 +52,3 @@ func maxSubArray(nums []int) int {
     return result
 }
 ```
-

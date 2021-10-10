@@ -1,12 +1,11 @@
 ---
-description: 'ID: 1010; medium'
+description: ID: 1010; medium
 ---
-
 # Pairs of Songs With Total Durations Divisible by 60
 
 {% embed url="https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 class Solution {
@@ -26,4 +25,3 @@ class Solution {
     }
 }
 ```
-

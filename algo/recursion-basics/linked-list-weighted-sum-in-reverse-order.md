@@ -1,12 +1,11 @@
 ---
-description: 'ID: 786; easy;'
+description: ID: 786; easy;
 ---
-
 # Linked List Weighted Sum In Reverse Order
 
 {% embed url="https://www.lintcode.com/problem/linked-list-weighted-sum-in-reverse-order/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -47,4 +46,3 @@ public class Solution {
 ### Notes
 
 * This is similar to [Reverse Order Storage](reverse-order-storage.md). The difference is that we increment the weight and return it to its upper level each time.
-

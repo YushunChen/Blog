@@ -20,10 +20,10 @@ func main() {
 45
 ```
 
-## While Loop \(or just For Loop\)
+## While Loop (or just For Loop)
 
 {% hint style="info" %}
-If we only have the middle statement of the for loop \(condition\), then the for loop behaves like a while loop as in other languages.
+If we only have the middle statement of the for loop (condition), then the for loop behaves like a while loop as in other languages.
 {% endhint %}
 
 ```go
@@ -124,7 +124,7 @@ U+0072 represents r and it is at position 5
 
 ### Example3 - Map:
 
-In Go, `range` on map iterates over key/value pairs. It can also iterate over just the keys of a map.[  
+In Go, `range` on map iterates over key/value pairs. It can also iterate over just the keys of a map.[\
 ](https://www.w3adda.com/golang-tutorial/go-decision-making)
 
 ```go
@@ -155,7 +155,7 @@ Key:  B
 Key:  C
 ```
 
-### Example3 - Channel\*\(Discussed Later\):
+### Example3 - Channel\*(Discussed Later):
 
 ```go
 package main
@@ -182,6 +182,4 @@ func main() {
 ```bash
 OLIVER
 ```
-
-
 

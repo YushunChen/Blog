@@ -1,12 +1,11 @@
 ---
-description: 'ID: 147; easy'
+description: ID: 147; easy
 ---
-
 # Narcissistic Number
 
 {% embed url="https://www.lintcode.com/problem/147/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -34,4 +33,3 @@ public class Solution {
     }
 }
 ```
-

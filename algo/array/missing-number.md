@@ -1,7 +1,6 @@
 ---
-description: 'ID: 268; easy'
+description: ID: 268; easy
 ---
-
 # Missing Number
 
 {% embed url="https://leetcode.com/problems/missing-number/" %}
@@ -59,9 +58,8 @@ For the array with a missing element 2: `[3, 0, 1]`, we have
 0 ^ 0 ^ 3 ^ 1 ^ 0 ^ 2 ^ 1 = 0 ^ 3 ^ 2 = 3 ^ 2
 ```
 
-The result here is actually 3 \(i.e., n\) and 2 \(the missing element\) because the difference between \[0, n-1\] and \[0, n\] is n and 2 has nothing to cancel itself with. Therefore, taking this result and XOR it with n gives us the final result:
+The result here is actually 3 (i.e., n) and 2 (the missing element) because the difference between \[0, n-1] and \[0, n] is n and 2 has nothing to cancel itself with. Therefore, taking this result and XOR it with n gives us the final result:
 
 ```bash
 3 ^ 2 ^ 3 = 2
 ```
-

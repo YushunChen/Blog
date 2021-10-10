@@ -1,12 +1,11 @@
 ---
-description: 'ID: 1; naive'
+description: ID: 1; naive
 ---
-
 # A + B Problem
 
 {% embed url="https://www.lintcode.com/problem/1/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -21,7 +20,7 @@ public class Solution {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class Solution {
@@ -61,15 +60,14 @@ public class Solution {
 
 ### Notes
 
-In order to avoid using the plus sign in this problem, we can use the XOR operation \(if two digits are different, the result is 1; otherwise, the result is 0. The XOR operation is essentially adding without carrying. Thus, we can first XOR the two numbers and then add the carry bits. 
+In order to avoid using the plus sign in this problem, we can use the XOR operation (if two digits are different, the result is 1; otherwise, the result is 0. The XOR operation is essentially adding without carrying. Thus, we can first XOR the two numbers and then add the carry bits. 
 
 {% hint style="info" %}
 This means `a + b = (a ^ b) + (a & b << 1)`
 {% endhint %}
 
-Eventually, the carry bits are zeros \(`b == 0`\) and we end the operation. Example of tracing the code is shown above. We have 14 + 11 = 25, or in binary: 1110 + 1011 = 11011.
+Eventually, the carry bits are zeros (`b == 0`) and we end the operation. Example of tracing the code is shown above. We have 14 + 11 = 25, or in binary: 1110 + 1011 = 11011.
 
 ### Citation
 
 {% embed url="https://www.lintcode.com/problem/1/solution/29459" %}
-

@@ -1,7 +1,6 @@
 ---
-description: 'ID: 112; easy'
+description: ID: 112; easy
 ---
-
 # Path Sum
 
 {% embed url="https://leetcode.com/problems/path-sum/" %}
@@ -28,4 +27,3 @@ func hasPathSum(root *TreeNode, targetSum int) bool {
     return hasPathSum(root.Left, curVal) || hasPathSum(root.Right, curVal)
 }
 ```
-

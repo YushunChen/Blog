@@ -1,14 +1,13 @@
 ---
-description: 'ID: 141; easy'
+description: ID: 141; easy
 ---
-
 # Linked List Cycle
 
 {% embed url="https://leetcode.com/problems/linked-list-cycle/" %}
 
 {% embed url="https://www.lintcode.com/problem/102/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 /**
@@ -31,7 +30,7 @@ func hasCycle(head *ListNode) bool {
 }
 ```
 
-## Solution 2 \(Go\)
+## Solution 2 (Go)
 
 ```go
 /**
@@ -55,7 +54,7 @@ func hasCycle(head *ListNode) bool {
 }
 ```
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 /**
@@ -95,11 +94,10 @@ public class Solution {
 
 ### Floyd's tortoise and hare cycle-finding algorithm
 
-{% embed url="https://en.wikipedia.org/wiki/Cycle\_detection\#Floyd\'s\_tortoise\_and\_hare" %}
+{% embed url="https://en.wikipedia.org/wiki/Cycle_detection#Floyd's_tortoise_and_hare" %}
 
 The tortoise move by 1 step each time and the hare moves by 2 steps at a time. If there is a cycle, the hare will eventually catch the tortoise at a position.
 
-A simple idea of the proof can be tracking the **gap** between the tortoise and the hare. By construction, the gap increases by 1 each iteration. Eventually, the gap with become n, where n is the number of elements in the **cycle** \(not the whole list\). This is the time when the tortoise and the hare meet. More proofs:
+A simple idea of the proof can be tracking the **gap** between the tortoise and the hare. By construction, the gap increases by 1 each iteration. Eventually, the gap with become n, where n is the number of elements in the **cycle** (not the whole list). This is the time when the tortoise and the hare meet. More proofs:
 
 {% embed url="https://math.stackexchange.com/questions/913499/proof-of-floyd-cycle-chasing-tortoise-and-hare" %}
-

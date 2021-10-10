@@ -1,12 +1,11 @@
 ---
-description: 'ID: 633; medium; 寻找重复的数'
+description: ID: 633; medium; 寻找重复的数
 ---
-
 # Find the Duplicate Number
 
 {% embed url="https://www.lintcode.com/problem/633/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -64,11 +63,11 @@ Original array: `[3, 1, 4, 6, 5, 8, 8, 9]`
 
 Range: `[1, 9]`
 
-| left | right | mid | count | Result |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | 9 | 5 | 4 bc the smaller number are  3, 1, 4, 5 | `count ≤ mid` |
+| left | right | mid | count                                   | Result        |
+| ---- | ----- | --- | --------------------------------------- | ------------- |
+| 1    | 9     | 5   | 4 bc the smaller number are  3, 1, 4, 5 | `count ≤ mid` |
 
-New range is `[5, 9]` and 8 is inside that range.✅ 
+New range is `[5, 9]` and 8 is inside that range.:white_check_mark: 
 {% endtab %}
 
 {% tab title="Example 2" %}
@@ -76,11 +75,11 @@ Original array: `[3, 1, 1, 1, 4, 6, 5, 8]`
 
 Range: `[1, 8]`
 
-| left | right | mid | count | Result |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | 8 | 4 | 5 bc the smaller number are  3, 1, 1, 1, 4 | `count > mid` |
+| left | right | mid | count                                      | Result        |
+| ---- | ----- | --- | ------------------------------------------ | ------------- |
+| 1    | 8     | 4   | 5 bc the smaller number are  3, 1, 1, 1, 4 | `count > mid` |
 
-New array is `[1, 4]` and 1 is inside that range.✅ 
+New array is `[1, 4]` and 1 is inside that range.:white_check_mark: 
 {% endtab %}
 {% endtabs %}
 
@@ -101,4 +100,3 @@ $$
 $$
 O(1)
 $$
-

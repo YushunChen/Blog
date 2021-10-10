@@ -1,7 +1,6 @@
 ---
-description: 'ID: 160; easy'
+description: ID: 160; easy
 ---
-
 # Intersection of Two Linked Lists
 
 {% embed url="https://leetcode.com/problems/intersection-of-two-linked-lists/" %}
@@ -86,4 +85,3 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
     return a
 }
 ```
-

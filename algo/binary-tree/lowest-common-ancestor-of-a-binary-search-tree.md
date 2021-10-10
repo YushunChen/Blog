@@ -1,7 +1,6 @@
 ---
-description: 'ID: 235; easy'
+description: ID: 235; easy
 ---
-
 # Lowest Common Ancestor of a Binary Search Tree
 
 {% embed url="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/" %}
@@ -31,4 +30,3 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
     return root
 }
 ```
-

@@ -1,12 +1,11 @@
 ---
-description: 'ID: 87; hard; 删除二叉查找树的节点'
+description: ID: 87; hard; 删除二叉查找树的节点
 ---
-
 # Remove Node in Binary Search Tree
 
 {% embed url="https://www.lintcode.com/problem/87/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -66,6 +65,4 @@ First, we use the property of the binary search tree to find the value-matching 
 2. The node has one right child, we delete it by returning its right child.
 3. The node has one left child, we delete it by returning its left child.
 4. The node has two children. We find its predecessor node, which is the node that has the maximum value that is less than the node's value. We replace the node with its predecessor and remove the old position of its predecessor. Here, we can also use successor, which is the node that has the minimum value that is larger then the nodes' value.
-
-
 

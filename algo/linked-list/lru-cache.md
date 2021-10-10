@@ -1,14 +1,13 @@
 ---
-description: 'ID: 134; hard; LRU缓存策略'
+description: ID: 134; hard; LRU缓存策略
 ---
-
 # LRU Cache
 
 {% embed url="https://www.lintcode.com/problem/134/" %}
 
 {% embed url="https://leetcode.com/problems/lru-cache/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class LRUCache {
@@ -105,7 +104,7 @@ public class LRUCache {
 
 ### Notes
 
-We uses a singly linked list and a hash map in this solution. The linked list is basically the cache, where the head is the least recently used \(LRU\) and the end is the most recently used.The hash map keeps track of **key** and **previous node** pairs.
+We uses a singly linked list and a hash map in this solution. The linked list is basically the cache, where the head is the least recently used (LRU) and the end is the most recently used.The hash map keeps track of **key** and **previous node** pairs.
 
 * We first define a `Node` class with fields including `key`, `val`, and `next`.
 * Then, the fields of the `LRUCache` class includes:
@@ -117,7 +116,7 @@ We uses a singly linked list and a hash map in this solution. The linked list is
 
 #### The `get` method
 
-We first check if a node with the input `key` is in the map. If not, we return -1 not found. If we do find a node associated with that key, we move that node to the end of the linked list and return its value. \(`moveToEnd` method to be completed later\)
+We first check if a node with the input `key` is in the map. If not, we return -1 not found. If we do find a node associated with that key, we move that node to the end of the linked list and return its value. (`moveToEnd` method to be completed later)
 
 #### The `set` method
 
@@ -125,13 +124,13 @@ We have three cases for setting key/value pairs.
 
 1. The key is already contained in the map. All we need to do is find that node and change its value.
 2. Within in the capacity limit, we can directly add a new node to the end of the linked list. Do not forget to update the `end`, the `map`, and the `size`.
-3. When the capacity limit will be exceeded, we remove the first/LRU node from the `map`. Next, we reuse that first node by putting the new key and value into that node. Then, we move that node to the end of the linked list, meaning that it is the most recently used. Do not forget to update the map as well \(for changing the head of the list\).
+3. When the capacity limit will be exceeded, we remove the first/LRU node from the `map`. Next, we reuse that first node by putting the new key and value into that node. Then, we move that node to the end of the linked list, meaning that it is the most recently used. Do not forget to update the map as well (for changing the head of the list).
 
 #### The `moveToEnd` method
 
 We take in a `key` and want to move the node associated with that key to the end of the linked list. We first remove it from where it currently is, i.e., pointing its previous node to its next node. Then, we add it at the end of the list. More importantly, do not forget to update the `map` since two positions in the linked list have changed and do not forget to update end as well.
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 class LRUCache {
@@ -210,4 +209,3 @@ class LRUCache {
 
 * Here we used a doubly linked list.
 * Note that `head` and `tail` are not actually the head and tail of the doubly linked list. `Head` is the node before the actual head and `tail` is the node after the actual tail of the list.
-

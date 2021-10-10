@@ -1,12 +1,11 @@
 ---
-description: 'ID: 98; medium'
+description: ID: 98; medium
 ---
-
 # Sort List
 
 {% embed url="https://www.lintcode.com/problem/98/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -71,7 +70,7 @@ public class Solution {
 * This is the **merge sort** version of Sort List.
 * Time complexity: `O(nlogn)`
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -153,4 +152,3 @@ public class Solution {
 ### Notes
 
 * **Quick sort**
-

@@ -1,12 +1,11 @@
 ---
-description: 'ID: 771; easy; 二阶阶乘'
+description: ID: 771; easy; 二阶阶乘
 ---
-
 # Double Factorial
 
 {% embed url="https://www.lintcode.com/problem/771/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -24,4 +23,3 @@ public class Solution {
 ### Notes
 
 * By definition of double factorial, the result is immediate.
-

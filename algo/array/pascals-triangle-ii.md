@@ -1,7 +1,6 @@
 ---
-description: 'ID: 119; easy'
+description: ID: 119; easy
 ---
-
 # Pascal's Triangle II
 
 {% embed url="https://leetcode.com/problems/pascals-triangle-ii/" %}
@@ -37,4 +36,3 @@ class Solution {
     }
 }
 ```
-

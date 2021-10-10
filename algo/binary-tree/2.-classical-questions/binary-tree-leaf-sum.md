@@ -1,12 +1,11 @@
 ---
-description: 'ID: 481; easy; 二叉树叶子节点之和'
+description: ID: 481; easy; 二叉树叶子节点之和
 ---
-
 # Binary Tree Leaf Sum
 
 {% embed url="https://www.lintcode.com/problem/481/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -42,7 +41,7 @@ public class Solution {
 
 * Divide and conquer
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -86,4 +85,3 @@ public class Solution {
 ### Notes
 
 * Traversal
-

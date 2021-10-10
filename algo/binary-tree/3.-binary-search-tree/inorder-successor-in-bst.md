@@ -1,12 +1,11 @@
 ---
-description: 'ID: 448; medium; 二叉查找树的中序后继'
+description: ID: 448; medium; 二叉查找树的中序后继
 ---
-
 # Inorder Successor in BST
 
 {% embed url="https://www.lintcode.com/problem/448/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -51,7 +50,7 @@ public class Solution {
 
 * Recursion
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -89,4 +88,3 @@ public class Solution {
 ### Notes
 
 * Traversal
-

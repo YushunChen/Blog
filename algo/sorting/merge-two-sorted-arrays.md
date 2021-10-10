@@ -1,12 +1,11 @@
 ---
-description: 'ID: 6; easy'
+description: ID: 6; easy
 ---
-
 # Merge Two Sorted Arrays
 
 {% embed url="https://www.lintcode.com/problem/6/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -36,7 +35,7 @@ public class Solution {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 public class Solution {
@@ -67,7 +66,7 @@ public class Solution {
 }
 ```
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 public class Solution {
@@ -115,5 +114,4 @@ public class Solution {
 
 ### Notes
 
-* This solution is to handle the challenge: How can you optimize your algorithm if one array is very large and the other is very small? 
-
+* This solution is to handle the challenge: How can you optimize your algorithm if one array is very large and the other is very small?\

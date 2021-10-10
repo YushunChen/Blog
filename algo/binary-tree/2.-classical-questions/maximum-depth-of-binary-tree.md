@@ -1,14 +1,13 @@
 ---
-description: 'ID: 104; easy'
+description: ID: 104; easy
 ---
-
 # Maximum Depth of Binary Tree
 
 {% embed url="https://leetcode.com/problems/maximum-depth-of-binary-tree/" %}
 
 {% embed url="https://www.lintcode.com/problem/97/" %}
 
-## Solution 1 \(Golang\)
+## Solution 1 (Golang)
 
 ```go
 /**
@@ -34,7 +33,7 @@ func max(x, y int) int {
 }
 ```
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -65,7 +64,7 @@ public class Solution {
 
 *  Recursion with divide and conquer
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 /**
@@ -105,4 +104,3 @@ public class Solution {
 ### Notes
 
 *  Recursion with traversal
-

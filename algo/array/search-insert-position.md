@@ -1,7 +1,6 @@
 ---
-description: 'ID: 35; easy'
+description: ID: 35; easy
 ---
-
 # Search Insert Position
 
 {% embed url="https://leetcode.com/problems/search-insert-position/" %}
@@ -27,4 +26,3 @@ func searchInsert(nums []int, target int) int {
     return 0
 }
 ```
-

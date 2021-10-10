@@ -1,12 +1,11 @@
 ---
-description: 'ID: 127; medium'
+description: ID: 127; medium
 ---
-
 # Topological Sorting
 
 {% embed url="https://www.lintcode.com/problem/127/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -65,4 +64,3 @@ public class Solution {
 ### Notes
 
 * It is important to keep track of the in-degree of the nodes.
-

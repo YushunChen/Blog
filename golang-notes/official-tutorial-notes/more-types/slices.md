@@ -1,7 +1,6 @@
 ---
 description: This is a long section...
 ---
-
 # Slices
 
 As mentioned before, an array's size is fixed. However, a slice is a **dynamically-sized** and flexible view into the elements of an array.
@@ -183,12 +182,12 @@ Notice how the references to `s` changes when re-assign a slide to it every time
 
 ## Slice Length and Capacity
 
-A slide has both a **length** and a **capacity**. 
+A slide has both a **length **and a **capacity**. 
 
-|  | Length | Capacity |
-| :--- | :--- | :--- |
+|                | Length                                    | Capacity                                                                                     |
+| -------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------- |
 | **Definition** | The number of elements the slice contains | The number of elements in the underlying array, counting from the first element in the slice |
-| **Usage** | `len(s)` | `cap(s)` |
+| **Usage**      | `len(s)`                                  | `cap(s)`                                                                                     |
 
 {% hint style="info" %}
 A slice's length can be extended by re-slicing it, given that it has sufficient capacity.
@@ -277,7 +276,7 @@ d: len=3 cap=3 [0 0 0]
 
 Since slices can contain any type, they can also contain other slices.
 
-### Example \(Tic-Tac-Toe board: 2D array\)
+### Example (Tic-Tac-Toe board: 2D array)
 
 ```go
 package main
@@ -359,6 +358,4 @@ len=6 cap=6 [0 1 2 3 4 5]
 ## More on Slices
 
 {% embed url="https://blog.golang.org/slices-intro" %}
-
-
 

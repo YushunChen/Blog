@@ -89,4 +89,3 @@ func main() {
 {% hint style="info" %}
 If we overfill the buffer using the commented code on line 9, we would get: `fatal error: all goroutine are asleep - deadlock!`
 {% endhint %}
-

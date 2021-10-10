@@ -1,14 +1,13 @@
 ---
-description: 'ID: 206; easy'
+description: ID: 206; easy
 ---
-
 # Reverse Linked List
 
 {% embed url="https://leetcode.com/problems/reverse-linked-list/" %}
 
 {% embed url="https://www.lintcode.com/problem/35/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 /**
@@ -30,7 +29,7 @@ func reverseList(head *ListNode) *ListNode {
 }
 ```
 
-## Solution 2 \(Go\)
+## Solution 2 (Go)
 
 ```go
 /**
@@ -51,7 +50,7 @@ func reverseList(head *ListNode) *ListNode {
 }
 ```
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 /**
@@ -83,4 +82,3 @@ public class Solution {
     }
 }
 ```
-

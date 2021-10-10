@@ -1,14 +1,13 @@
 ---
-description: 'ID: 1; Easy'
+description: ID: 1; Easy
 ---
-
 # Two Sum
 
 {% embed url="https://leetcode.com/problems/two-sum/" %}
 
 {% embed url="https://www.lintcode.com/problem/56/" %}
 
-## Solution 1 \(Go\)
+## Solution 1 (Go)
 
 ```go
 func twoSum(nums []int, target int) []int {
@@ -24,7 +23,7 @@ func twoSum(nums []int, target int) []int {
 }
 ```
 
-## Solution 2 \(Go\)
+## Solution 2 (Go)
 
 ```go
 func twoSum(nums []int, target int) []int {
@@ -40,7 +39,7 @@ func twoSum(nums []int, target int) []int {
 }
 ```
 
-## Solution 3 \(Java\)
+## Solution 3 (Java)
 
 ```java
 public class Solution {
@@ -63,4 +62,3 @@ public class Solution {
     }
 }
 ```
-

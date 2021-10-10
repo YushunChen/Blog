@@ -1,12 +1,11 @@
 ---
-description: 'ID: 39; easy'
+description: ID: 39; easy
 ---
-
 # Recover Rotated Sorted Array
 
 {% embed url="https://www.lintcode.com/problem/39/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -39,4 +38,3 @@ public class Solution {
     }
 }
 ```
-

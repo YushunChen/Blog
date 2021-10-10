@@ -1,7 +1,6 @@
 ---
 description: For slice or map
 ---
-
 # Range
 
 The `range` form of the `for` loop iterates over a slice or map.
@@ -78,4 +77,3 @@ func main() {
 16
 32
 ```
-

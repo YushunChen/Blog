@@ -1,7 +1,6 @@
 ---
-description: 'ID: 219; easy'
+description: ID: 219; easy
 ---
-
 # Contains Duplicate II
 
 {% embed url="https://leetcode.com/problems/contains-duplicate-ii/" %}
@@ -44,4 +43,3 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 {% hint style="info" %}
 Maintain a map of k elements
 {% endhint %}
-

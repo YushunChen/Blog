@@ -1,12 +1,11 @@
 ---
-description: 'ID: 586; medium; 对x开根II'
+description: ID: 586; medium; 对x开根II
 ---
-
-# Sqrt\(x\) II
+# Sqrt(x) II
 
 {% embed url="https://www.lintcode.com/problem/586/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 public class Solution {
@@ -36,4 +35,3 @@ public class Solution {
 
 * Discuss the cases when `x` is greater than 1 and `x` is less than 1.
 * 12 decimal places can be achieved by setting the `delta`/difference between left and right to be `1e-12`.
-

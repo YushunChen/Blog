@@ -1,12 +1,11 @@
 ---
-description: 'ID: 482; easy; 二叉树的某层节点之和'
+description: ID: 482; easy; 二叉树的某层节点之和
 ---
-
 # Binary Tree Level Sum
 
 {% embed url="https://www.lintcode.com/problem/482/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -64,7 +63,7 @@ public class Solution {
 
 * BFS
 
-## Solution 2 \(Java\)
+## Solution 2 (Java)
 
 ```java
 /**
@@ -117,4 +116,3 @@ public class Solution {
 ### Notes
 
 * Optimized BFS
-

@@ -1,12 +1,11 @@
 ---
-description: 'ID: 129; medium'
+description: ID: 129; medium
 ---
-
 # Rehashing
 
 {% embed url="https://www.lintcode.com/problem/129/" %}
 
-## Solution 1 \(Java\)
+## Solution 1 (Java)
 
 ```java
 /**
@@ -48,4 +47,3 @@ public class Solution {
     }
 };
 ```
-
