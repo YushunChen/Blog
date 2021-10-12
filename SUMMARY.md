@@ -187,6 +187,7 @@
   * [Binary Search](algo/array/binary-search.md)
   * [Pairs of Songs With Total Durations Divisible by 60](algo/array/pairs-of-songs-with-total-durations-divisible-by-60.md)
   * [3Sum](algo/array/3sum.md)
+  * [Median of Two Sorted Arrays](algo/array/median-of-two-sorted-arrays.md)
 * [String](algo/string/README.md)
   * [Longest Substring Without Repeating Characters](algo/string/longest-substring-without-repeating-characters.md)
   * [Roman to Integer](algo/string/roman-to-integer.md)
