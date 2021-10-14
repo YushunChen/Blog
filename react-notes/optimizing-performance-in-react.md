@@ -326,5 +326,14 @@ For Redux + Immer, refer to this doc of Redux Toolkit:
 
 {% embed url="https://www.codementor.io/blog/react-optimization-5wiwjnf9hj" %}
 
+A few points to note from this article:
+
+1. Avoid inline function definition in the `render` function
+2. Avoid using index as key for map
+3. Avoid using props in initial states
+4. Avoid spreading props on DOM elements
+5. Avoid async initialization in `componentWillMount()`
+6. Memoize React components
+
 {% embed url="https://www.toptal.com/react/optimizing-react-performance" %}
 
