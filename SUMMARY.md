@@ -201,6 +201,10 @@
   * [A + B Problem](algo/math/a-+-b-problem.md)
 * [LeetCode vs. LintCode Table](algo/leetcode-vs.-lintcode-table.md)
 
+## React Notes
+
+* [Optimizing Performance in React](react-notes/optimizing-performance-in-react.md)
+
 ## Golang Notes
 
 * [Basics](golang-notes/basics/README.md)
