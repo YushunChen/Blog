@@ -1,11 +1,12 @@
 ---
-description: ID: 35; easy
+description: 'ID: 35; easy'
 ---
+
 # Maximum Subarray
 
 {% embed url="https://leetcode.com/problems/maximum-subarray/" %}
 
-## Solution 1
+## Solution 1 (Go)
 
 ```go
 func maxSubArray(nums []int) int {
@@ -27,7 +28,7 @@ func maxSubArray(nums []int) int {
 }
 ```
 
-## Solution 2
+## Solution 2 (Go)
 
 ```go
 func Max(x, y int) int {
@@ -52,3 +53,22 @@ func maxSubArray(nums []int) int {
     return result
 }
 ```
+
+## Solution 3 (Java)
+
+```java
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int currSum = nums[0];
+        int maxSum = nums[0];
+        
+        for (int i = 1; i < nums.length; i++) {
+            // if currSum is reset to nums[i], it means that we start at nums[i] now
+            currSum = Math.max(nums[i], currSum + nums[i]);
+            maxSum = Math.max(maxSum, currSum);
+        }
+        return maxSum;
+    }
+}
+```
+

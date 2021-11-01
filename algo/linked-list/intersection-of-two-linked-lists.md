@@ -1,11 +1,12 @@
 ---
-description: ID: 160; easy
+description: 'ID: 160; easy'
 ---
+
 # Intersection of Two Linked Lists
 
 {% embed url="https://leetcode.com/problems/intersection-of-two-linked-lists/" %}
 
-## Solution 1
+## Solution 1 (Go)
 
 ```go
 /**
@@ -53,7 +54,7 @@ func getLength(root *ListNode) int {
 }
 ```
 
-## Solution 2
+## Solution 2 (Go)
 
 ```go
 /**
@@ -83,5 +84,41 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
         }
     }
     return a
+}
+```
+
+## Solution 3 (Java)
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        ListNode currA = headA;
+        ListNode currB = headB;
+        
+        while (currA != currB) {
+            if (currA == null) {
+                currA = headB;
+            } else {
+                currA = currA.next;
+            }
+            if (currB == null) {
+                currB = headA;
+            } else {
+                currB = currB.next;
+            }
+        }
+        return currA;
+    }
 }
 ```

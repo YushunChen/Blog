@@ -1,6 +1,7 @@
 ---
-description: ID: 633; medium; 寻找重复的数
+description: 'ID: 633; medium; 寻找重复的数'
 ---
+
 # Find the Duplicate Number
 
 {% embed url="https://www.lintcode.com/problem/633/" %}
@@ -59,7 +60,7 @@ We know that the range of the numbers is initially `[1, n]`. We take the middle 
 
 {% tabs %}
 {% tab title="Example 1" %}
-Original array: `[3, 1, 4, 6, 5, 8, 8, 9]` 
+Original array: `[3, 1, 4, 6, 5, 8, 8, 9]`&#x20;
 
 Range: `[1, 9]`
 
@@ -67,11 +68,11 @@ Range: `[1, 9]`
 | ---- | ----- | --- | --------------------------------------- | ------------- |
 | 1    | 9     | 5   | 4 bc the smaller number are  3, 1, 4, 5 | `count ≤ mid` |
 
-New range is `[5, 9]` and 8 is inside that range.:white_check_mark: 
+New range is `[5, 9]` and 8 is inside that range.:white\_check\_mark:&#x20;
 {% endtab %}
 
 {% tab title="Example 2" %}
-Original array: `[3, 1, 1, 1, 4, 6, 5, 8]` 
+Original array: `[3, 1, 1, 1, 4, 6, 5, 8]`&#x20;
 
 Range: `[1, 8]`
 
@@ -79,7 +80,7 @@ Range: `[1, 8]`
 | ---- | ----- | --- | ------------------------------------------ | ------------- |
 | 1    | 8     | 4   | 5 bc the smaller number are  3, 1, 1, 1, 4 | `count > mid` |
 
-New array is `[1, 4]` and 1 is inside that range.:white_check_mark: 
+New array is `[1, 4]` and 1 is inside that range.:white\_check\_mark:&#x20;
 {% endtab %}
 {% endtabs %}
 
@@ -100,3 +101,27 @@ $$
 $$
 O(1)
 $$
+
+## Solution 2 (Java)
+
+### Notes (Sort)
+
+* Time complexity: O(nlogn)
+* Space complexity: O(logn) or O(n), does not meet the requirement for this problem but indeed a solution
+
+## Solution 3 (Java)
+
+### Notes (Set)
+
+* Use a set to find the duplicated number
+* If the set already contains a number when adding it, it is the duplicated one.
+
+## Solution 4 (Java)
+
+### Notes (Array as HashMap)
+
+## Solution 5 (Java)
+
+### Notes (Floyd's Algorithm)
+
+* A similar idea as used in [Linked Cycle II](../linked-list/linked-list-cycle-ii.md).
