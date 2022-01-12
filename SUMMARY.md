@@ -199,6 +199,9 @@
   * [Pow(x, n)](algo/math/pow-x-n.md)
   * [Narcissistic Number](algo/math/narcissistic-number.md)
   * [A + B Problem](algo/math/a-+-b-problem.md)
+* [Dynamic Programming](algo/dynamic-programming/README.md)
+  * [Fibonacci Number](algo/dynamic-programming/fibonacci-number.md)
+  * [N-th Tribonacci Number](algo/dynamic-programming/n-th-tribonacci-number.md)
 * [LeetCode vs. LintCode Table](algo/leetcode-vs.-lintcode-table.md)
 
 ## React Notes
