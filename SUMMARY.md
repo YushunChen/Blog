@@ -202,6 +202,7 @@
 * [Dynamic Programming](algo/dynamic-programming/README.md)
   * [Fibonacci Number](algo/dynamic-programming/fibonacci-number.md)
   * [N-th Tribonacci Number](algo/dynamic-programming/n-th-tribonacci-number.md)
+  * [Climbing Stairs](algo/dynamic-programming/climbing-stairs.md)
 * [LeetCode vs. LintCode Table](algo/leetcode-vs.-lintcode-table.md)
 
 ## React Notes
