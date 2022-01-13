@@ -59,3 +59,7 @@ class Solution {
 ```
 
 It is not hard to tell that this DP function resembles the Fibonacci Number function. Then, we can use what we have in the [Fibonacci Number](fibonacci-number.md#solution-3) problem (use 3 variables to dynamically keep the results) to solve this problem.
+
+Time complexity: `O(n)`
+
+Space complexity: `O(1)`
